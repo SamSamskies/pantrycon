@@ -69,7 +69,7 @@ function makeDoc() {
     "disclaimer", "overrides", "load-state", "hero", "details", "level-kicker", "level-num",
     "level-name", "headline", "summary", "scope", "window", "reviewed", "warning", "rationale",
     "scale", "evidence", "raise", "lower", "levels", "check-intro", "checklist", "methodology",
-    "limitations", "sources", "copy-link", "share", "copy-status",
+    "limitations", "sources", "share",
   ].forEach((id) => nodes.set(id, makeEl(doc, "div")));
   return doc;
 }

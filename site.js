@@ -270,9 +270,7 @@ function renderSources(list, sources) {
 function bindShare(doc) {
   if (doc.__pantryconShareBound) return;
   doc.__pantryconShareBound = true;
-  const copy = doc.querySelector("#copy-link");
   const share = doc.querySelector("#share");
-  const status = doc.querySelector("#copy-status");
   const url = doc.location && doc.location.href ? doc.location.href : "";
   if (share && doc.defaultView && doc.defaultView.navigator && doc.defaultView.navigator.share) {
     share.hidden = false;
@@ -284,26 +282,6 @@ function bindShare(doc) {
           url: url,
         })
         .catch(function () {});
-    });
-  }
-  if (copy) {
-    copy.addEventListener("click", function () {
-      const done = function (message) {
-        if (status) status.textContent = message;
-      };
-      const clipboard = doc.defaultView && doc.defaultView.navigator && doc.defaultView.navigator.clipboard;
-      if (!clipboard || !clipboard.writeText) {
-        done("Copy is unavailable in this browser. The address is in the address bar.");
-        return;
-      }
-      clipboard.writeText(url).then(
-        function () {
-          done("Link copied.");
-        },
-        function () {
-          done("Copy failed. The address is in the address bar.");
-        }
-      );
     });
   }
 }
