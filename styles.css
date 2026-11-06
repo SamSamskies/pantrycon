@@ -126,7 +126,6 @@ a { color: inherit; }
 }
 .jump a:hover { color: var(--ink); background: var(--band-alt); }
 
-.share { display: flex; gap: 8px; }
 button {
   min-height: 44px;
   padding: 0 18px;

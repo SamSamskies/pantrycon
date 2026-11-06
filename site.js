@@ -18,7 +18,6 @@ export async function bootSite(doc, deps) {
     now,
   });
   paintSite(root, view);
-  bindShare(root);
   return view;
 }
 
@@ -265,25 +264,6 @@ function renderSources(list, sources) {
     item.append(link, used);
     list.append(item);
   });
-}
-
-function bindShare(doc) {
-  if (doc.__pantryconShareBound) return;
-  doc.__pantryconShareBound = true;
-  const share = doc.querySelector("#share");
-  const url = doc.location && doc.location.href ? doc.location.href : "";
-  if (share && doc.defaultView && doc.defaultView.navigator && doc.defaultView.navigator.share) {
-    share.hidden = false;
-    share.addEventListener("click", function () {
-      doc.defaultView.navigator
-        .share({
-          title: "PANTRYCON",
-          text: "Unofficial U.S. household preparedness assessment. Not a government or military alert.",
-          url: url,
-        })
-        .catch(function () {});
-    });
-  }
 }
 
 if (typeof document !== "undefined") {
