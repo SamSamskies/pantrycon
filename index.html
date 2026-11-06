@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PANTRYCON · Unofficial U.S. household preparedness assessment</title>
+  <meta name="description" content="PANTRYCON is an independent, unofficial 5-to-1 household preparedness scale for the United States. It is not a government or military alert.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="#main" aria-label="PANTRYCON, top of page">
+        <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="8" y="8" width="9" height="48" rx="3"></rect>
+          <rect x="22" y="16" width="9" height="40" rx="3"></rect>
+          <rect x="36" y="26" width="9" height="30" rx="3"></rect>
+          <rect x="50" y="38" width="9" height="18" rx="3"></rect>
+        </svg>
+        <span class="word">PANTRYCON</span>
+        <span class="pill">Unofficial</span>
+      </a>
+      <nav class="jump" aria-label="On this page">
+        <a href="#why">Why</a>
+        <a href="#checklist-section">Checklist</a>
+        <a href="#evidence-section">Evidence</a>
+        <a href="#levels-section">Levels</a>
+        <a href="#method-section">Method</a>
+        <a href="#source-section">Sources</a>
+      </nav>
+      <div class="share">
+        <button type="button" id="copy-link">Copy link</button>
+        <button type="button" id="share" hidden>Share</button>
+      </div>
+    </div>
+  </header>
+  <p id="copy-status" class="copy-status wrap" role="status" aria-live="polite"></p>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="current-heading">
+      <div class="wrap">
+        <h1 id="current-heading" class="sr-only">Current PANTRYCON national household assessment</h1>
+        <p id="load-state" class="load-state" role="status">Loading the shared assessment…</p>
+
+        <div id="hero" class="hero-grid" hidden>
+          <div class="hero-main">
+            <p class="eyebrow">National household assessment · United States</p>
+            <p id="warning" class="warning" role="status" hidden></p>
+            <div class="reading">
+              <p class="level-num" id="level-num" aria-hidden="true"></p>
+              <div class="reading-text">
+                <p class="level-kicker" id="level-kicker"></p>
+                <h2 class="level-name" id="level-name"></h2>
+                <p class="headline" id="headline" hidden></p>
+              </div>
+            </div>
+            <p class="summary" id="summary"></p>
+            <ol id="scale" class="scale" aria-label="PANTRYCON levels from 5 calm to 1 critical"></ol>
+            <p class="scale-ends" aria-hidden="true"><span>5 · Calm</span><span>1 · Critical</span></p>
+          </div>
+
+          <aside class="facts" aria-label="Key facts">
+            <p class="facts-label">Household target</p>
+            <p class="facts-window" id="window"></p>
+            <dl class="facts-list">
+              <div><dt>Reviewed</dt><dd><time id="reviewed"></time></dd></div>
+              <div><dt>Scope</dt><dd id="scope"></dd></div>
+            </dl>
+            <p class="facts-note">A person reviews this snapshot. It is not a live feed. Local official alerts always come first.</p>
+            <a class="facts-link" href="#checklist-section">See the household checklist</a>
+          </aside>
+        </div>
+
+        <p class="brief" id="brief">Independent and unofficial. Not a government, military, or DEFCON alert, and not a forecast for any one place.</p>
+      </div>
+    </section>
+
+    <div id="details" hidden>
+      <section class="band" id="why" aria-labelledby="why-heading">
+        <div class="wrap two">
+          <div>
+            <p class="section-kicker">Reasoning</p>
+            <h2 id="why-heading">Why this level</h2>
+            <p class="prose" id="rationale"></p>
+          </div>
+          <div class="change" aria-labelledby="change-heading">
+            <h3 id="change-heading">What would change it</h3>
+            <div class="change-block raise">
+              <h4>Would raise the level</h4>
+              <ul id="raise"></ul>
+            </div>
+            <div class="change-block lower">
+              <h4>Would lower it</h4>
+              <ul id="lower"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band alt" id="checklist-section" aria-labelledby="check-heading">
+        <div class="wrap">
+          <p class="section-kicker">What to do</p>
+          <h2 id="check-heading">Household checklist</h2>
+          <p class="prose lead" id="check-intro"></p>
+          <ul id="checklist" class="groups"></ul>
+        </div>
+      </section>
+
+      <section class="band" id="evidence-section" aria-labelledby="evidence-heading">
+        <div class="wrap">
+          <p class="section-kicker">Sources reviewed</p>
+          <h2 id="evidence-heading">Evidence</h2>
+          <p class="prose lead">Confirmed means the linked page states the fact. Developing means the record is incomplete. Unverified means this review did not confirm it, which is not proof it is false.</p>
+          <ol id="evidence" class="evidence"></ol>
+        </div>
+      </section>
+
+      <section class="band alt" id="levels-section" aria-labelledby="scale-heading">
+        <div class="wrap">
+          <p class="section-kicker">The scale</p>
+          <h2 id="scale-heading">All five levels</h2>
+          <ol id="levels" class="level-list"></ol>
+        </div>
+      </section>
+
+      <section class="band" id="method-section" aria-labelledby="method-heading">
+        <div class="wrap two">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2 id="method-heading">Methodology</h2>
+            <p class="prose" id="methodology"></p>
+          </div>
+          <div>
+            <h3>Limitations</h3>
+            <ul id="limitations" class="bullets"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="band alt" id="source-section" aria-labelledby="source-heading">
+        <div class="wrap">
+          <p class="section-kicker">References</p>
+          <h2 id="source-heading">Sources</h2>
+          <ul id="sources" class="sources"></ul>
+        </div>
+      </section>
+
+      <section class="band about" aria-labelledby="about-heading">
+        <div class="wrap two">
+          <div>
+            <h2 id="about-heading">About this assessment</h2>
+            <p class="prose" id="disclaimer">Loading the shared assessment…</p>
+          </div>
+          <div>
+            <h3>Local alerts come first</h3>
+            <p class="prose" id="overrides"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <noscript>
+      <div class="wrap">
+        <p class="banner">JavaScript is off, so the level is not rendered. The same assessment is in <a href="assessment.json">assessment.json</a>. This page does not invent a level in its place.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p>PANTRYCON is an independent household planning snapshot. It is not a live incident feed, a government alert, or a military assessment.</p>
+    </div>
+  </footer>
+  <script type="module" src="site.js"></script>
+</body>
+</html>
