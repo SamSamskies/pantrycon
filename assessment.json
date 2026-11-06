@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "instrument": "PANTRYCON",
+  "level": 4,
+  "reviewedAt": "2026-11-06T20:12:00Z",
+  "staleAfterHours": 36,
+  "scope": {
+    "geography": "United States households",
+    "weighting": "national",
+    "note": "A national planning level is not a forecast for any one county, city, or utility."
+  },
+  "headline": "Top Off the Pantry",
+  "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
+  "supplyWindow": "About 2 weeks of food and water",
+  "rationale": "For the week ending October 30, 2026, EIA's Weekly Petroleum Status Report lists U.S. distillate fuel oil stocks at 99.3 million barrels, 3.6 million barrels below the prior week and 11.0 percent below 111.5 million barrels a year earlier. The same week's balance sheet lists Strategic Petroleum Reserve crude at 282.2 million barrels, 0.4 million below the prior week and below the year-earlier 409.6 million barrels. Those are tighter national fuel buffers heading into the heating season. They are not a reported fuel outage, a grid emergency, or empty shelves in a particular town. Level 4 means keep about two weeks of household food and water, the home-kit window the American Red Cross already suggests, and skip panic buying. In that same distillate table, East Coast stocks rose on the week while Gulf Coast stocks fell, so the national total is not every region's story.",
+  "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
+  "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
+  "evidence": [
+    {
+      "id": "eia-distillate-2026-10-30",
+      "factor": "energy",
+      "title": "U.S. distillate fuel oil stocks",
+      "status": "confirmed",
+      "summary": "EIA Weekly Petroleum Status Report Table 6 lists distillate fuel oil stocks at 99.3 million barrels for the week ending October 30, 2026, compared with 102.8 million the prior week (difference shown as -3.6) and 111.5 million a year earlier (percent change shown as -11.0).",
+      "limits": "This is a national stock figure for diesel and heating oil at refineries, in pipelines, and at bulk terminals. It is not a count of fuel at neighborhood stations, and it is not an outage report. East Coast (PADD 1) distillate stocks were 22.6 million barrels, up from 21.8 the prior week. Gulf Coast (PADD 3) stocks were 40.5 million, down from 43.4.",
+      "source": {
+        "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf",
+        "label": "EIA Weekly Petroleum Status Report, Table 6",
+        "asOf": "2026-10-30"
+      }
+    },
+    {
+      "id": "eia-spr-2026-10-30",
+      "factor": "energy",
+      "title": "Strategic Petroleum Reserve crude",
+      "status": "confirmed",
+      "summary": "EIA Weekly Petroleum Status Report Table 1 lists Strategic Petroleum Reserve crude at 282.2 million barrels for the week ending October 30, 2026, compared with 282.6 million the prior week. The year-earlier figure on that table is 409.6 million barrels.",
+      "limits": "A smaller strategic crude stock is context for the national fuel buffer. It is not, by itself, a household supply emergency, and this page does not turn it into a price forecast.",
+      "source": {
+        "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
+        "label": "EIA Weekly Petroleum Status Report, Table 1",
+        "asOf": "2026-10-30"
+      }
+    },
+    {
+      "id": "wpsr-next-release",
+      "factor": "supply-chain",
+      "title": "No newer weekly petroleum report yet",
+      "status": "developing",
+      "summary": "The inventory figures above stop at the week ending October 30, 2026. EIA's schedule says the next Weekly Petroleum Status Report will be released Thursday, November 12, 2026, because the federal government is closed on Wednesday, November 11.",
+      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot.",
+      "source": {
+        "href": "https://www.eia.gov/petroleum/supply/weekly/",
+        "label": "EIA Weekly Petroleum Status Report schedule"
+      }
+    },
+    {
+      "id": "grid-not-in-review",
+      "factor": "grid",
+      "title": "Nationwide grid emergency",
+      "status": "unverified",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. The level is not based on a live outage map.",
+      "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
+    },
+    {
+      "id": "cyber-not-in-review",
+      "factor": "cyber",
+      "title": "Nationwide cyber disruption",
+      "status": "unverified",
+      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems. Social-media claims were not used.",
+      "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
+    },
+    {
+      "id": "weather-not-a-feed",
+      "factor": "weather",
+      "title": "Local weather and disaster alerts",
+      "status": "unverified",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. Local storms, floods, and fire weather are intentionally not averaged into the national number.",
+      "limits": "A local warning can require action immediately, including when the national level is 4 or 5."
+    },
+    {
+      "id": "civil-not-in-review",
+      "factor": "civil",
+      "title": "Nationwide civil disruption",
+      "status": "unverified",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply. Prediction-market prices were not used.",
+      "limits": "A local emergency order still overrides this page."
+    },
+    {
+      "id": "geopolitical-not-used",
+      "factor": "geopolitical",
+      "title": "Overseas conflict and energy chokepoints",
+      "status": "unverified",
+      "summary": "This review did not independently confirm a current disruption of fuel imports into the United States. Unconfirmed reports were not used to set the level.",
+      "limits": "A later primary-source confirmation of an import or shipping disruption that reaches U.S. households could raise the level."
+    }
+  ],
+  "factors": {
+    "raise": [
+      "A later EIA or Energy Department report of a physical fuel-distribution failure across more than one region, rather than lower stocks alone.",
+      "A verified multi-state electricity emergency long enough to interrupt ordinary food resupply.",
+      "A confirmed cyber disruption of pipelines, payment systems, or grid operations with household effects, stated by the operator or by CISA.",
+      "Official emergency declarations that restrict movement or commerce across many states at the same time.",
+      "Concurrent verified disasters that break national distribution, as distinct from a single local storm."
+    ],
+    "lower": [
+      "A later Weekly Petroleum Status Report showing distillate stocks rebuilding toward the prior-year level, without a physical distribution failure.",
+      "No verified multi-region outage of power, fuel, food, or payments in the sources reviewed that week.",
+      "A return to level 5 when the several-day Ready.gov basic kit is again the matching band, because background fuel tightness is no longer the best reading."
+    ]
+  },
+  "levels": [
+    {
+      "level": 5,
+      "name": "Normal Larder",
+      "window": "3–7 days",
+      "means": "Routine conditions. Keep the Ready.gov basic kit: several days of food and water, at about one gallon of water per person per day.",
+      "doesNotMean": "It does not mean a particular town is free of storms, outages, or local alerts."
+    },
+    {
+      "level": 4,
+      "name": "Top Off the Pantry",
+      "window": "About 2 weeks",
+      "means": "Elevated background risk without a verified nationwide emergency. Keep about two weeks of food and water at home, which matches the American Red Cross home-kit suggestion.",
+      "doesNotMean": "It does not mean a shortage is underway, and it is not a call to panic-buy."
+    },
+    {
+      "level": 3,
+      "name": "Deep Pantry",
+      "window": "About 30 days",
+      "means": "A credible near-term disruption of grid, fuel, food distribution, or civil order affecting resupply across multiple regions, confirmed from a primary source.",
+      "doesNotMean": "A headline, a market move, or a single local storm is not enough to set this band."
+    },
+    {
+      "level": 2,
+      "name": "Bunkered",
+      "window": "About 60 days",
+      "means": "An imminent or unfolding disruption of food, fuel, power, or payments across a large part of the country.",
+      "doesNotMean": "It is not a military mobilization order, and it is not a prediction."
+    },
+    {
+      "level": 1,
+      "name": "Full FORTRESS",
+      "window": "90 days or more",
+      "means": "An active nationwide grid-down, or a supply-chain emergency that stops ordinary resupply for most U.S. households. The name is this project's label for that band.",
+      "doesNotMean": "It is not a military status, a DEFCON level, or a government order. This project does not use an official 90-day threshold from any agency."
+    }
+  ],
+  "checklist": {
+    "intro": "Practical targets for the current band. The basic items come from Ready.gov, the American Red Cross, and CDC water guidance. Buy and rotate what the household will actually use. This is not an order to empty a store.",
+    "groups": [
+      {
+        "id": "food",
+        "title": "Food",
+        "items": [
+          "About 14 days of foods the household already eats, leaning on items that need no refrigeration and little water to prepare.",
+          "A manual can opener.",
+          "Foods for infants, special diets, and medical nutrition if someone in the household needs them.",
+          "Ready.gov's basic kit is a several-day supply. This level uses the longer Red Cross home window of about two weeks."
+        ]
+      },
+      {
+        "id": "water",
+        "title": "Water",
+        "items": [
+          "About one gallon per person per day for drinking and sanitation. At this level that is about 14 gallons per person.",
+          "More if the climate is hot, someone is ill, or a medical need requires it. Ready.gov notes that needs vary.",
+          "Commercially sealed bottles, or food-grade containers kept as Ready.gov describes.",
+          "If tap water is unsafe, use bottled water or follow the local health department. CDC explains boiling and other treatment; do not drink water from radiators or boilers."
+        ]
+      },
+      {
+        "id": "health",
+        "title": "Prescriptions and health",
+        "items": [
+          "The Red Cross basic kit lists a 7-day supply of medications and medical items. This level does not stretch that into a 14-day rule.",
+          "Ask a doctor or pharmacist before setting aside an emergency supply of prescription medicine. Ready.gov gives the same caution.",
+          "A written list of medicines, doses, and allergies, plus glasses and hearing-aid batteries.",
+          "A small first-aid kit."
+        ]
+      },
+      {
+        "id": "power",
+        "title": "Power banks and light",
+        "items": [
+          "A charged phone, its charger, and a backup battery or power bank. Ready.gov includes a backup battery in the basic kit.",
+          "A flashlight and spare batteries.",
+          "This level does not ask households to buy a generator."
+        ]
+      },
+      {
+        "id": "cash",
+        "title": "Modest cash",
+        "items": [
+          "Small bills.",
+          "Enough cash for food, fuel, and a few nights of lodging if card payments do not work. That is the Ready.gov citizen-preparedness guide's framing. This page does not set a dollar amount."
+        ]
+      },
+      {
+        "id": "communications",
+        "title": "Communications",
+        "items": [
+          "A battery-powered or hand-crank radio. A NOAA Weather Radio is useful if you can get one.",
+          "A written list of out-of-area contacts, kept with the kit and not only in a phone.",
+          "Sign up for the local alert system where you live. This national page cannot do that for you."
+        ]
+      },
+      {
+        "id": "access",
+        "title": "Accessibility, children, and pets",
+        "items": [
+          "Daily assistive items: extra glasses, hearing-aid batteries, and a plan for devices that need power. Ready.gov's disability guidance says to talk with a clinician about equipment that must stay on.",
+          "Infant formula, bottles, and diapers if needed.",
+          "Pets: food, water, medicine, a carrier or leash, and ID. Ready.gov says public shelters often refuse pets, so know a place that will take them. If local officials say to evacuate, the pet should go too.",
+          "A support network and a paper contact list for anyone who would need help leaving."
+        ]
+      }
+    ]
+  },
+  "methodology": "A person reviews this snapshot on a 5-to-1 household scale. Five is the calm end and one is the critical end. The bands match the durations used by the companion household board: several days, about two weeks, about 30 days, about 60 days, and 90 days or more. Those durations are this project's planning labels. They are not agency thresholds. Categories reviewed each time are national energy and grid conditions, supply chains, cyber disruption, weather and disasters, civil disruption, and geopolitical risks that would change U.S. household supplies. Confirmed means the cited page states the fact. Developing means the picture is incomplete, such as a scheduled data gap. Unverified means this review did not confirm it, which is not proof that it is false. Prediction markets and social-media posts are not evidence. The page is a saved assessment with a review time. It is not a live feed, and it does not show a live indicator.",
+  "limitations": [
+    "There is no live feed behind this page. The review time is the time a person last checked the sources.",
+    "The petroleum figures are for the week ending October 30, 2026. EIA's next Weekly Petroleum Status Report is scheduled for November 12, 2026, after the November 11 federal holiday.",
+    "This review did not ingest a live weather, outage, or emergency-declaration map. Local alerts are outside the national number on purpose.",
+    "Unverified rows are gaps in the review. They are not findings that a category is calm.",
+    "No likelihood percentages, incident timelines, or official trigger values were added where a source did not state them.",
+    "Regional stock changes inside the EIA tables already show that a national total can hide opposite local moves."
+  ],
+  "sources": [
+    {
+      "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf",
+      "label": "EIA WPSR Table 6, distillate stocks",
+      "usedFor": "Confirmed distillate inventory figures for the week ending October 30, 2026."
+    },
+    {
+      "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
+      "label": "EIA WPSR Table 1, petroleum balance sheet",
+      "usedFor": "Confirmed Strategic Petroleum Reserve figures for the same week."
+    },
+    {
+      "href": "https://www.eia.gov/petroleum/supply/weekly/",
+      "label": "EIA Weekly Petroleum Status Report",
+      "usedFor": "The November 12, 2026 release date after the November 11 holiday."
+    },
+    {
+      "href": "https://www.ready.gov/kit",
+      "label": "Ready.gov, Build a kit",
+      "usedFor": "Basic kit: water, food for several days, flashlight, radio, and a phone charger with a backup battery."
+    },
+    {
+      "href": "https://www.ready.gov/water",
+      "label": "Ready.gov, Water",
+      "usedFor": "About one gallon of water per person per day, with higher needs in heat or illness."
+    },
+    {
+      "href": "https://www.ready.gov/food",
+      "label": "Ready.gov, Food",
+      "usedFor": "Non-perishable food and a manual can opener."
+    },
+    {
+      "href": "https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf",
+      "label": "Ready.gov, Are You Ready?",
+      "usedFor": "Cash for food, fuel, and a few nights of lodging, and the note that some households keep up to 14 days of water."
+    },
+    {
+      "href": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+      "label": "American Red Cross, Survival kit supplies",
+      "usedFor": "A two-week food and water supply at home, a three-day evacuation kit, and a 7-day medication supply."
+    },
+    {
+      "href": "https://www.cdc.gov/water-emergency/about/index.html",
+      "label": "CDC, Make water safe in an emergency",
+      "usedFor": "If tap water is unsafe, use bottled, boiled, or treated water, and follow the local health department."
+    },
+    {
+      "href": "https://www.ready.gov/disability",
+      "label": "Ready.gov, People with disabilities",
+      "usedFor": "Prescriptions, assistive devices, support networks, and asking a clinician before relying on powered medical equipment."
+    },
+    {
+      "href": "https://www.ready.gov/pets",
+      "label": "Ready.gov, Pets",
+      "usedFor": "Pet food, water, medicine, carrier, ID, and evacuating with pets."
+    }
+  ],
+  "links": {
+    "publicSite": ""
+  }
+}
