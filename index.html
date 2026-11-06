@@ -8,7 +8,19 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f3f5f1" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://pantrycon.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PANTRYCON">
+  <meta property="og:title" content="PANTRYCON · Unofficial U.S. household preparedness assessment">
+  <meta property="og:description" content="PANTRYCON is an independent, unofficial 5-to-1 household preparedness scale for the United States. It is not a government or military alert.">
+  <meta property="og:url" content="https://pantrycon.vercel.app/">
+  <meta property="og:image" content="https://pantrycon.vercel.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PANTRYCON: an unofficial U.S. household preparedness scale from 5 calm to 1 critical, shown beside a stocked pantry shelf.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,13 +30,20 @@
     <div class="wrap top-row">
       <a class="brand" href="#main" aria-label="PANTRYCON, top of page">
         <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="8" y="8" width="9" height="48" rx="3"></rect>
-          <rect x="22" y="16" width="9" height="40" rx="3"></rect>
-          <rect x="36" y="26" width="9" height="30" rx="3"></rect>
-          <rect x="50" y="38" width="9" height="18" rx="3"></rect>
+          <rect x="4" y="4" width="4" height="56" rx="2"></rect>
+          <rect x="56" y="4" width="4" height="56" rx="2"></rect>
+          <rect x="4" y="4" width="56" height="4" rx="2"></rect>
+          <rect x="4" y="56" width="56" height="4" rx="2"></rect>
+          <rect x="4" y="26" width="56" height="3" rx="1" fill-opacity="0.6"></rect>
+          <rect x="4" y="44" width="56" height="3" rx="1" fill-opacity="0.6"></rect>
+          <rect x="12" y="12" width="9" height="14" rx="1.5"></rect>
+          <rect x="25" y="12" width="9" height="14" rx="1.5" fill-opacity="0.8"></rect>
+          <rect x="38" y="12" width="9" height="14" rx="1.5" fill-opacity="0.6"></rect>
+          <rect x="12" y="30" width="10" height="14" rx="2" fill-opacity="0.6"></rect>
+          <rect x="26" y="34" width="10" height="10" rx="2" fill-opacity="0.4"></rect>
+          <rect x="40" y="32" width="10" height="12" rx="2" fill-opacity="0.8"></rect>
         </svg>
         <span class="word">PANTRYCON</span>
-        <span class="pill">Unofficial</span>
       </a>
       <nav class="jump" aria-label="On this page">
         <a href="#why">Why</a>
@@ -35,13 +54,10 @@
         <a href="#source-section">Sources</a>
       </nav>
       <div class="share">
-        <button type="button" id="copy-link">Copy link</button>
         <button type="button" id="share" hidden>Share</button>
       </div>
     </div>
   </header>
-  <p id="copy-status" class="copy-status wrap" role="status" aria-live="polite"></p>
-
   <main id="main">
     <section class="hero" aria-labelledby="current-heading">
       <div class="wrap">
@@ -72,8 +88,7 @@
               <div><dt>Reviewed</dt><dd><time id="reviewed"></time></dd></div>
               <div><dt>Scope</dt><dd id="scope"></dd></div>
             </dl>
-            <p class="facts-note">A person reviews this snapshot. It is not a live feed. Local official alerts always come first.</p>
-            <a class="facts-link" href="#checklist-section">See the household checklist</a>
+            <p class="facts-note">This is a saved snapshot, not a live feed. Local official alerts always come first.</p>
           </aside>
         </div>
 
