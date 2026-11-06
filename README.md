@@ -32,4 +32,4 @@ After the deployment URL exists, set `links.publicSite` in `assessment.json` to 
 
 ## Maintaining the level
 
-Update instructions for the daily review live in [`BAKE.md`](BAKE.md). Change the level by editing `assessment.json` and committing it. Do not bake a second copy into another project.
+Update instructions for the daily review live in [`BAKE.md`](BAKE.md). Change the level by editing `assessment.json`, running `node scripts/og.mjs` to redraw the share image, and committing both along with `index.html`. Do not bake a second copy into another project.
