@@ -6,11 +6,21 @@ This file is the maintenance contract. The public page and the household dashboa
 
 Edit only [`assessment.json`](assessment.json) in this repository. Set `reviewedAt` to the actual review time in UTC, even when the level does not change. If `reviewedAt` is older than `staleAfterHours` (36), both surfaces mark the snapshot stale and keep showing the last reviewed level.
 
+Then redraw the share image, because link previews show the level and the review date:
+
+```bash
+node scripts/og.mjs
+```
+
+This rewrites `og-image.png` from `assessment.json` and updates the `?v=` stamp on `og:image` in `index.html`. Run it after every edit to `assessment.json`, including a `reviewedAt`-only review. It needs Google Chrome or Chromium on the machine (set `CHROME=/path/to/chrome` if it is not in a standard place). The image records its level and `reviewedAt` inside the PNG, and `node --test` fails if either is out of date. Previews that were already shared can stay cached by other sites for a while.
+
 Before committing:
 
 ```bash
 node --test
 ```
+
+Commit `assessment.json`, `og-image.png`, and `index.html` together.
 
 Push to `main`. Do not force-push. The household dashboard fetches:
 

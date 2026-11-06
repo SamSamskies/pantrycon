@@ -29,6 +29,7 @@ Before editing anything, read [`BAKE.md`](BAKE.md) (the maintenance and data con
 ## Current mechanisms
 
 - Updates are made by editing `assessment.json` and committing it to `main`, as described in `BAKE.md`. This repository has no scheduled job or workflow that does that. Do not describe the daily review as automated.
+- `og-image.png` is generated from `assessment.json` by `node scripts/og.mjs` (needs local Chrome). Never hand-edit it or the `?v=` stamp on `og:image` in `index.html`. After any change to `level` or `reviewedAt`, rerun the script and commit all three files; `node --test` fails if the image is out of date. The script is a local tool, not a build step.
 - Vercel is configured through `vercel.json` (CORS for `/assessment.json`, `nosniff`, referrer policy) and the import settings in `README.md`: framework Other, blank build, install, and output commands, production branch `main`. Do not add a build or dependencies without a reason.
 
 ## Before you finish
