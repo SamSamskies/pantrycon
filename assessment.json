@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-06T20:12:00Z",
+  "reviewedAt": "2026-11-07T16:54:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "For the week ending October 30, 2026, EIA's Weekly Petroleum Status Report lists U.S. distillate fuel oil stocks at 99.3 million barrels, 3.6 million barrels below the prior week and 11.0 percent below 111.5 million barrels a year earlier. The same week's balance sheet lists Strategic Petroleum Reserve crude at 282.2 million barrels, 0.4 million below the prior week and below the year-earlier 409.6 million barrels. Those are tighter national fuel buffers heading into the heating season. They are not a reported fuel outage, a grid emergency, or empty shelves in a particular town. Level 4 means keep about two weeks of household food and water, the home-kit window the American Red Cross already suggests, and skip panic buying. In that same distillate table, East Coast stocks rose on the week while Gulf Coast stocks fell, so the national total is not every region's story.",
+  "rationale": "Level 4 holds. The latest confirmed national fuel data are unchanged since the last review: EIA's Weekly Petroleum Status Report for the week ending October 30, 2026 lists distillate stocks at 99.3 million barrels, 11.0 percent below a year earlier, and Strategic Petroleum Reserve crude at 282.2 million barrels, with no newer weekly report until November 12. Overseas risk rose on November 6 and 7: the State Department issued a worldwide caution citing threats from Iranian-supported groups and possible flight cancellations or airspace closures, and Reuters and AFP carried Iranian navy and Revolutionary Guards statements that tankers struck mines and caught fire in the eastern Strait of Hormuz. Those tanker claims had no maritime-authority confirmation in the reports reviewed, and this review found no confirmed disruption of fuel or goods reaching U.S. households. National Weather Service high wind warnings on the Washington and Oregon coasts are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption of fuel, power, food distribution, or payments; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -48,7 +48,7 @@
       "title": "No newer weekly petroleum report yet",
       "status": "developing",
       "summary": "The inventory figures above stop at the week ending October 30, 2026. EIA's schedule says the next Weekly Petroleum Status Report will be released Thursday, November 12, 2026, because the federal government is closed on Wednesday, November 11.",
-      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot.",
+      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot. Checked again on November 7, 2026.",
       "source": {
         "href": "https://www.eia.gov/petroleum/supply/weekly/",
         "label": "EIA Weekly Petroleum Status Report schedule"
@@ -67,7 +67,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems. Trade reporting describes recent attacks on some local water systems, but no multi-region household outage was confirmed. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -75,8 +75,12 @@
       "factor": "weather",
       "title": "Local weather and disaster alerts",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. Local storms, floods, and fire weather are intentionally not averaged into the national number.",
-      "limits": "A local warning can require action immediately, including when the national level is 4 or 5."
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. On November 7, 2026, NWS Seattle posted a high wind warning for the northern Washington coast with widespread power outages expected; that is a regional event and is not averaged into the national number. No live national disaster map was reviewed.",
+      "limits": "A local warning can require action immediately, including when the national level is 4 or 5.",
+      "source": {
+        "href": "https://a.atmos.washington.edu/data/warning_report.WWA.html",
+        "label": "NWS Seattle warnings, Nov 7, 2026 (UW mirror)"
+      }
     },
     {
       "id": "civil-not-in-review",
@@ -87,12 +91,28 @@
       "limits": "A local emergency order still overrides this page."
     },
     {
-      "id": "geopolitical-not-used",
+      "id": "hormuz-tanker-claims-2026-11-07",
       "factor": "geopolitical",
-      "title": "Overseas conflict and energy chokepoints",
-      "status": "unverified",
-      "summary": "This review did not independently confirm a current disruption of fuel imports into the United States. Unconfirmed reports were not used to set the level.",
-      "limits": "A later primary-source confirmation of an import or shipping disruption that reaches U.S. households could raise the level."
+      "title": "Strait of Hormuz tanker mine claims",
+      "status": "developing",
+      "summary": "On November 7, 2026, Reuters (via Al Arabiya) and AFP reported Iranian navy and Revolutionary Guards statements that one or more oil tankers struck naval mines and caught fire in the eastern Strait of Hormuz. AFP reported there was no confirmation from maritime officials.",
+      "limits": "These are Iranian military claims relayed by news agencies, not independent confirmation. This review found no confirmed disruption of fuel imports reaching U.S. households. A claimed U.S. 'Code 100' alert or attack order was not confirmed and was not used.",
+      "source": {
+        "href": "https://english.alarabiya.net/News/middle-east/2026/11/07/iran-navy-says-tanker-hits-mine-catches-fire-in-hormuz",
+        "label": "Al Arabiya / Reuters, Nov 7, 2026"
+      }
+    },
+    {
+      "id": "travelgov-caution-2026-11-06",
+      "factor": "geopolitical",
+      "title": "State Department worldwide caution",
+      "status": "confirmed",
+      "summary": "On November 6, 2026, the State Department's TravelGov account warned U.S. citizens abroad of increased threats from Iranian-supported groups, Iranian efforts to target U.S. officials, and possible flight cancellations or airspace closures.",
+      "limits": "This is a travel advisory for Americans abroad. It is not an attack order, and it does not report a domestic supply disruption.",
+      "source": {
+        "href": "https://x.com/travelgov/status/2118845943617663467",
+        "label": "U.S. Department of State, TravelGov, Nov 6, 2026"
+      }
     }
   ],
   "factors": {
@@ -281,9 +301,29 @@
       "href": "https://www.ready.gov/pets",
       "label": "Ready.gov, Pets",
       "usedFor": "Pet food, water, medicine, carrier, ID, and evacuating with pets."
+    },
+    {
+      "href": "https://x.com/travelgov/status/2118845943617663467",
+      "label": "State Department TravelGov post, Nov 6, 2026",
+      "usedFor": "Confirmed worldwide caution about Iranian-linked threats and possible airspace closures."
+    },
+    {
+      "href": "https://english.alarabiya.net/News/middle-east/2026/11/07/iran-navy-says-tanker-hits-mine-catches-fire-in-hormuz",
+      "label": "Al Arabiya / Reuters, Nov 7, 2026",
+      "usedFor": "Iranian navy claim of a tanker mine strike in Hormuz (developing)."
+    },
+    {
+      "href": "https://indiashippingnews.com/global-trade/iran-says-five-tankers-and-tugboat-caught-fire-in-hormuz/",
+      "label": "AFP via India Shipping News, Nov 7, 2026",
+      "usedFor": "Iranian claims of further tanker fires and the note that maritime officials had not confirmed them."
+    },
+    {
+      "href": "https://a.atmos.washington.edu/data/warning_report.WWA.html",
+      "label": "NWS Seattle warning text, Nov 7, 2026",
+      "usedFor": "Regional Pacific Northwest high wind warning, kept out of the national number."
     }
   ],
   "links": {
-    "publicSite": ""
+    "publicSite": "https://pantrycon.vercel.app"
   }
 }
