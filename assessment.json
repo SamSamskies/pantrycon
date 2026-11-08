@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-07T16:54:00Z",
+  "reviewedAt": "2026-11-08T12:23:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. The latest confirmed national fuel data are unchanged since the last review: EIA's Weekly Petroleum Status Report for the week ending October 30, 2026 lists distillate stocks at 99.3 million barrels, 11.0 percent below a year earlier, and Strategic Petroleum Reserve crude at 282.2 million barrels, with no newer weekly report until November 12. Overseas risk rose on November 6 and 7: the State Department issued a worldwide caution citing threats from Iranian-supported groups and possible flight cancellations or airspace closures, and Reuters and AFP carried Iranian navy and Revolutionary Guards statements that tankers struck mines and caught fire in the eastern Strait of Hormuz. Those tanker claims had no maritime-authority confirmation in the reports reviewed, and this review found no confirmed disruption of fuel or goods reaching U.S. households. National Weather Service high wind warnings on the Washington and Oregon coasts are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption of fuel, power, food distribution, or payments; none was confirmed today.",
+  "rationale": "Level 4 holds. The newest confirmed national fuel stock data are still EIA's Weekly Petroleum Status Report for the week ending October 30, 2026: distillate stocks of 99.3 million barrels, 11.0 percent below a year earlier, and Strategic Petroleum Reserve crude of 282.2 million barrels, with the next report due November 12. AAA's national average diesel price on November 8 was $6.19 a gallon, down from $6.30 a week earlier but far above $3.73 a year ago, so fuel stays expensive and tight rather than unavailable. Overseas risk stayed high on November 7 and 8: U.S. Central Command said it disabled a cargo ship trying to break the naval blockade of Iran, the United States struck an Iranian air-defense site on Qeshm Island, and Iran's Revolutionary Guards claimed two more tankers hit mines and caught fire in the Strait of Hormuz, a claim without independent maritime confirmation. Qatar says U.S.-Iran mediation is continuing. This review found no confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions. Storm outages in western Washington, flood watches in south Texas, and freeze warnings in the Ohio Valley are regional and are not averaged into the national number, and the National Hurricane Center expects no tropical cyclone formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,12 +43,25 @@
       }
     },
     {
+      "id": "aaa-diesel-2026-11-08",
+      "factor": "energy",
+      "title": "National average retail diesel price",
+      "status": "confirmed",
+      "summary": "AAA's national average table, priced as of November 8, 2026, lists diesel at $6.1929 a gallon, compared with $6.2075 the day before, $6.3039 a week earlier, and $3.7286 a year earlier. Regular gasoline is listed at $4.0203.",
+      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. AAA's record diesel average on the same page is $6.5276 from September 22, 2026.",
+      "source": {
+        "href": "https://gasprices.aaa.com/",
+        "label": "AAA Fuel Prices, national averages",
+        "asOf": "2026-11-08"
+      }
+    },
+    {
       "id": "wpsr-next-release",
       "factor": "supply-chain",
       "title": "No newer weekly petroleum report yet",
       "status": "developing",
       "summary": "The inventory figures above stop at the week ending October 30, 2026. EIA's schedule says the next Weekly Petroleum Status Report will be released Thursday, November 12, 2026, because the federal government is closed on Wednesday, November 11.",
-      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot. Checked again on November 7, 2026.",
+      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot. Checked again on November 8, 2026; the EIA page still lists Thursday, November 12 as the next release.",
       "source": {
         "href": "https://www.eia.gov/petroleum/supply/weekly/",
         "label": "EIA Weekly Petroleum Status Report schedule"
@@ -59,15 +72,19 @@
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. The level is not based on a live outage map.",
-      "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. On the evening of November 7, 2026, KING 5 reported about 100,000 customers without power across western Washington utilities as a storm arrived; that is a regional weather outage, not a national grid event. The level is not based on a live outage map.",
+      "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4.",
+      "source": {
+        "href": "https://www.king5.com/article/news/local/about-42000-without-power-in-seattle-as-wind-and-rain-move-into-region/281-3d3a8cc4-c7c8-467c-b63f-488b1ff2cd04",
+        "label": "KING 5, western Washington outages, Nov 7, 2026"
+      }
     },
     {
       "id": "cyber-not-in-review",
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems. Trade reporting describes recent attacks on some local water systems, but no multi-region household outage was confirmed. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems. Incidents reported on November 7, 2026 were limited to single organizations, such as a hospital system restoring its patient portal after an October cyber incident and a university department taking systems offline. No multi-region household outage was confirmed. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -75,11 +92,23 @@
       "factor": "weather",
       "title": "Local weather and disaster alerts",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. On November 7, 2026, NWS Seattle posted a high wind warning for the northern Washington coast with widespread power outages expected; that is a regional event and is not averaged into the national number. No live national disaster map was reviewed.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. On the morning of November 8, 2026, NWS offices had flood watches up for parts of south Texas through Monday morning, freeze warnings across parts of the Ohio Valley, and high surf warnings on the Washington and Oregon coasts. These are regional events and are not averaged into the national number. No live national disaster map was reviewed.",
       "limits": "A local warning can require action immediately, including when the national level is 4 or 5.",
       "source": {
-        "href": "https://a.atmos.washington.edu/data/warning_report.WWA.html",
-        "label": "NWS Seattle warnings, Nov 7, 2026 (UW mirror)"
+        "href": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&wwa=Flood+Watch",
+        "label": "NWS flood watch summary, Nov 8, 2026"
+      }
+    },
+    {
+      "id": "nhc-outlook-2026-11-08",
+      "factor": "weather",
+      "title": "No tropical cyclones",
+      "status": "confirmed",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 8, 2026 says tropical cyclone formation is not expected over the next 7 days, and its eastern North Pacific page lists no tropical cyclones at this time.",
+      "limits": "This covers tropical storms only. It says nothing about winter storms, floods, or earthquakes.",
+      "source": {
+        "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
+        "label": "NHC Atlantic Tropical Weather Outlook, Nov 8, 2026"
       }
     },
     {
@@ -91,15 +120,39 @@
       "limits": "A local emergency order still overrides this page."
     },
     {
-      "id": "hormuz-tanker-claims-2026-11-07",
+      "id": "hormuz-tanker-claims-2026-11-08",
       "factor": "geopolitical",
       "title": "Strait of Hormuz tanker mine claims",
       "status": "developing",
-      "summary": "On November 7, 2026, Reuters (via Al Arabiya) and AFP reported Iranian navy and Revolutionary Guards statements that one or more oil tankers struck naval mines and caught fire in the eastern Strait of Hormuz. AFP reported there was no confirmation from maritime officials.",
-      "limits": "These are Iranian military claims relayed by news agencies, not independent confirmation. This review found no confirmed disruption of fuel imports reaching U.S. households. A claimed U.S. 'Code 100' alert or attack order was not confirmed and was not used.",
+      "summary": "On November 7, 2026, Iranian navy statements relayed by Reuters and AFP said tankers struck mines and caught fire in the eastern Strait of Hormuz. Early on November 8, Iran's Revolutionary Guards said two more oil tankers using routes Iran has not authorized were burning after hitting mines, one east of the strait and one inside it. The Guards did not name the ships or their flags.",
+      "limits": "These are Iranian military claims relayed by news agencies, not independent confirmation. Asharq Al-Awsat noted that U.S. Central Command had recently said the waterway was cleared of mines. This review found no confirmed disruption of fuel imports reaching U.S. households.",
       "source": {
-        "href": "https://english.alarabiya.net/News/middle-east/2026/11/07/iran-navy-says-tanker-hits-mine-catches-fire-in-hormuz",
-        "label": "Al Arabiya / Reuters, Nov 7, 2026"
+        "href": "https://english.aawsat.com/world/5338803-iran-says-two-tankers-caught-fire-hormuz-after-hitting-mines",
+        "label": "Asharq Al-Awsat, Nov 8, 2026"
+      }
+    },
+    {
+      "id": "centcom-blockade-2026-11-07",
+      "factor": "geopolitical",
+      "title": "U.S. blockade enforcement in the Gulf of Oman",
+      "status": "confirmed",
+      "summary": "U.S. Central Command said that on November 7, 2026 a U.S. military aircraft fired on the stern of the St. Kitts-flagged cargo ship Huda and disabled it in the Gulf of Oman after the crew ignored repeated warnings and tried to break the naval blockade against Iran. CENTCOM said enforcement since July has redirected 147 commercial vessels and disabled five merchant ships.",
+      "limits": "This is a military enforcement action at sea, not an attack on the United States, and it does not report a U.S. supply disruption.",
+      "source": {
+        "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
+        "label": "U.S. Central Command release, Nov 7, 2026"
+      }
+    },
+    {
+      "id": "qatar-mediation-2026-11-07",
+      "factor": "geopolitical",
+      "title": "U.S. strike on Qeshm and Qatar-led talks",
+      "status": "developing",
+      "summary": "Euronews reported on November 7, 2026 that the United States carried out what it called a limited strike on an Iranian air-defense site on Qeshm Island on the night of November 6, while Qatar said its mediators remain in close coordination with the United States and Iran and Iran was reviewing Qatari proposals.",
+      "limits": "The talks have no agreed outcome, and both escalation and a deal remain possible. Neither the strike nor the talks changed confirmed U.S. household supplies in this review.",
+      "source": {
+        "href": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+        "label": "Euronews, Nov 7, 2026"
       }
     },
     {
@@ -310,7 +363,7 @@
     {
       "href": "https://english.alarabiya.net/News/middle-east/2026/11/07/iran-navy-says-tanker-hits-mine-catches-fire-in-hormuz",
       "label": "Al Arabiya / Reuters, Nov 7, 2026",
-      "usedFor": "Iranian navy claim of a tanker mine strike in Hormuz (developing)."
+      "usedFor": "Iranian navy claim of a tanker mine strike in Hormuz on November 7 (developing)."
     },
     {
       "href": "https://indiashippingnews.com/global-trade/iran-says-five-tankers-and-tugboat-caught-fire-in-hormuz/",
@@ -318,9 +371,39 @@
       "usedFor": "Iranian claims of further tanker fires and the note that maritime officials had not confirmed them."
     },
     {
-      "href": "https://a.atmos.washington.edu/data/warning_report.WWA.html",
-      "label": "NWS Seattle warning text, Nov 7, 2026",
-      "usedFor": "Regional Pacific Northwest high wind warning, kept out of the national number."
+      "href": "https://gasprices.aaa.com/",
+      "label": "AAA Fuel Prices, Nov 8, 2026",
+      "usedFor": "Confirmed national average diesel and gasoline prices for November 8, 2026."
+    },
+    {
+      "href": "https://english.aawsat.com/world/5338803-iran-says-two-tankers-caught-fire-hormuz-after-hitting-mines",
+      "label": "Asharq Al-Awsat, Nov 8, 2026",
+      "usedFor": "Revolutionary Guards claim of two more tanker fires in Hormuz (developing)."
+    },
+    {
+      "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
+      "label": "U.S. Central Command, Nov 7, 2026",
+      "usedFor": "Confirmed blockade enforcement action against the cargo ship Huda."
+    },
+    {
+      "href": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+      "label": "Euronews, Nov 7, 2026",
+      "usedFor": "Limited U.S. strike on Qeshm Island and the status of Qatar-led mediation (developing)."
+    },
+    {
+      "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
+      "label": "National Hurricane Center, Atlantic outlook",
+      "usedFor": "No tropical cyclone formation expected in the next 7 days as of November 8, 2026."
+    },
+    {
+      "href": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&wwa=Flood+Watch",
+      "label": "NWS flood watch summary",
+      "usedFor": "Regional south Texas flood watches on November 8, 2026, kept out of the national number."
+    },
+    {
+      "href": "https://www.king5.com/article/news/local/about-42000-without-power-in-seattle-as-wind-and-rain-move-into-region/281-3d3a8cc4-c7c8-467c-b63f-488b1ff2cd04",
+      "label": "KING 5, Nov 7, 2026",
+      "usedFor": "Regional western Washington storm outages, kept out of the national number."
     }
   ],
   "links": {
