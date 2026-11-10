@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-09T12:15:00Z",
+  "reviewedAt": "2026-11-10T12:22:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. The newest confirmed national fuel stock data are still EIA's Weekly Petroleum Status Report for the week ending October 30, 2026: distillate stocks of 99.3 million barrels, 11.0 percent below a year earlier, and Strategic Petroleum Reserve crude of 282.2 million barrels, with the next report due Thursday, November 12. AAA's national average diesel price on November 9 was $6.17 a gallon, down from $6.29 a week earlier but far above $3.73 a year ago, so fuel stays expensive and tight rather than unavailable. Overseas risk stayed high over the weekend: on November 8 Saudi Arabia said falling debris from an attempted attack damaged an Aramco office tower in Riyadh after the Houthis fired missiles at the kingdom, UKMTO received reports of tankers hit in the Strait of Hormuz, where traffic remains far below normal, and U.S. Central Command kept enforcing its naval blockade of Iran. U.S.-Iran talks remain stalled; the Secretary of State said on November 8 that a breakthrough is not close, while the President said renewed strikes were highly unlikely if talks progress. This review found no confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions. River flooding in Florida, south Texas, and Arizona is regional and is not averaged into the national number, and the National Hurricane Center expects no tropical cyclone formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. The newest confirmed national fuel stock data are still EIA's Weekly Petroleum Status Report for the week ending October 30, 2026: distillate stocks of 99.3 million barrels, 11.0 percent below a year earlier, and Strategic Petroleum Reserve crude of 282.2 million barrels; the next report is due Thursday, November 12. AAA's national average diesel price on November 10 was $6.16 a gallon, down from $6.29 a week earlier but far above $3.74 a year ago, so fuel stays expensive and tight rather than unavailable. Overseas risk eased slightly in tone but not in fact: on November 9 the President said further U.S. strikes on Iran were highly unlikely while keeping the naval blockade, and Brent crude fell to about $91.50, yet Saudi Arabia reported another attack on its East-West pipeline (limited fire, operations unaffected), another tanker was attacked off Oman, Strait of Hormuz traffic stays roughly 65 percent below pre-conflict levels, and U.S. tanker aircraft were reportedly moved from a British base over an Iranian threat. France formally blamed an Iranian military cyber unit for sabotaging supermarket refrigeration at about 700 sites in October; this review found no confirmed attack of that kind on U.S. grocery supply. No confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions was found. River flooding in Florida, Texas, and Arizona and blizzard warnings in Alaska are regional and are not averaged into the national number, and the National Hurricane Center expects no tropical cyclone formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-09",
+      "id": "aaa-diesel-2026-11-10",
       "factor": "energy",
       "title": "National average retail diesel price",
       "status": "confirmed",
-      "summary": "AAA's national average table, priced as of November 9, 2026, lists diesel at $6.1723 a gallon, compared with $6.1929 the day before, $6.2921 a week earlier, $6.2785 a month earlier, and $3.7345 a year earlier. Regular gasoline is listed at $4.0093, down from $4.1694 a week earlier.",
+      "summary": "AAA's national average table, priced as of November 10, 2026, lists diesel at $6.1572 a gallon, compared with $6.1723 the day before, $6.2875 a week earlier, $6.2824 a month earlier, and $3.7389 a year earlier. Regular gasoline is listed at $3.9788, down from $4.1493 a week earlier.",
       "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-09"
+        "asOf": "2026-11-10"
       }
     },
     {
@@ -61,7 +61,7 @@
       "title": "No newer weekly petroleum report yet",
       "status": "developing",
       "summary": "The inventory figures above stop at the week ending October 30, 2026. EIA's schedule says the next Weekly Petroleum Status Report will be released Thursday, November 12, 2026, because the federal government is closed on Wednesday, November 11.",
-      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot. Checked again on November 9, 2026; the EIA page still says the next report will be released on Thursday, November 12 because of the November 11 federal closure.",
+      "limits": "Whether stocks kept falling after October 30 is not known in this snapshot. Checked again on November 10, 2026; the EIA page still says the next report will be released on Thursday, November 12 because of the November 11 federal closure.",
       "source": {
         "href": "https://www.eia.gov/petroleum/supply/weekly/",
         "label": "EIA Weekly Petroleum Status Report schedule"
@@ -72,7 +72,7 @@
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region outage reported on November 8 or 9, 2026. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region outage reported on November 9 or 10, 2026. Grid items published on November 9 were preparedness exercises, a public power tabletop drill in Alabama and the Energy Department's Liberty Eclipse exercise, not real outages. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
@@ -80,31 +80,43 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of utilities, pipelines, or payment systems on November 8 or 9, 2026. Items seen were a published CISA advisory about a software flaw in a substation management product and a utility tabletop exercise, neither of which reports an actual outage. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 9 or 10, 2026. Items seen were an exploited Chrome flaw with an emergency patch and a remote-management software vendor taking its hosted service offline after a vulnerability disclosure, neither reported as a household supply outage. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
+    },
+    {
+      "id": "france-fridge-attribution-2026-11-09",
+      "factor": "cyber",
+      "title": "France blames Iranian cyber unit for supermarket fridge sabotage",
+      "status": "confirmed",
+      "summary": "NPR reported on November 9, 2026 that France's national cybersecurity agency said Iranian military hackers took over refrigeration controllers at about 700 retail sites in France in October, raising temperatures overnight and spoiling food, and also hit several small hydroelectric plants with moderate effects. France linked the Shahid Kaveh unit to Iran's Revolutionary Guard, and Paris prosecutors are seeking international arrest warrants. Grocery stores in other European countries were hit in similar attacks the week before.",
+      "limits": "This is an attack in Europe. NPR notes that refrigeration failures at U.S. military commissaries in August have not been officially attributed or confirmed as cyberattacks, and this review found no confirmed attack on U.S. grocery supply.",
+      "source": {
+        "href": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+        "label": "NPR, Nov 9, 2026"
+      }
     },
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Regional river flooding",
+      "title": "Regional flooding and Alaska winter warnings",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. On the evening of November 8, 2026, NWS flood statements listed moderate to major flooding on the St. Johns River in east-central Florida, moderate flooding forecast on Oso Creek near Corpus Christi, Texas, minor flooding on the Iowa River at Marengo, and flooding from dam releases on the Salt, Verde, and Gila rivers in Maricopa County, Arizona. These are regional events and are not averaged into the national number. No live national disaster map was reviewed.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts early on November 10, 2026 listed 11 flood warnings, in east-central and southwest Florida (Seminole, Brevard, Lake, Volusia, and DeSoto counties), west-central Texas (Kimble, Mason, Llano, and Val Verde counties), and Maricopa County, Arizona, plus blizzard and high wind warnings in parts of Alaska. These are regional events and are not averaged into the national number. No live national disaster map was reviewed.",
       "limits": "A local warning can require action immediately, including when the national level is 4 or 5.",
       "source": {
-        "href": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&wwa=Flood+Warning",
-        "label": "NWS flood warning summary, Nov 8 to 9, 2026"
+        "href": "https://api.weather.gov/alerts/active",
+        "label": "NWS active alerts, checked Nov 10, 2026"
       }
     },
     {
-      "id": "nhc-outlook-2026-11-09",
+      "id": "nhc-outlook-2026-11-10",
       "factor": "weather",
       "title": "No tropical cyclones",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 9, 2026 says tropical cyclone formation is not expected during the next 7 days for the North Atlantic, Caribbean Sea, and Gulf.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 10, 2026 says tropical cyclone formation is not expected during the next 7 days for the North Atlantic, Caribbean Sea, and Gulf.",
       "limits": "This covers tropical storms only. It says nothing about winter storms, floods, or earthquakes.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
-        "label": "NHC Atlantic Tropical Weather Outlook, Nov 9, 2026"
+        "label": "NHC Atlantic Tropical Weather Outlook, Nov 10, 2026"
       }
     },
     {
@@ -112,8 +124,20 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no invocation of the Insurrection Act as of November 8, 2026. Prediction-market prices were not used.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no invocation of the Insurrection Act as of November 10, 2026. Prediction-market prices were not used.",
       "limits": "A local emergency order still overrides this page."
+    },
+    {
+      "id": "saudi-pipeline-2026-11-09",
+      "factor": "geopolitical",
+      "title": "Attack on Saudi East-West pipeline",
+      "status": "confirmed",
+      "summary": "Saudi Arabia's energy ministry said on November 9, 2026 that the East-West pipeline was targeted in the Madinah region, causing a limited fire that emergency teams put out, with no injuries and pipeline operations unaffected. The pipeline is Saudi Arabia's main route for moving crude to the Red Sea without passing through the Strait of Hormuz.",
+      "limits": "The ministry did not name the attacker. This review found no confirmed effect on U.S. fuel supplies.",
+      "source": {
+        "href": "https://www.arabnews.com/saudi-arabia/east-west-pipeline-targeted-in-madinah-region-saudi-energy-ministry-says-3010792",
+        "label": "Arab News, citing the Saudi energy ministry, Nov 9, 2026"
+      }
     },
     {
       "id": "houthi-riyadh-2026-11-08",
@@ -128,15 +152,15 @@
       }
     },
     {
-      "id": "hormuz-tanker-attacks-2026-11-09",
+      "id": "hormuz-traffic-2026-11-10",
       "factor": "geopolitical",
-      "title": "Strait of Hormuz tanker attacks and low traffic",
+      "title": "Strait of Hormuz attacks and low traffic",
       "status": "developing",
-      "summary": "A shipping-industry report on November 9, 2026 said at least two tankers were attacked in the Strait of Hormuz on Saturday, November 7, one catching fire about eight nautical miles off Khasab, Oman, with the crew evacuated and no injuries reported. UKMTO received a second report of a tanker hit by a projectile and described continuing Iranian harassment of merchant ships. Traffic through the strait was described as single to low-double-digit transits per day.",
-      "limits": "The burning ship's identity was tentatively named by open-source analysts, not officially confirmed. Iran says ships must coordinate with its forces; the United States says it is enforcing a blockade of Iranian ports. This review found no confirmed disruption of fuel imports reaching U.S. households.",
+      "summary": "Gulf News, summarizing UKMTO and Joint Maritime Information Center reports on November 10, 2026, said combined Strait of Hormuz transits in the week ending November 6 were 170 outbound and 155 inbound, about 65 percent below pre-conflict levels, that at least 11 ships were attacked in and around the strait that week and three sank, and that UKMTO logged another tanker attacked off Khasab, Oman on November 9 with the crew evacuated. The JMIC kept the strait's threat level at severe.",
+      "limits": "Counts differ by source, many ships turn off transponders, and UKMTO says it cannot verify all U.S.-reported transits. This review found no confirmed disruption of fuel imports reaching U.S. households.",
       "source": {
-        "href": "https://www.worldports.org/tanker-burns-after-strike-in-strait-of-hormuz/",
-        "label": "World Ports Organization, Nov 9, 2026"
+        "href": "https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
+        "label": "Gulf News, citing UKMTO and JMIC, Nov 10, 2026"
       }
     },
     {
@@ -152,39 +176,51 @@
       }
     },
     {
-      "id": "centcom-iron-gate-2026-11-07",
+      "id": "us-iran-talks-2026-11-10",
       "factor": "geopolitical",
-      "title": "CENTCOM Task Force Iron Gate",
-      "status": "confirmed",
-      "summary": "U.S. Central Command said that on November 7, 2026 its commander directed the formation of Task Force Iron Gate, a staff of about 20 civilian and military personnel in Tampa, Florida, to coordinate with other agencies on stopping weapons, dual-use technology, sanctioned materials, and illicit revenue from moving across Iran's land borders and the Caspian Sea.",
-      "limits": "This is a coordination staff, not a deployment order or an attack. It does not report a U.S. supply disruption.",
+      "title": "President calls further Iran strikes highly unlikely",
+      "status": "developing",
+      "summary": "The BBC reported on November 10, 2026 that after meeting Qatar's prime minister on November 9, the President said renewed U.S. attacks on Iran were highly unlikely, that there was positive momentum in negotiations, and that U.S. forces remained ready if circumstances changed, while the naval blockade of Iranian ports stays in place. Brent crude was about $91.50 a barrel on Tuesday afternoon in Asia, down from about $97.58 early Monday.",
+      "limits": "There is no agreed outcome. Iranian officials have repeatedly doubted such statements, and both escalation and a deal remain possible. The statements did not change confirmed U.S. household supplies in this review.",
       "source": {
-        "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644250/centcom-launches-task-force-to-disrupt-iranian-ground-transit-routes-supporting/",
-        "label": "U.S. Central Command release, Nov 7, 2026"
+        "href": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o",
+        "label": "BBC News, Nov 10, 2026"
       }
     },
     {
-      "id": "us-iran-talks-2026-11-09",
+      "id": "mildenhall-threat-2026-11-10",
       "factor": "geopolitical",
-      "title": "U.S.-Iran talks stalled",
+      "title": "U.S. aircraft moved from a British base over an Iranian threat",
       "status": "developing",
-      "summary": "CNBC reported on November 9, 2026 that Secretary of State Marco Rubio said on November 8 that talks with Iran were not close to a breakthrough, while President Trump said renewed strikes were highly unlikely if negotiations progress. Brent crude was about $97.58 a barrel early Monday. Al Jazeera reported that Qatar's prime minister was due to meet the President at the White House on November 9.",
-      "limits": "There is no agreed outcome, and both escalation and a deal remain possible. Neither the talks nor the statements changed confirmed U.S. household supplies in this review.",
+      "summary": "Reuters, via Al Jazeera, reported on November 10, 2026 that, according to The Wall Street Journal, U.S. refueling tankers using RAF Mildenhall in England were diverted to Germany and other locations on November 9 after a threat from Iran, and that security at RAF Mildenhall and RAF Lakenheath was raised to Force Protection Condition Charlie.",
+      "limits": "The nature of the threat was not made public. The UK defense ministry and the U.S. Air Force did not confirm the reason, saying aircraft move for operational reasons. A force-protection move is not an attack and does not report a U.S. supply disruption.",
       "source": {
-        "href": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html",
-        "label": "CNBC, Nov 9, 2026"
+        "href": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran",
+        "label": "Reuters via Al Jazeera, Nov 10, 2026"
       }
     },
     {
-      "id": "other-theaters-2026-11-08",
+      "id": "taiwan-2026-11-10",
       "factor": "geopolitical",
-      "title": "Taiwan Strait and Russia-Ukraine",
+      "title": "Chinese area-denial drills near Taiwan",
       "status": "developing",
-      "summary": "A joint American Enterprise Institute and Institute for the Study of War report, carried by the Taipei Times on November 8, 2026, said China might be running a large unannounced exercise simulating the isolation of Taiwan, citing Taiwan's statement that more than 100 Chinese navy and coast guard vessels were in the western Pacific. Taiwan's defense ministry reported 4 aircraft sorties and 6 navy ships around Taiwan for the 24 hours ending November 8. Separately, Russia struck Ukrainian energy facilities ahead of U.S.-brokered talks scheduled in Abu Dhabi.",
-      "limits": "The exercise is described as possible, not confirmed, and no blockade or attack on Taiwan was reported. Neither theater showed a confirmed effect on U.S. household supplies in this review.",
+      "summary": "Reuters, via The Straits Times, reported on November 10, 2026 that Taiwan's defense minister said China has conducted area-denial drills in the western Pacific with the Liaoning carrier group and other naval formations, without formally declaring an exercise. Taiwan's defense ministry reported 4 Chinese aircraft sorties, 8 navy ships, and 1 official ship around Taiwan in the 24 hours ending 6 a.m. November 10, Taiwan time.",
+      "limits": "No blockade or attack on Taiwan was reported. This review found no confirmed effect on U.S. household supplies.",
       "source": {
-        "href": "https://www.taipeitimes.com/News/front/archives/2026/11/08/2003867351",
-        "label": "Taipei Times, Nov 8, 2026"
+        "href": "https://www.straitstimes.com/asia/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific",
+        "label": "Reuters via The Straits Times, Nov 10, 2026"
+      }
+    },
+    {
+      "id": "ukraine-talks-2026-11-10",
+      "factor": "geopolitical",
+      "title": "Russia-Ukraine talks open in Abu Dhabi",
+      "status": "developing",
+      "summary": "The Associated Press, via NPR, reported that U.S.-mediated three-way talks between Russia, Ukraine, and the United States opened in Abu Dhabi on November 10, 2026, the first such meeting since February, focused on security guarantees. Ukraine's air force said Russia launched 162 drones and a ballistic missile overnight, and Russia said it shot down 155 Ukrainian drones.",
+      "limits": "The two sides remain far apart and fighting continues. No NATO-Russia clash was reported, and this review found no confirmed effect on U.S. household supplies.",
+      "source": {
+        "href": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+        "label": "AP via NPR, Nov 10, 2026"
       }
     },
     {
@@ -398,59 +434,64 @@
       "usedFor": "Confirmed blockade enforcement action against the cargo ship Huda."
     },
     {
-      "href": "https://gasprices.aaa.com/",
-      "label": "AAA Fuel Prices, Nov 9, 2026",
-      "usedFor": "Confirmed national average diesel and gasoline prices for November 9, 2026."
-    },
-    {
-      "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
-      "label": "National Hurricane Center, Atlantic outlook",
-      "usedFor": "No tropical cyclone formation expected in the next 7 days as of November 9, 2026."
-    },
-    {
-      "href": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&wwa=Flood+Warning",
-      "label": "NWS flood warning summary",
-      "usedFor": "Regional river flooding in Florida, Texas, Iowa, and Arizona on November 8 to 9, 2026, kept out of the national number."
-    },
-    {
       "href": "https://www.al-monitor.com/originals/2026/11/houthi-attack-damages-aramco-building-riyadhs-financial-district",
       "label": "Reuters via Al-Monitor, Nov 8, 2026",
       "usedFor": "Confirmed damage to the Aramco tower in Riyadh and the Saudi energy ministry statement."
     },
     {
-      "href": "https://www.worldports.org/tanker-burns-after-strike-in-strait-of-hormuz/",
-      "label": "World Ports Organization, Nov 9, 2026",
-      "usedFor": "Tanker attacks in the Strait of Hormuz, UKMTO reports, and low transit counts (developing)."
+      "href": "https://gasprices.aaa.com/",
+      "label": "AAA Fuel Prices, Nov 10, 2026",
+      "usedFor": "Confirmed national average diesel and gasoline prices for November 10, 2026."
     },
     {
-      "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644250/centcom-launches-task-force-to-disrupt-iranian-ground-transit-routes-supporting/",
-      "label": "U.S. Central Command, Nov 7, 2026",
-      "usedFor": "Confirmed formation of Task Force Iron Gate."
+      "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
+      "label": "National Hurricane Center, Atlantic outlook",
+      "usedFor": "No tropical cyclone formation expected in the next 7 days as of November 10, 2026."
     },
     {
-      "href": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html",
-      "label": "CNBC, Nov 9, 2026",
-      "usedFor": "Status of U.S.-Iran talks and crude prices (developing)."
+      "href": "https://api.weather.gov/alerts/active",
+      "label": "NWS active alerts",
+      "usedFor": "Regional flood warnings in Florida, Texas, and Arizona and winter warnings in Alaska on November 10, 2026, kept out of the national number."
     },
     {
-      "href": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations",
-      "label": "Al Jazeera, Nov 9, 2026",
-      "usedFor": "Qatar's prime minister due at the White House on November 9 (developing)."
+      "href": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+      "label": "NPR, Nov 9, 2026",
+      "usedFor": "France's attribution of supermarket refrigeration sabotage to an Iranian military cyber unit."
     },
     {
-      "href": "https://www.taipeitimes.com/News/front/archives/2026/11/08/2003867351",
-      "label": "Taipei Times, Nov 8, 2026",
-      "usedFor": "Report of a possible unannounced Chinese exercise near Taiwan (developing)."
+      "href": "https://www.arabnews.com/saudi-arabia/east-west-pipeline-targeted-in-madinah-region-saudi-energy-ministry-says-3010792",
+      "label": "Arab News, Nov 9, 2026",
+      "usedFor": "Saudi energy ministry statement on the attack on the East-West pipeline."
     },
     {
-      "href": "https://www.mnd.gov.tw/en/news/plaact/88168",
-      "label": "Taiwan Ministry of National Defense, Nov 8, 2026",
-      "usedFor": "Chinese military activity counted around Taiwan for the 24 hours ending November 8."
+      "href": "https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
+      "label": "Gulf News, Nov 10, 2026",
+      "usedFor": "UKMTO and JMIC figures on Strait of Hormuz traffic and attacks (developing)."
     },
     {
-      "href": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
-      "label": "The Guardian, Nov 8, 2026",
-      "usedFor": "Russian strikes on Ukrainian energy facilities ahead of Abu Dhabi talks (developing)."
+      "href": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o",
+      "label": "BBC News, Nov 10, 2026",
+      "usedFor": "President's statement that further strikes on Iran are highly unlikely, and crude prices (developing)."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran",
+      "label": "Reuters via Al Jazeera, Nov 10, 2026",
+      "usedFor": "Reported move of U.S. tanker aircraft from RAF Mildenhall over an Iranian threat (developing)."
+    },
+    {
+      "href": "https://www.straitstimes.com/asia/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific",
+      "label": "Reuters via The Straits Times, Nov 10, 2026",
+      "usedFor": "Taiwan's statement on Chinese area-denial drills in the western Pacific (developing)."
+    },
+    {
+      "href": "https://www.mnd.gov.tw/en/news/plaact/88190",
+      "label": "Taiwan Ministry of National Defense, Nov 10, 2026",
+      "usedFor": "Chinese military activity counted around Taiwan for the 24 hours ending November 10."
+    },
+    {
+      "href": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "label": "AP via NPR, Nov 10, 2026",
+      "usedFor": "Opening of Russia-Ukraine talks in Abu Dhabi and overnight drone strikes (developing)."
     }
   ],
   "links": {
