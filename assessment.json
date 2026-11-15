@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-14T12:18:00Z",
+  "reviewedAt": "2026-11-15T11:59:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 14 was $6.04 a gallon, down from $6.21 a week earlier but far above $3.77 a year ago, and regular gasoline fell to $3.84. EIA's latest weekly report shows distillate stocks rebuilt to 103.3 million barrels in the week ending November 6, still 6.8 percent below a year earlier, while Strategic Petroleum Reserve crude fell to 279.5 million barrels. The IEA's November report says global oil supply moved back above demand in October and inventories rose for the first time since June, and Brent ended a second weekly decline near $96, but the IEA also says diesel supply remains severely tight. Fuel stays expensive rather than unavailable. The biggest domestic event was a more than four-hour nationwide FAA ground stop on November 13, caused by overloaded legacy air traffic communications equipment, with thousands of cancellations; officials said there was no evidence of a cyberattack, and Microsoft said its 365 outage was caused by a network change, not an attack. Overseas risk did not ease. Iran said three more tankers struck mines in and near the Strait of Hormuz on November 14, claims not independently verified, and the U.S. military said it shot down two Iranian drones and denied Iran's claim of a radar hit in Bahrain. Israeli media reported preparations for a possible attack on Iran. The Houthis claimed more strikes on Saudi targets that Saudi authorities had not confirmed. These are attacks and claims abroad and reported preparations, not attacks on the United States or an ordered strike. Taiwan reported 10 Chinese military aircraft sorties, down from 30, Baltic states issued drone shelter alerts during Ukrainian strikes on Russia, and talks on Ukraine produced a planned prisoner exchange but no ceasefire. No confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions was found. Freeze warnings in the Southeast and Pacific Northwest wind and marine warnings are regional and are not averaged into the national number, and no tropical cyclone formation is expected in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. AAA's national average diesel price on November 15 was $6.02 a gallon, down from $6.19 a week earlier but still about 60 percent above $3.77 a year ago, and regular gasoline slipped to $3.82. EIA's latest weekly report, for the week ending November 6, shows distillate stocks at 103.3 million barrels, still 6.8 percent below a year earlier, while Strategic Petroleum Reserve crude fell to 279.5 million barrels; the next weekly report had not been released at review time. Brent settled at $95.84 on November 13 after a second weekly decline as the IEA reported a return to global surplus, but the IEA still describes diesel supply as tight. Fuel stays expensive rather than unavailable. At home, the transportation secretary traced the November 13 nationwide FAA ground stop to a router that flooded air traffic systems during a copper-to-fiber upgrade; more than 5,900 flights were cancelled on November 14 as airlines cleared the backlog, the FAA expects normal schedules by the end of November 15, and officials found no evidence of a cyberattack. Overseas risk did not ease. Iran's Revolutionary Guards claimed a six-drone attack on a U.S. radar at Bahrain's Riffa Air Base on November 15, the second such claim in three days; Bahrain sounded sirens and said it intercepted the attacks, and the U.S. military had not commented. Iran also claimed two more tankers hit mines south of the Strait of Hormuz, claims not independently verified, and the U.S. blockade of Iranian ports continues. These are attacks and claims abroad, not attacks on the United States or an ordered U.S. strike. Russian drones again hit energy sites in Ukraine, talks on Ukraine produced a reported U.S. Donbas-for-NATO idea but no ceasefire, the U.S., Chinese, and Russian leaders plan to meet in Shenzhen on November 19, and Taiwan reported 1 Chinese military aircraft sortie, down from 10. The United States was reported to have lost its measles elimination status, a public health warning rather than a supply disruption. No confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions was found. Southeast freeze warnings, a marginal severe storm risk on the Texas Gulf Coast, and western wind and mountain snow advisories are regional and are not averaged into the national number, and no tropical cyclone formation is expected in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-14",
+      "id": "aaa-diesel-2026-11-15",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 14, 2026 lists diesel at $6.0366 a gallon, compared with $6.0640 the day before, $6.2075 a week earlier, $6.2997 a month earlier, and $3.7690 a year earlier. Regular gasoline is listed at $3.8406, down from $4.0371 a week earlier and $4.3333 a month earlier.",
+      "summary": "AAA's national average table on November 15, 2026 lists diesel at $6.0198 a gallon, compared with $6.0366 the day before, $6.1929 a week earlier, $6.3173 a month earlier, and $3.7703 a year earlier. Regular gasoline is listed at $3.8242, down from $4.0203 a week earlier and $4.3344 a month earlier, against $3.0758 a year earlier.",
       "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 60 percent above its year-ago price.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-14"
+        "asOf": "2026-11-15"
       }
     },
     {
@@ -84,12 +84,12 @@
     {
       "id": "faa-ground-stop-2026-11-13",
       "factor": "supply-chain",
-      "title": "Nationwide flight ground stop from an air traffic communications failure",
+      "title": "Nationwide flight ground stop traced to an air traffic telecom upgrade",
       "status": "confirmed",
-      "summary": "The BBC reported that the FAA halted all U.S. departures for more than four hours on November 13, 2026, the longest nationwide ground stop since September 2001, after overloaded legacy air traffic control communications equipment disrupted communications and radar. FlightAware counted more than 8,500 delays and nearly 8,000 cancellations that day. The Homeland Security Secretary said there was zero evidence of a cyberattack, and the Transportation Secretary said disruption would ripple for a few days.",
-      "limits": "Flights resumed the same evening. This disrupted passenger travel and air cargo timing, not fuel, power, or grocery distribution, and it did not change the national level.",
+      "summary": "The BBC reported that the four-hour nationwide FAA ground stop that began at 3:54 PM EST on November 13, 2026, the longest since September 2001, was caused by a technical issue during a contractor's copper-to-fiber upgrade of air traffic communications: the Transportation Secretary said a router being worked on began flooding other air traffic control systems. More than 15,000 U.S. flights were delayed or cancelled that day, and more than 5,900 were cancelled and 7,000 delayed on November 14 as airlines cleared the backlog. The FAA said schedules should return to normal by the end of November 15, and its administrator said there was zero evidence of anything nefarious.",
+      "limits": "The exact root cause is still under investigation. This disrupted passenger travel and air cargo timing, not fuel, power, or grocery distribution, and it did not change the national level.",
       "source": {
-        "href": "https://www.bbc.com/news/articles/cqx2wyvyr3zzo",
+        "href": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno",
         "label": "BBC, Nov 14, 2026"
       }
     },
@@ -110,7 +110,7 @@
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region power outage reported on November 13 or 14, 2026. Rolling outages in Puerto Rico reported earlier this week were a regional event and were not rechecked today. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 14 or 15, 2026. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
@@ -130,7 +130,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 13 or 14, 2026. Officials said neither the Microsoft outage nor the November 13 flight ground stop was a cyberattack. User reports of trouble reaching 911 on an outage-tracking site early on November 13 were not confirmed by officials as a national outage, and social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 14 or 15, 2026. Officials said the November 13 flight ground stop was not a cyberattack, and Microsoft said its November 12 to 13 outage was not a cybersecurity incident. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -172,27 +172,27 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Southeast freeze warnings, Pacific Northwest wind, and Alaska marine warnings",
+      "title": "Southeast freeze warnings, Texas coast storms, and western wind and mountain snow",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts early on November 14, 2026 listed freeze warnings in parts of Alabama, Georgia, South Carolina, and Arkansas; a high wind warning on the southern Oregon coast; storm warnings for coastal waters off Washington and Oregon; and heavy freezing spray warnings off Alaska's Arctic coast. These are regional and are not averaged into the national number.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts early on November 15, 2026 listed freeze warnings across parts of North Carolina, South Carolina, Georgia, Alabama, Mississippi, southeastern Virginia, and the Florida Panhandle region; wind advisories in western Washington, Oregon, northern California, and the upper Texas and Louisiana coast; winter weather advisories in the Sierra Nevada and south-central Alaska; a river flood warning in western Washington; and heavy freezing spray warnings off Alaska's Arctic coast. The Storm Prediction Center's day 1 outlook shows a marginal risk of severe thunderstorms along the middle and lower Texas Gulf Coast. These are regional and are not averaged into the national number.",
       "limits": "Weather can change quickly. Local NWS alerts and emergency instructions always take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-14"
+        "asOf": "2026-11-15"
       }
     },
     {
-      "id": "nhc-outlook-2026-11-14",
+      "id": "nhc-outlook-2026-11-15",
       "factor": "weather",
       "title": "No tropical cyclones expected",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 14, 2026 says tropical cyclone formation is not expected during the next 7 days for the North Atlantic, Caribbean Sea, and Gulf. The eastern and central North Pacific outlook issued at 4:00 AM PST says the same.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 15, 2026 says tropical cyclone formation is not expected during the next 7 days for the North Atlantic, the Caribbean Sea, and the Gulf of America.",
       "limits": "A 7-day outlook is not a guarantee, and it does not cover winter storms, flooding, or wildfire.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-14"
+        "asOf": "2026-11-15"
       }
     },
     {
@@ -200,31 +200,48 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 14, 2026. The November 13 flight ground stop stranded travelers but is a transportation outage, not civil unrest.",
-      "limits": "Civil conditions can change quickly in one place. Local official instructions come first."
-    },
-    {
-      "id": "hormuz-attacks-2026-11-14",
-      "factor": "geopolitical",
-      "title": "Iran reports more tankers hitting mines in the Strait of Hormuz",
-      "status": "developing",
-      "summary": "Reuters, via CNA, reported that Iran's navy and Revolutionary Guards said on November 14, 2026 that three oil tankers, including a supertanker, caught fire after striking naval mines in and east of the Strait of Hormuz, saying the ships had switched off tracking systems and used unauthorized routes. This follows an Iranian claim on November 13 that a liquefied gas carrier hit a mine. The U.S. military says it has cleared the main routes through the waterway of mines.",
-      "limits": "The vessels were not named and the claims were not independently verified at the time of this review. These are incidents abroad, not attacks on the United States.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 15, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading near 5.5 percent yes on November 15. Flight disruptions after the November 13 ground stop are a transportation problem, not civil unrest.",
+      "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
-        "href": "https://www.channelnewsasia.com/world/strait-hormuz-oil-tankers-mines-iran-6551256",
-        "label": "Reuters via CNA, Nov 14, 2026"
+        "href": "https://polymarket.com/event/insurrection-act-invoked-by",
+        "label": "Polymarket, Insurrection Act invoked by December 31",
+        "asOf": "2026-11-15"
       }
     },
     {
-      "id": "bahrain-radar-2026-11-13",
-      "factor": "geopolitical",
-      "title": "U.S. says it downed two Iranian drones and denies a radar hit in Bahrain",
+      "id": "measles-status-2026-11-14",
+      "factor": "civil",
+      "title": "United States loses measles elimination status",
       "status": "developing",
-      "summary": "Al Jazeera and Reuters reported on November 13, 2026 that U.S. Central Command said it shot down two attack drones launched by Iran's Revolutionary Guards, with no injuries or damage, after the Guards claimed they had destroyed a U.S. early-warning radar in Bahrain in retaliation for an attack on a port town in southern Iran. Reuters said it was the first Iranian claim of an attack on U.S. military assets in a Gulf country since early September. The report also said Israeli media reported that Israel's security cabinet ordered its military to step up preparations for a possible attack on Iran.",
-      "limits": "Neither the U.S. nor the Iranian account could be independently confirmed. Military preparation reported by the media is not an ordered attack, and this is not an attack on the United States.",
+      "summary": "NPR, with KFF Health News, reported on November 14, 2026 that the Pan American Health Organization concluded this week that measles has reestablished regular transmission in the United States, ending the elimination status held since 2000. PAHO planned a public announcement on November 17. NPR cited more than 8,000 people sickened and 13 measles-associated deaths reported by states in outbreaks over the past two years.",
+      "limits": "The decision was reported through people with knowledge of the deliberations before the official announcement. It is a public health warning that makes vaccination records worth checking, not a disruption of food, water, power, or fuel.",
       "source": {
-        "href": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
-        "label": "Al Jazeera and Reuters, Nov 13, 2026"
+        "href": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+        "label": "NPR, Nov 14, 2026"
+      }
+    },
+    {
+      "id": "hormuz-attacks-2026-11-15",
+      "factor": "geopolitical",
+      "title": "Iran reports more tankers hitting mines near the Strait of Hormuz",
+      "status": "developing",
+      "summary": "Anadolu Agency reported that Iran's Revolutionary Guard navy said early on November 15, 2026 that two oil tankers struck naval mines and caught fire south of the Strait of Hormuz while using what it called an unauthorized route with tracking systems switched off, after similar claims on November 13 and 14. Al Jazeera reported the Guards also said two other tankers turned back after warnings, and that Iran says the strait remains closed and under its control, which the United States rejects.",
+      "limits": "The vessels were not named and casualties were not reported. The claims were not independently verified at the time of this review, and the U.S. military has said it cleared the main routes of mines. These are incidents abroad, not attacks on the United States.",
+      "source": {
+        "href": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453",
+        "label": "Anadolu Agency, Nov 15, 2026"
+      }
+    },
+    {
+      "id": "bahrain-radar-2026-11-15",
+      "factor": "geopolitical",
+      "title": "Iran claims a second drone attack on a U.S. radar in Bahrain",
+      "status": "developing",
+      "summary": "Al Jazeera reported on November 15, 2026 that Iran's Revolutionary Guards said they launched six drones at a U.S. air defense radar at Bahrain's Riffa Air Base, the second such claim in three days. Bahrain's Interior Ministry sounded sirens and issued two shelter alerts starting about 4:30 AM local time, and the Bahrain Defence Force said its air defenses thwarted several Iranian aerial attacks. The U.S. military had not commented on the November 15 claim. After the November 13 claim, U.S. Central Command said it shot down two Guard drones with no injuries or damage and denied that a radar was hit. The U.S. naval blockade of Iranian ports remains in place and talks remain stalled.",
+      "limits": "Damage, if any, was not confirmed at the time of this review. This is an attack claim abroad, not an attack on U.S. soil, and it does not report a change in U.S. supplies.",
+      "source": {
+        "href": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+        "label": "Al Jazeera, Nov 15, 2026"
       }
     },
     {
@@ -264,30 +281,6 @@
       }
     },
     {
-      "id": "centcom-blockade-2026-11-07",
-      "factor": "geopolitical",
-      "title": "U.S. blockade enforcement in the Gulf of Oman",
-      "status": "confirmed",
-      "summary": "U.S. Central Command said that on November 7, 2026 a U.S. military aircraft fired on the stern of the St. Kitts-flagged cargo ship Huda and disabled it in the Gulf of Oman after the crew ignored repeated warnings and tried to break the naval blockade against Iran. CENTCOM said enforcement since July has redirected 147 commercial vessels and disabled five merchant ships.",
-      "limits": "This is a military enforcement action at sea, not an attack on the United States, and it does not report a U.S. supply disruption.",
-      "source": {
-        "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
-        "label": "U.S. Central Command release, Nov 7, 2026"
-      }
-    },
-    {
-      "id": "iran-threats-2026-11-11",
-      "factor": "geopolitical",
-      "title": "Iran threatens U.S. bases as far away as Europe",
-      "status": "developing",
-      "summary": "RTE reported on November 11, 2026 that Iran's security chief Mohsen Rezaei said in a televised interview that if U.S. aircraft take off from a base, even one in Europe or another distant region, to bomb Iran, Iran will strike those bases too. The report said Tehran still demands that Washington unfreeze assets and lift sanctions before the Strait of Hormuz reopens, and that the Secretary of State said on November 10 there was no need to attack Iran again. A day earlier, Al Jazeera and Reuters reported that Rezaei denied that talks with Washington were under way and said the strait will stay shut until Iran's conditions are met.",
-      "limits": "These are statements about a possible renewed war, not a reported new attack. There is no agreed outcome, and both escalation and a deal remain possible. The statements did not change confirmed U.S. household supplies in this review.",
-      "source": {
-        "href": "https://www.rte.ie/news/middle-east/2026/1111/1598872-iran-middle-east/",
-        "label": "RTE, Nov 11, 2026"
-      }
-    },
-    {
       "id": "treasury-relocation-2026-11-11",
       "factor": "geopolitical",
       "title": "Treasury Secretary moved to a military base after Iranian threats",
@@ -300,27 +293,51 @@
       }
     },
     {
-      "id": "taiwan-2026-11-14",
+      "id": "taiwan-2026-11-15",
       "factor": "geopolitical",
       "title": "Chinese military activity around Taiwan",
       "status": "confirmed",
-      "summary": "Taiwan's defense ministry reported 10 Chinese military aircraft sorties, 8 navy ships, and 3 official ships operating around Taiwan in the 24 hours ending 6 a.m. local time on November 14, 2026, down from 30 sorties the day before. Four of the sorties crossed the median line of the Taiwan Strait and entered Taiwan's air defense identification zone.",
+      "summary": "Taiwan's defense ministry reported 1 Chinese military aircraft sortie, 8 navy ships, and 3 official ships operating around Taiwan in the 24 hours ending 6 a.m. local time on November 15, 2026, down from 10 aircraft sorties the day before.",
       "limits": "Routine reported activity, not a blockade or an attack.",
       "source": {
-        "href": "https://www.mnd.gov.tw/en/news/plaact/88212",
-        "label": "Taiwan Ministry of National Defense, Nov 14, 2026"
+        "href": "https://www.mnd.gov.tw/en/news/plaact/88215",
+        "label": "Taiwan Ministry of National Defense, Nov 15, 2026"
       }
     },
     {
-      "id": "ukraine-talks-2026-11-13",
+      "id": "ukraine-talks-2026-11-14",
       "factor": "geopolitical",
-      "title": "No ceasefire after U.S. envoy shuttle diplomacy",
+      "title": "No ceasefire; U.S. raised a Donbas-for-NATO idea",
       "status": "developing",
-      "summary": "Euronews reported on November 13, 2026 that after U.S. envoys met Russia's president in Moscow on November 12, he held to his territorial demands and rejected foreign peacekeeping troops in Ukraine. Al Jazeera and Reuters reported that the envoys then met Ukraine's president in Ireland on November 13, and that the only concrete outcome of this week's talks was a planned large prisoner exchange.",
-      "limits": "Talks continue. No ceasefire has been agreed.",
+      "summary": "The BBC reported on November 14, 2026 that Ukraine's president said U.S. envoys had floated the idea of Ukraine joining NATO if it withdrew from the parts of the Donbas region it still holds, the first time the question had been raised. He said Ukraine is not ready to cede territory but that a full package with security guarantees could be put to a referendum.",
+      "limits": "Talks continue. No ceasefire has been agreed, and this is a reported proposal, not a deal.",
       "source": {
-        "href": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
-        "label": "Euronews, Nov 13, 2026"
+        "href": "https://www.bbc.com/news/articles/cwvg2l312ylqo",
+        "label": "BBC, Nov 14, 2026"
+      }
+    },
+    {
+      "id": "ukraine-energy-2026-11-15",
+      "factor": "geopolitical",
+      "title": "Russian drones hit Ukrainian energy sites again",
+      "status": "confirmed",
+      "summary": "Ukrainska Pravda, citing the Zhytomyr regional military administration, reported that Russian drones struck energy infrastructure and damaged four houses in the Zhytomyr region overnight on November 14 to 15, 2026, with no deaths or injuries reported, and that six people were injured in an attack on Chornomorsk in the Odesa region.",
+      "limits": "This is war damage in Ukraine. It shows continuing attacks on energy systems abroad, not a threat to the U.S. grid.",
+      "source": {
+        "href": "https://www.pravda.com.ua/eng/news/2026/11/15/8062933/",
+        "label": "Ukrainska Pravda, Nov 15, 2026"
+      }
+    },
+    {
+      "id": "trilateral-2026-11-19",
+      "factor": "geopolitical",
+      "title": "U.S., China, and Russia leaders plan a meeting at APEC",
+      "status": "developing",
+      "summary": "Anadolu Agency reported that the Kremlin said on November 14, 2026 that the U.S., Chinese, and Russian presidents will hold a trilateral meeting on November 19 in Shenzhen, China, on the sidelines of the APEC summit, after the White House announced it. U.S. officials said nuclear arms reduction and the Middle East war would be discussed, but not Ukraine.",
+      "limits": "This is a scheduled meeting, not an outcome. China had not separately confirmed it in the reports reviewed, and expectations for a breakthrough are low.",
+      "source": {
+        "href": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
+        "label": "Anadolu Agency, Nov 14, 2026"
       }
     },
     {
@@ -553,11 +570,6 @@
       "usedFor": "Confirmed worldwide caution about Iranian-linked threats and possible airspace closures."
     },
     {
-      "href": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
-      "label": "U.S. Central Command, Nov 7, 2026",
-      "usedFor": "Confirmed blockade enforcement action against the cargo ship Huda."
-    },
-    {
       "href": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
       "label": "NPR, Nov 9, 2026",
       "usedFor": "France's attribution of supermarket refrigeration sabotage to an Iranian military cyber unit."
@@ -569,33 +581,23 @@
     },
     {
       "href": "https://gasprices.aaa.com/",
-      "label": "AAA Fuel Prices, Nov 14, 2026",
-      "usedFor": "National average diesel and gasoline prices on November 14, 2026."
+      "label": "AAA Fuel Prices, Nov 15, 2026",
+      "usedFor": "National average diesel and gasoline prices on November 15, 2026."
     },
     {
       "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
       "label": "National Hurricane Center, Atlantic outlook",
-      "usedFor": "No tropical cyclone formation expected in the next 7 days, as of November 14, 2026."
+      "usedFor": "No tropical cyclone formation expected in the next 7 days, as of November 15, 2026."
     },
     {
       "href": "https://api.weather.gov/alerts/active",
       "label": "NWS active alerts",
-      "usedFor": "Regional freeze, wind, storm, and marine alerts checked November 14, 2026."
+      "usedFor": "Regional NWS alerts active early on November 15, 2026."
     },
     {
       "href": "https://earthquake.usgs.gov/earthquakes/map/",
       "label": "USGS earthquake map",
       "usedFor": "No U.S. earthquake in the past week's significant-earthquake list as of November 12, 2026."
-    },
-    {
-      "href": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
-      "label": "Al Jazeera and Reuters, Nov 11, 2026",
-      "usedFor": "Iran's November 10 statement that Hormuz stays shut until its conditions are met (developing)."
-    },
-    {
-      "href": "https://www.rte.ie/news/middle-east/2026/1111/1598872-iran-middle-east/",
-      "label": "RTE, Nov 11, 2026",
-      "usedFor": "Iran's threat to strike U.S. bases as far away as Europe in a renewed war (developing)."
     },
     {
       "href": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/",
@@ -608,16 +610,6 @@
       "usedFor": "Federal warning on cyber threats to refrigeration and cold-chain controllers."
     },
     {
-      "href": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23",
-      "label": "Associated Press, Nov 12, 2026",
-      "usedFor": "Abu Dhabi talks ended with only a prisoner-swap agreement (developing)."
-    },
-    {
-      "href": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
-      "label": "Al Jazeera and Reuters, Nov 13, 2026",
-      "usedFor": "Iran's claimed radar strike in Bahrain, the U.S. denial and drone intercepts, and reported Israeli preparations (developing)."
-    },
-    {
       "href": "https://www.washingtonpost.com/politics/2026/11/12/trump-shuts-down-vance-iran-negotiating-efforts-says-no-deal-needed/",
       "label": "The Washington Post, Nov 12, 2026",
       "usedFor": "The President's statement that no deal with Iran is needed."
@@ -626,11 +618,6 @@
       "href": "https://www.military.com/commissary-freezer-failures-spur-cyberattack-probe-at-us-military-bases",
       "label": "Military.com, Nov 12, 2026",
       "usedFor": "Investigation of August commissary freezer failures (developing)."
-    },
-    {
-      "href": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
-      "label": "Euronews, Nov 13, 2026",
-      "usedFor": "Outcome of the U.S. envoys' Moscow meeting (developing)."
     },
     {
       "href": "https://www.nhc.noaa.gov/text/MIATWOEP.shtml",
@@ -648,29 +635,14 @@
       "usedFor": "Global supply back above demand, inventory rebuild, and continued diesel tightness."
     },
     {
-      "href": "https://www.bbc.com/news/articles/cqx2wyvyr3zzo",
-      "label": "BBC, Nov 14, 2026",
-      "usedFor": "Nationwide FAA ground stop on November 13, its cause, and the statement that there was no evidence of a cyberattack."
-    },
-    {
       "href": "https://www.bbc.com/news/articles/cmvg2lx1pjeqo",
       "label": "BBC, Nov 13, 2026",
       "usedFor": "Microsoft 365 outage, which Microsoft tied to a network change and said was not a cybersecurity incident."
     },
     {
-      "href": "https://www.channelnewsasia.com/world/strait-hormuz-oil-tankers-mines-iran-6551256",
-      "label": "Reuters via CNA, Nov 14, 2026",
-      "usedFor": "Iranian claims of three tankers hitting mines near Hormuz (developing)."
-    },
-    {
       "href": "https://www.investing.com/news/economy-news/iran-says-four-tankers-hit-mines-in-hormuz-as-shipping-crisis-deepens-5027172",
       "label": "Investing.com, Nov 14, 2026",
       "usedFor": "Houthi claims of strikes on Saudi targets, not confirmed by Saudi authorities (developing)."
-    },
-    {
-      "href": "https://www.mnd.gov.tw/en/news/plaact/88212",
-      "label": "Taiwan Ministry of National Defense, Nov 14, 2026",
-      "usedFor": "Chinese military activity around Taiwan for the 24 hours ending November 14."
     },
     {
       "href": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys",
@@ -681,6 +653,56 @@
       "href": "https://www.twz.com/nuclear/90-days-no-help-fortress-americas-goal-to-make-bases-resilient-bastions-in-a-crisis",
       "label": "The War Zone, Oct 26, 2026",
       "usedFor": "Context on the Defense Department's FORTRESS America base resilience goal."
+    },
+    {
+      "href": "https://www.spc.noaa.gov/products/outlook/day1otlk.html",
+      "label": "NOAA Storm Prediction Center, Day 1 outlook, Nov 15, 2026",
+      "usedFor": "Marginal severe thunderstorm risk on the middle and lower Texas Gulf Coast on November 15."
+    },
+    {
+      "href": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno",
+      "label": "BBC, Nov 14, 2026",
+      "usedFor": "Cause of the November 13 FAA ground stop, November 14 cancellations, and the statement that there was no evidence of anything nefarious."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+      "label": "Al Jazeera, Nov 15, 2026",
+      "usedFor": "Iranian claim of a drone attack on a U.S. radar in Bahrain, Bahrain alerts and interceptions, and the earlier CENTCOM denial (developing)."
+    },
+    {
+      "href": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-hit-mines-catch-fire-near-strait-of-hormuz-irans-revolutionary-guard/4125453",
+      "label": "Anadolu Agency, Nov 15, 2026",
+      "usedFor": "Iranian claims of two more tankers hitting mines near Hormuz (developing)."
+    },
+    {
+      "href": "https://www.mnd.gov.tw/en/news/plaact/88215",
+      "label": "Taiwan Ministry of National Defense, Nov 15, 2026",
+      "usedFor": "Chinese military activity around Taiwan for the 24 hours ending November 15."
+    },
+    {
+      "href": "https://www.bbc.com/news/articles/cwvg2l312ylqo",
+      "label": "BBC, Nov 14, 2026",
+      "usedFor": "Ukraine's president on a U.S. Donbas-for-NATO idea; no ceasefire (developing)."
+    },
+    {
+      "href": "https://www.pravda.com.ua/eng/news/2026/11/15/8062933/",
+      "label": "Ukrainska Pravda, Nov 15, 2026",
+      "usedFor": "Russian drone strikes on energy infrastructure in Zhytomyr region overnight November 14 to 15."
+    },
+    {
+      "href": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
+      "label": "Anadolu Agency, Nov 14, 2026",
+      "usedFor": "Planned U.S., China, and Russia leaders' meeting in Shenzhen on November 19 (developing)."
+    },
+    {
+      "href": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+      "label": "NPR, Nov 14, 2026",
+      "usedFor": "Reported loss of U.S. measles elimination status (developing)."
+    },
+    {
+      "href": "https://polymarket.com/event/insurrection-act-invoked-by",
+      "label": "Polymarket, Nov 15, 2026",
+      "usedFor": "Market price on Insurrection Act invocation by December 31, 2026, as context only."
     }
   ],
   "links": {
