@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-19T11:55:00Z",
+  "reviewedAt": "2026-11-20T11:58:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 19 was $5.9298 a gallon, down from $6.10 a week earlier but still about 57 percent above $3.78 a year ago, and regular gasoline slipped to $3.72. EIA's weekly report released November 18, for the week ending November 13, shows distillate stocks up 1.6 million barrels to 104.9 million, 5.6 percent below a year earlier, commercial crude and gasoline stocks rising more than expected, and the Strategic Petroleum Reserve down to 276.4 million barrels during a pledged release. WTI fell to its lowest since late August on November 18 and Brent held near $92 on November 19. Fuel stays expensive rather than unavailable, with stocks slowly rebuilding. At home, the Director of National Intelligence and the Secretary of State say the recent Microsoft, FAA, bank, and NSA outages were not a cyberattack. Two supply-chain items are watched but not national failures: a possible watchmen's strike at Los Angeles and Long Beach terminals as early as Saturday if Friday talks fail, and a New Hampshire grocery distributor strike that has thinned shelves at some independent New England stores. Overseas risk stays high. UKMTO reported another tanker struck near Khasab, Oman on November 18, Iran claims five more tankers hit mines, claims not verified, the Saudi-led coalition intercepted Houthi missiles aimed at Riyadh, and a CNN report of Iranian dirty bomb planning against Washington officials remains unverified, with the White House saying there is no credible homeland threat. These are attacks and reported threats abroad or unconfirmed, not an attack on the United States. The Shenzhen summit produced a declaration on U.N. reform, refined fuel supply, and nuclear risk dialogue that does not address the Iran or Ukraine wars. Russian strikes caused outages in five Ukrainian regions, and Taiwan reported a single Chinese aircraft sortie. No confirmed disruption of fuel, power, food distribution, or payments across multiple U.S. regions was found. The Hurricane Center raised the 7-day chance of a subtropical or tropical storm near the Southeast coast to a medium 60 percent and says strong winds, dangerous surf, and coastal flooding are likely along parts of the Southeast and mid-Atlantic coasts into early next week; that and western flash flooding and snow are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. AAA's national average diesel price on November 20 was $5.8982 a gallon, down from $6.06 a week earlier but still about 56 percent above $3.79 a year ago, and regular gasoline slipped to $3.69. EIA's latest weekly report, released November 18 for the week ending November 13, shows distillate stocks up 1.6 million barrels to 104.9 million, 5.6 percent below a year earlier, and the Strategic Petroleum Reserve down to 276.4 million barrels during a pledged release; the next report is due next week. Brent fell to about $90 on November 20 and is on track for a third straight weekly decline as Gulf crude exports recover. Fuel stays expensive rather than unavailable, with prices easing. At home, no multi-region outage of power, fuel, food distribution, or payments was confirmed, and federal officials say the recent tech outages were not a cyberattack. Two supply-chain items are watched but are not national failures: a possible watchmen's strike at Los Angeles and Long Beach terminals from 12:01 a.m. Saturday if talks on Friday fail, with other port workers expected to honor pickets, and a continuing New Hampshire grocery distributor strike that has thinned shelves at some independent New England stores. Overseas risk stays high. The Joint Maritime Information Center keeps the Gulf threat level at severe after four confirmed tanker attacks in the Strait of Hormuz in four days, and Iran claims more tankers hit mines, claims no official source has confirmed. The President says a decision on new strikes on Iran can wait until after January 1 while the blockade continues, and the Senate rejected a war powers limit. These are attacks and threats abroad or unconfirmed, not an attack on the United States. Russian missiles hit three Kyiv bridges and cut power in Ukraine after the Kerch bridge strikes, and Taiwan reported 8 Chinese aircraft sorties, up from 1. The Hurricane Center gives a low near the Florida east coast a medium 50 percent 7-day chance of becoming a subtropical or tropical storm, with strong winds, dangerous surf, coastal flooding, and heavy rain expected along parts of the Southeast and mid-Atlantic coasts into early next week; that, western mountain snow, and a magnitude 5.0 California earthquake are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-19",
+      "id": "aaa-diesel-2026-11-20",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 19, 2026 lists diesel at $5.9298 a gallon, compared with $5.9594 the day before, $6.0977 a week earlier, $6.3187 a month earlier, and $3.7833 a year earlier. Regular gasoline is listed at $3.7212, down from $3.7502 the day before, $3.9081 a week earlier, and $4.2953 a month earlier, against $3.0936 a year earlier. AAA's record diesel average remains $6.5276 on September 22, 2026.",
-      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 57 percent above its year-ago price.",
+      "summary": "AAA's national average table on November 20, 2026 lists diesel at $5.8982 a gallon, compared with $5.9298 the day before, $6.0640 a week earlier, $6.3199 a month earlier, and $3.7929 a year earlier. Regular gasoline is listed at $3.6898, down from $3.7212 the day before, $3.8724 a week earlier, and $4.2786 a month earlier, against $3.1003 a year earlier. AAA's record diesel average remains $6.5276 on September 22, 2026.",
+      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 56 percent above its year-ago price.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-19"
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -69,15 +69,15 @@
       }
     },
     {
-      "id": "la-lb-port-talks-2026-11-18",
+      "id": "la-lb-port-talks-2026-11-20",
       "factor": "supply-chain",
-      "title": "Possible strike at Los Angeles and Long Beach port terminals as early as Saturday",
+      "title": "Possible strike at Los Angeles and Long Beach port terminals from early Saturday",
       "status": "developing",
-      "summary": "FreightWaves reported on November 18, 2026 that the Pacific Maritime Association said talks with ILWU Local 26, which represents about 250 terminal watchmen, made little progress, that the union has held a strike vote and is unwilling to extend its contract past 12:01 a.m. Saturday, November 21, and that the sides return to bargaining on Friday. The employers expect thousands of longshore workers to honor any picket line at the six terminals involved, which handle more than half of the two ports' combined cargo.",
-      "limits": "No strike had started at the time of this review, and a deal on Friday would avert it. The cargo shares and impact estimates come from the employers' association. A short port stoppage delays imported goods; it is not, by itself, a household food or fuel shortage.",
+      "summary": "The Pacific Maritime Association said on November 18, 2026 that talks with ILWU Local 26, which represents about 250 unarmed watchmen at six container terminals, ended with little movement, that the union has taken a strike vote and is unwilling to extend its contract past 12:01 a.m. Saturday, November 21, and that the union agreed to return to the table on Friday, November 20. The employers say the six terminals handle more than half of the two ports' cargo and expect thousands of other port workers to honor any picket line. Seatrade Maritime News quoted the local's president as disputing the employers' description of their offer and expecting more of the same at Friday's session.",
+      "limits": "No strike had started and Friday's session had not concluded at the time of this review. The cargo shares and impact estimates come from the employers' association. A short port stoppage delays imported goods; it is not, by itself, a household food or fuel shortage.",
       "source": {
-        "href": "https://www.freightwaves.com/news/la-long-beach-port-strike-risk-grows-as-employers-say-ilwu-talks-stalled",
-        "label": "FreightWaves, Nov 18, 2026",
+        "href": "https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/",
+        "label": "Pacific Maritime Association, Nov 18, 2026",
         "asOf": "2026-11-18"
       }
     },
@@ -134,16 +134,16 @@
       }
     },
     {
-      "id": "oil-2026-11-19",
+      "id": "oil-2026-11-20",
       "factor": "energy",
-      "title": "Crude steadies near its lowest level since late August",
+      "title": "Crude heads for a third straight weekly decline",
       "status": "confirmed",
-      "summary": "CNBC, citing Reuters, reported on November 19, 2026 that Brent crude futures were up 24 cents at $92.19 a barrel and December U.S. West Texas Intermediate up 5 cents at $83.31, after Brent fell 1.3 percent and WTI fell 3.2 percent on November 18 to its lowest since August 26 on expectations of a supply surplus and the larger-than-expected rise in U.S. stocks. The report said attacks on shipping in the Strait of Hormuz were supporting prices.",
-      "limits": "Intraday prices move quickly and are context for fuel costs, not a measure of availability or a forecast by this project.",
+      "summary": "CNBC, citing Reuters, reported on November 20, 2026 that Brent crude futures were down $1.65 at $90.33 a barrel and December U.S. West Texas Intermediate down $1.62 at $81.59 at 10:32 GMT, putting Brent on track for a 6 percent weekly decline and December WTI for an 8 percent drop, the third straight weekly fall. The report attributed the decline to expectations of a supply surplus as crude shipments through the Strait of Hormuz returned to roughly pre-war levels, despite Houthi attacks on Riyadh and reports of tanker disruptions. On November 19 WTI settled at $83.21, its lowest since August 26.",
+      "limits": "Intraday prices move quickly and are context for fuel costs, not a measure of availability or a forecast by this project. The export-flow description is the report's, not an official shipping count.",
       "source": {
-        "href": "https://www.cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html",
-        "label": "CNBC, Nov 19, 2026",
-        "asOf": "2026-11-19"
+        "href": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html",
+        "label": "CNBC, Nov 20, 2026",
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -151,7 +151,7 @@
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 18 or 19, 2026. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 19 or 20, 2026. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
@@ -223,7 +223,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 18 or 19, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks, and the one confirmed ransomware incident found was a single regional utility's billing system. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 19 or 20, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks, and the one confirmed ransomware incident found in recent days was a single regional utility's billing system. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -265,27 +265,27 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "California and Florida flash flooding, Nevada and Alaska snow",
+      "title": "Florida flooding, western mountain snow and wind, a California earthquake",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 19, 2026 found 13: flash flood warnings in Santa Barbara County, California and Brevard County, Florida; a flash flood watch on the central California coast; flood watches in Florida and Alaska; winter storm warnings in Nevada and Alaska; and a high wind watch in Colorado. The Storm Prediction Center's day 1 outlook says isolated severe wind gusts and perhaps a brief tornado are possible in central California. A USGS feed check found one magnitude 4.5 or larger U.S. earthquake in the past day, a magnitude 5.2 offshore about 169 km south of Attu Station in the far western Aleutian Islands, Alaska, with no tsunami flag. These are regional and are not averaged into the national number.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 20, 2026 found 28: flood warnings and watches across central and northeast Florida, including Seminole, Brevard, Lake, and Volusia counties, and a coastal flood warning in Putnam County; flood warnings in Maricopa and Yuma counties, Arizona; winter storm warnings in the Sierra Nevada and Lake Tahoe area, Nevada, Utah's Wasatch Mountains, and the Idaho-Wyoming border ranges; high wind warnings in Wyoming and New Mexico; and freeze warnings in Arizona and California. A USGS feed check found two magnitude 4.5 or larger U.S. earthquakes in the past day: a magnitude 5.0 about 10 km northwest of Pinnacles, California early on November 20 UTC, widely felt, with a green PAGER alert, and a magnitude 4.9 offshore about 65 km south-southwest of Atka, Alaska. These are regional and are not averaged into the national number.",
       "limits": "Weather can change quickly. Local NWS alerts and emergency instructions always take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-19"
+        "asOf": "2026-11-20"
       }
     },
     {
-      "id": "nhc-outlook-2026-11-19",
+      "id": "nhc-outlook-2026-11-20",
       "factor": "weather",
-      "title": "Medium chance of a subtropical or tropical storm near the Southeast coast",
+      "title": "Low near the Florida east coast could become a subtropical or tropical storm",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 19, 2026 says a non-tropical low is expected to form near the northwest Bahamas on Friday and could become a subtropical or tropical storm while it moves north or northeast near or just offshore of the southeastern U.S. coast through the weekend. It gives a low, 20 percent chance of formation in 48 hours and a medium, 60 percent chance in 7 days, up from 20 percent a day earlier. It says strong winds, dangerous surf, and coastal flooding are likely along portions of the Southeast and mid-Atlantic coasts into early next week regardless of development.",
-      "limits": "An outlook is not a forecast landfall or track. Coastal effects would be regional, and local NWS alerts take priority. It does not cover winter storms, flooding inland, or wildfire.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 20, 2026 says a broad low pressure area is near the east coast of central Florida and could acquire subtropical or tropical characteristics while it moves north to north-northeast near or just offshore of the southeastern U.S. coast through the weekend. It gives a low, 30 percent chance of formation in 48 hours and a medium, 50 percent chance in 7 days, down from 60 percent a day earlier. Regardless of development, it expects strong gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the Southeast and mid-Atlantic coasts into early next week, and heavy rain with a flash flooding threat in the Florida peninsula today, possibly spreading toward the coastal Carolinas and mid-Atlantic over the weekend.",
+      "limits": "An outlook is not a forecast landfall or track. Coastal and rain effects would be regional, and local NWS alerts take priority. It does not cover winter storms, flooding inland, or wildfire.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-19"
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -293,12 +293,12 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 19, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading near 5.5 percent yes on November 19, unchanged from the prior day. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 20, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading near 5.5 percent yes on November 20, unchanged from the prior day. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
       "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
         "href": "https://polymarket.com/event/insurrection-act-invoked-by",
         "label": "Polymarket, Insurrection Act invoked by December 31",
-        "asOf": "2026-11-19"
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -353,6 +353,32 @@
       }
     },
     {
+      "id": "hormuz-claims-2026-11-20",
+      "factor": "geopolitical",
+      "title": "Iran claims more tankers hit mines and caught fire",
+      "status": "developing",
+      "summary": "Anadolu Agency reported on November 20, 2026 that Iran's army said two oil tankers caught fire on Thursday after striking naval mines in a restricted area east of the Strait of Hormuz, and urged ships to coordinate with Iranian forces and use designated routes. Al-Monitor reported that the Revolutionary Guard separately claimed two supertankers carrying more than 4 million barrels of crude hit mines on an unauthorized route, and that the claims could not be independently verified.",
+      "limits": "The vessels were not named, and the Joint Maritime Information Center says no Iranian mine-strike claim has been confirmed by an official source. These are claims, not verified events.",
+      "source": {
+        "href": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-catch-fire-after-hitting-mines-in-waters-east-of-strait-of-hormuz-iranian-army/4131604",
+        "label": "Anadolu Agency, Nov 20, 2026",
+        "asOf": "2026-11-20"
+      }
+    },
+    {
+      "id": "iran-timing-2026-11-20",
+      "factor": "geopolitical",
+      "title": "President says a decision on new Iran strikes can wait until after January 1",
+      "status": "confirmed",
+      "summary": "Gulf News reported on November 20, 2026 that the President told Reuters, Axios, and Fox News he is not rushing a decision on renewed strikes on Iran and will revisit it after the beginning of the year, while the naval blockade and sanctions continue and Axios reported joint options with Israel remain under review. The report says the Senate rejected a war powers resolution 48 to 51 on November 19, and a Defense Department official told the Senate Armed Services Committee the war had cost an estimated $48.3 billion as of November 13. The President also said there are indications Iran is looking at chemical and biological weapons, which Iran's Foreign Ministry denied.",
+      "limits": "A stated timeline is not a commitment and could change. The chemical and biological weapons claim was not supported by public evidence in the report. None of this is an ordered attack or a U.S. supply disruption.",
+      "source": {
+        "href": "https://gulfnews.com/world/americas/will-us-strike-iran-again-trump-says-decision-can-wait-until-2027-1.500754568",
+        "label": "Gulf News, Nov 20, 2026",
+        "asOf": "2026-11-20"
+      }
+    },
+    {
       "id": "hormuz-claims-2026-11-19",
       "factor": "geopolitical",
       "title": "Iran claims five more tankers ablaze after mine strikes",
@@ -383,7 +409,7 @@
       "factor": "geopolitical",
       "title": "U.S. strike on an Iranian missile site on Qeshm Island",
       "status": "confirmed",
-      "summary": "Al Jazeera reported that a U.S. official said a U.S. strike on November 17, 2026 hit a Revolutionary Guard missile launch site on Iran's Qeshm Island in the Strait of Hormuz, in response to Iran's drone attack on a U.S. radar in Bahrain. U.S. Central Command said those drones were intercepted without damage to U.S. equipment or personnel, and CBS News reported a U.S. official called the strike a defensive response. An Iranian provincial official said it caused no damage to residential, commercial, or infrastructure areas.",
+      "summary": "Al Jazeera summarized a CNN report, citing seven unnamed U.S. officials, that U.S. intelligence indicates Iran is developing plans to target senior administration officials in Washington with a dirty bomb or a chemical weapon, described as options rather than an imminent attack. The White House said there are no credible threats to the homeland at this time, and Iran's UN mission rejected the claims. Asked on November 19 whether people in Washington should be alarmed, the President said he did not think so.",
       "limits": "This is a limited U.S. strike abroad during the ongoing war, not an attack on the U.S. homeland. Battle damage claims from both sides were not independently verified.",
       "source": {
         "href": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
@@ -468,15 +494,16 @@
       }
     },
     {
-      "id": "saudi-pipeline-2026-11-09",
+      "id": "taiwan-2026-11-20",
       "factor": "geopolitical",
-      "title": "Attack on Saudi East-West pipeline",
+      "title": "Chinese military activity around Taiwan",
       "status": "confirmed",
-      "summary": "Saudi Arabia's energy ministry said on November 9, 2026 that the East-West pipeline was targeted in the Madinah region, causing a limited fire that emergency teams put out, with no injuries and pipeline operations unaffected. The pipeline is Saudi Arabia's main route for moving crude to the Red Sea without passing through the Strait of Hormuz.",
-      "limits": "The ministry did not name the attacker. This review found no confirmed effect on U.S. fuel supplies.",
+      "summary": "Taiwan's Ministry of National Defense reported 8 sorties of Chinese military aircraft, 7 navy ships, and 2 official ships around Taiwan in the 24 hours ending 6 a.m. local time on November 20, 2026. Six of the sorties crossed the median line of the Taiwan Strait into Taiwan's northern and southwestern air defense identification zone, and 4 Chinese balloons were detected. That is up from 1 sortie the day before.",
+      "limits": "A routine daily count is not a blockade or an attack, and it does not by itself change U.S. household supply.",
       "source": {
-        "href": "https://www.arabnews.com/saudi-arabia/east-west-pipeline-targeted-in-madinah-region-saudi-energy-ministry-says-3010792",
-        "label": "Arab News, citing the Saudi energy ministry, Nov 9, 2026"
+        "href": "https://www.mnd.gov.tw/en/news/plaact/88311",
+        "label": "Taiwan Ministry of National Defense, Nov 20, 2026",
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -492,16 +519,16 @@
       }
     },
     {
-      "id": "taiwan-2026-11-19",
+      "id": "kyiv-bridges-2026-11-20",
       "factor": "geopolitical",
-      "title": "Chinese military activity around Taiwan",
+      "title": "Russian strikes hit Kyiv bridges and cut power in Ukraine",
       "status": "confirmed",
-      "summary": "Taiwan's Ministry of National Defense reported 1 sortie of Chinese military aircraft, 7 navy ships, and 2 official ships around Taiwan in the 24 hours ending 6 a.m. local time on November 19, 2026. The single sortie crossed the median line of the Taiwan Strait into Taiwan's southwestern air defense identification zone. That is down from 9 sorties the day before.",
-      "limits": "A routine daily count is not a blockade or an attack, and it does not by itself change U.S. household supply.",
+      "summary": "Al Jazeera and Reuters reported on November 20, 2026 that overnight Russian missile and drone attacks killed eight people, damaged three bridges over the Dnipro River in Kyiv, and forced Ukrainian nuclear plants to reduce output, causing outages in Kyiv and 10 regions, after Russia's president pledged a painful response to Ukraine's strikes on the Kerch bridge. A U.S. envoy said Russia was comfortable with security guarantees modelled on NATO's Article 5, while Russia's deputy foreign minister called any form of Ukrainian quasi-membership of NATO unacceptable.",
+      "limits": "These strikes and outages are in Ukraine, not the United States or a NATO member. They matter here as context for European energy and the war, not as a U.S. supply failure.",
       "source": {
-        "href": "https://www.mnd.gov.tw/en/news/plaact/88301",
-        "label": "Taiwan Ministry of National Defense, Nov 19, 2026",
-        "asOf": "2026-11-19"
+        "href": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+        "label": "Al Jazeera, Nov 20, 2026",
+        "asOf": "2026-11-20"
       }
     },
     {
@@ -547,7 +574,7 @@
       "factor": "geopolitical",
       "title": "Drone alerts in the Baltic states and a strike on a Russian warship",
       "status": "developing",
-      "summary": "Al Jazeera and Reuters reported on November 13, 2026 that Estonia, Latvia, and Lithuania warned citizens to take shelter from drones in their airspace on November 11 and NATO jets were scrambled, during Ukrainian drone attacks on Russia's Leningrad region. Finland's military said it detected a strike on a Russian warship in the Gulf of Finland area and that Finland is not under any immediate military threat.",
+      "summary": "The War Zone reported on October 26, 2026 that under the Defense Department's FORTRESS America initiative, announced September 30, major U.S. military installations are expected to sustain essential operations for at least 90 days without outside electricity, water, fuel, and communications support. Officials have described early work as installation assessments, microgrids, and battery storage. This review found no newer program announcement on November 19 or 20.",
       "limits": "The origin and details of the warship strike were not confirmed by Finland. No direct NATO-Russia clash was reported.",
       "source": {
         "href": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys",
@@ -1042,9 +1069,9 @@
       "usedFor": "President's arrival in Shenzhen and low expectations for the November 19 trilateral summit."
     },
     {
-      "href": "https://www.cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html",
-      "label": "CNBC, Nov 19, 2026",
-      "usedFor": "Brent and WTI prices on November 19 and the reported EIA stock builds."
+      "href": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html",
+      "label": "CNBC, Nov 20, 2026",
+      "usedFor": "Brent and WTI prices on November 20 and the third weekly decline."
     },
     {
       "href": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
@@ -1052,9 +1079,9 @@
       "usedFor": "DNI and Secretary of State statements that recent outages were not a cyberattack."
     },
     {
-      "href": "https://www.freightwaves.com/news/la-long-beach-port-strike-risk-grows-as-employers-say-ilwu-talks-stalled",
-      "label": "FreightWaves, Nov 18, 2026",
-      "usedFor": "Possible ILWU Local 26 strike at Los Angeles and Long Beach terminals."
+      "href": "https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach/",
+      "label": "Pacific Maritime Association, Nov 18, 2026",
+      "usedFor": "Employer statement on ILWU Local 26 talks, the 12:01 a.m. November 21 contract expiration, and the November 20 session."
     },
     {
       "href": "https://ledgertranscript.com/2026/11/18/associated-grocers-strike-impacts-stores/",
@@ -1072,9 +1099,9 @@
       "usedFor": "Identification of the ADNOC-operated tanker in UKMTO warning 211-26."
     },
     {
-      "href": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz",
-      "label": "Al Jazeera, Nov 19, 2026",
-      "usedFor": "Unverified Iranian claims of five tankers hitting mines."
+      "href": "https://www.aa.com.tr/en/middle-east/2-oil-tankers-catch-fire-after-hitting-mines-in-waters-east-of-strait-of-hormuz-iranian-army/4131604",
+      "label": "Anadolu Agency, Nov 20, 2026",
+      "usedFor": "Iranian army claim of two more tankers hitting mines, unverified."
     },
     {
       "href": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know",
@@ -1092,19 +1119,44 @@
       "usedFor": "Houthi missiles toward Riyadh and southern Saudi Arabia intercepted."
     },
     {
-      "href": "https://www.mnd.gov.tw/en/news/plaact/88301",
-      "label": "Taiwan Ministry of National Defense, Nov 19, 2026",
+      "href": "https://www.mnd.gov.tw/en/news/plaact/88311",
+      "label": "Taiwan Ministry of National Defense, Nov 20, 2026",
       "usedFor": "Daily count of Chinese military activity around Taiwan."
     },
     {
-      "href": "https://www.ukrinform.net/rubric-economy/4186303-russian-strikes-on-energy-infrastructure-cause-power-outages-in-five-regions.html",
-      "label": "Ukrinform, Nov 19, 2026",
-      "usedFor": "Ukrenergo report of outages in five Ukrainian regions."
+      "href": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+      "label": "Al Jazeera, Nov 20, 2026",
+      "usedFor": "Russian strikes on Kyiv bridges, Ukrainian outages, and NATO guarantee positions."
     },
     {
       "href": "http://en.kremlin.ru/supplement/6618",
       "label": "President of Russia, Nov 19, 2026",
       "usedFor": "Text of the Russia-China-U.S. Shenzhen declaration."
+    },
+    {
+      "href": "https://www.seatrade-maritime.com/ports-logistics/la-long-beach-port-complex-braces-for-strike",
+      "label": "Seatrade Maritime News, Nov 2026",
+      "usedFor": "Union response on the Los Angeles and Long Beach watchmen talks."
+    },
+    {
+      "href": "https://www.al-monitor.com/originals/2026/11/irans-irgc-says-tankers-4m-barrels-oil-hit-hormuz-mines-what-know",
+      "label": "Al-Monitor, Nov 19, 2026",
+      "usedFor": "Revolutionary Guard supertanker mine claim and its lack of independent verification."
+    },
+    {
+      "href": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_115_19-nov.pdf",
+      "label": "JMIC Advisory Update 115, Nov 19, 2026",
+      "usedFor": "Regional maritime threat level, confirmed Hormuz attacks, unconfirmed mine claims, and transit counts."
+    },
+    {
+      "href": "https://gulfnews.com/world/americas/will-us-strike-iran-again-trump-says-decision-can-wait-until-2027-1.500754568",
+      "label": "Gulf News, Nov 20, 2026",
+      "usedFor": "Presidential timing on Iran strikes, Senate war powers vote, and war cost testimony."
+    },
+    {
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702",
+      "label": "USGS, M5.0 near Pinnacles, California",
+      "usedFor": "Regional earthquake checked on November 20."
     }
   ],
   "links": {
