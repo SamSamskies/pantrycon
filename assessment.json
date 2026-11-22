@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-22T11:52:00Z",
+  "reviewedAt": "2026-11-22T11:48:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
