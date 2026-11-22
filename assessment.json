@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-21T11:57:00Z",
+  "reviewedAt": "2026-11-22T11:52:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 21 was $5.8649 a gallon, down from $6.04 a week earlier but still about 54 percent above $3.80 a year ago, and regular gasoline slipped to $3.66. EIA's latest weekly report, released November 18 for the week ending November 13, shows distillate stocks up 1.6 million barrels to 104.9 million, 5.6 percent below a year earlier, and the Strategic Petroleum Reserve down to 276.4 million barrels during a pledged release; the next report is due next week. Brent settled at $92.57 on November 20 after a third straight weekly decline. Fuel stays expensive rather than unavailable, with prices easing. At home, the main supply-chain watch item eased: port employers say they reached a tentative agreement with the watchmen's union at Los Angeles and Long Beach, averting the strike that could have started at 12:01 a.m. Saturday, pending ratification. A New Hampshire grocery distributor strike continues to thin some independent New England shelves, a regional issue. No multi-region outage of power, fuel, food distribution, or payments was confirmed; an apparent cyberattack on one Illinois dam was contained, and federal officials say the recent tech outages were not a cyberattack. Overseas risk stays high. UKMTO reported more tankers struck near Khasab in the Strait of Hormuz on November 21, the Gulf threat level stays severe, and Iran claims another tanker hit a mine and that it downed U.S. drones, claims not officially confirmed. U.S.-Iran talks are stalled and new sanctions were announced; reports that renewed strikes are being considered are not an ordered attack. Russian missiles and a drone fell in NATO member Poland during a heavy attack on Ukraine, with no casualties; NATO called it a grave violation, but it is not an Article 5 attack. China ran a joint combat readiness patrol near Taiwan with 21 aircraft sorties. None of these is an attack on the United States. The Hurricane Center cut the chance that the Southeast coastal low becomes a tropical storm to 10 percent, though coastal flooding, surf, and heavy rain continue from Florida to the mid-Atlantic; that and Florida and Arizona flooding are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. AAA's national average diesel price on November 22 was $5.8445 a gallon, down from $6.02 a week earlier but still about 54 percent above $3.80 a year ago, and regular gasoline slipped to $3.64. EIA's latest weekly report, released November 18 for the week ending November 13, shows distillate stocks up 1.6 million barrels to 104.9 million, 5.6 percent below a year earlier, and the Strategic Petroleum Reserve down to 276.4 million barrels during a pledged release; the next report is due this week. Brent settled at $92.57 on November 20 after a third straight weekly decline. Fuel stays expensive rather than unavailable, with prices easing. At home, the Los Angeles and Long Beach port employers confirmed a tentative agreement with the watchmen's union, so no strike began, pending ratification. A New Hampshire grocery distributor strike continues to thin some independent New England shelves, a regional issue. No multi-region outage of power, fuel, food distribution, or payments was confirmed. The FBI is reportedly investigating an intrusion into its national criminal records database and the USDA reportedly saw a cyberattack on a farmer-payment system; neither is confirmed in detail and neither has disrupted household supply. Federal officials say the recent tech outages were not a cyberattack. Overseas risk stays high. UKMTO reported two more outbound tankers struck near Khasab in the Strait of Hormuz on November 21, and transits fell about 15 percent in a week. Bahrain says an Iranian strike set an industrial facility on fire, and Iran claims hits on U.S. positions there, claims not confirmed by the U.S. military, which denied a separate Iranian claim about an F-16. U.S.-Iran talks remain stalled despite Qatari mediation; that is not an ordered attack. NATO's council meets on Monday about the Russian missiles and drone that fell in Poland without casualties; it is not an Article 5 attack. Chinese air and naval activity near Taiwan stays elevated, with 24 aircraft sorties in a day. None of these is an attack on the United States. The Hurricane Center no longer expects the Southeast coastal low to become tropical, though coastal flooding, surf, and heavy rain continue along the Southeast and mid-Atlantic coasts into early next week; that and Florida and Arizona flooding are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-21",
+      "id": "aaa-diesel-2026-11-22",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 21, 2026 lists diesel at $5.8649 a gallon, compared with $5.8982 the day before, $6.0366 a week earlier, $6.3174 a month earlier, and $3.7978 a year earlier. Regular gasoline is listed at $3.6594, down from $3.6898 the day before, $3.8406 a week earlier, and $4.2644 a month earlier, against $3.0935 a year earlier.",
-      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 54 percent above its year-ago price.",
+      "summary": "AAA's national average table on November 22, 2026 lists diesel at $5.8445 a gallon, compared with $5.8649 the day before, $6.0198 a week earlier, $6.3090 a month earlier, and $3.7957 a year earlier. Regular gasoline is listed at $3.6448, down from $3.6594 the day before, $3.8242 a week earlier, and $4.2701 a month earlier, against $3.0789 a year earlier.",
+      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 54 percent above its year-ago price and below its record of $6.5276 set on September 22, 2026.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-21"
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -73,11 +73,11 @@
       "factor": "supply-chain",
       "title": "Tentative deal averts a strike at Los Angeles and Long Beach port terminals",
       "status": "confirmed",
-      "summary": "Reuters reported on November 21, 2026 that the Pacific Maritime Association said it had reached a tentative agreement with ILWU Local 26, which represents about 250 watchmen at six container terminals, averting a strike that could have begun when the contract expired at 12:01 a.m. Saturday. The agreement is subject to ratification by Local 26 members, and the current contract is extended while ratification is pending. The two sides had resumed federally mediated talks on Friday after the employers said on November 18 that there had been little movement.",
-      "limits": "The deal is tentative until members ratify it, and the union had not commented at the time of this review. This report is a wire story syndicated by a third-party site; the employers' own statement page had not been updated when checked.",
+      "summary": "The Pacific Maritime Association said on November 21, 2026 that it and ILWU Local 26 reached a tentative agreement on a new contract covering about 250 watchmen at the Ports of Los Angeles and Long Beach, that the agreement is subject to ratification by Local 26 members, and that the current contract will be extended pending ratification. No strike was reported at the ports when this review was done on November 22.",
+      "limits": "The deal is tentative until members ratify it, and no ratification date or result had been announced at the time of this review.",
       "source": {
-        "href": "https://www.devdiscourse.com/article/international/4010320-southern-california-port-employers-watchmen-union-reach-tentative-deal",
-        "label": "Reuters via Devdiscourse, Nov 21, 2026",
+        "href": "https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach-2/",
+        "label": "Pacific Maritime Association statement, Nov 21, 2026",
         "asOf": "2026-11-21"
       }
     },
@@ -151,7 +151,7 @@
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 20 or 21, 2026. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 21 or 22, 2026. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
@@ -232,11 +232,24 @@
       }
     },
     {
+      "id": "fbi-usda-intrusions-2026-11-21",
+      "factor": "cyber",
+      "title": "Reported intrusions at the FBI's criminal records database and a USDA payment system",
+      "status": "developing",
+      "summary": "The Guardian, with AFP, reported on November 21, 2026 that CNN, citing two people briefed on the probe, said the FBI is investigating an apparent intrusion into the National Crime Information Center, the nationwide database law enforcement uses for warrants and background checks, and that NBC News, citing two former officials, said the USDA told employees a system used to facilitate payments to farmers was targeted in a cyberattack. It was unclear whether the incidents were related or who was responsible. The Associated Press also reported the FBI investigation, citing a person familiar with the matter.",
+      "limits": "Neither agency had publicly confirmed the details when this review was done. No report says records were stolen, that NCIC availability was affected, or that food, fuel, power, or payments to households were disrupted. These are government data intrusions, not a household supply disruption.",
+      "source": {
+        "href": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+        "label": "The Guardian and AFP, Nov 21, 2026",
+        "asOf": "2026-11-21"
+      }
+    },
+    {
       "id": "cyber-not-in-review",
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 20 or 21, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. Two single-site incidents are listed separately: ransomware on a Virginia sanitation district's business systems and an apparent cyberattack on an Illinois dam that staff contained. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 21 or 22, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. Reported intrusions at the FBI's criminal records database and a USDA farmer-payment system are listed separately, as are two single-site incidents: ransomware on a Virginia sanitation district's business systems and an apparent cyberattack on an Illinois dam that staff contained. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -278,27 +291,27 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Florida and Arizona flooding, coastal flooding, freeze warnings",
+      "title": "Coastal flooding, Florida and Arizona flooding, freeze warnings",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 21, 2026 found 35, most of them marine: flood warnings and a flood watch across central and northeast Florida, including Brevard, Volusia, Seminole, Lake, Clay, and Nassau and Duval coastal zones; coastal flood warnings in Flagler, Putnam, Clay, Duval, and St. Johns counties in Florida and along the San Francisco Bay shoreline; flood warnings in Maricopa and Yuma counties, Arizona; a few winter storm warnings; freeze warnings in Arizona, Utah, Nevada, and California; and high wind watches in western Alaska. A USGS feed check found no magnitude 4.5 or larger U.S. earthquake in the past day. These are regional and are not averaged into the national number.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 22, 2026 found 29, many of them marine: flood warnings in Brevard, Seminole, Lake, and Volusia counties in Florida and in Maricopa and Yuma counties, Arizona; coastal flood warnings in Flagler, Clay, Putnam, Duval, and St. Johns counties in Florida and along the San Francisco Bay shoreline; freeze warnings in southern Arizona, southern New Mexico, and far west Texas; storm watches off the Oregon and northern California coast; and high wind warnings in western Alaska. A USGS feed check found no magnitude 4.5 or larger U.S. earthquake in the past day. These are regional and are not averaged into the national number.",
       "limits": "Weather can change quickly. Local NWS alerts and emergency instructions always take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-21"
+        "asOf": "2026-11-22"
       }
     },
     {
-      "id": "nhc-outlook-2026-11-21",
+      "id": "nhc-outlook-2026-11-22",
       "factor": "weather",
-      "title": "Southeast coastal low unlikely to become tropical; coastal and rain effects continue",
+      "title": "Southeast coastal low no longer expected to become tropical; coastal and rain effects continue",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 21, 2026 says a large non-tropical low a few hundred miles east of northeastern Florida is moving into an environment that will probably not support significant tropical or subtropical development, and lowers the formation chance to 10 percent in both 48 hours and 7 days, down from 50 percent in 7 days a day earlier. It still expects gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the Southeast and mid-Atlantic coasts into early next week, and heavy rain with a flash flooding threat moving north over coastal Carolinas and the mid-Atlantic through the weekend.",
-      "limits": "An outlook is not a forecast landfall or track. Coastal and rain effects are regional, and local NWS alerts take priority. It does not cover winter storms, flooding inland, or wildfire.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 1:00 AM EST on November 22, 2026 says a non-tropical gale-force low a few hundred miles southeast of the North Carolina coast is forecast to move north into unfavorable conditions and that development into a tropical or subtropical system is no longer expected, with formation chances near 0 percent in both 48 hours and 7 days. It still expects heavy rain, gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the Southeast and mid-Atlantic coasts into early next week. The Hurricane Center's site listed no tropical cyclones in the Atlantic.",
+      "limits": "An outlook is not a forecast track. Coastal and rain effects are regional, and local NWS alerts take priority. It does not cover winter storms, inland flooding, or wildfire.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-21"
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -306,12 +319,12 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 21, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading near 4.5 percent yes on November 21, down from about 5.5 percent the day before. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 22, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 5 percent yes on November 22, compared with about 4.5 percent the day before. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
       "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
         "href": "https://polymarket.com/event/insurrection-act-invoked-by",
         "label": "Polymarket, Insurrection Act invoked by December 31",
-        "asOf": "2026-11-21"
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -366,29 +379,29 @@
       }
     },
     {
-      "id": "ukmto-215-2026-11-21",
+      "id": "ukmto-216-2026-11-21",
       "factor": "geopolitical",
-      "title": "More tankers struck near Khasab in the Strait of Hormuz",
+      "title": "Two more tankers struck near Khasab in the Strait of Hormuz",
       "status": "confirmed",
-      "summary": "UKMTO warning 215-26 says that at 0500 UTC on November 21, 2026 a tanker transiting outbound in the Strait of Hormuz was hit on the stern by an unknown projectile 11 nautical miles north of Khasab, Oman, with no casualties reported. CNBC reported that UKMTO later reported a tanker hit in its engine room 17 nautical miles east of Khasab, that it was unclear whether both reports involved the same vessel, and that a similar attack near Khasab on November 20 caused a fire. Iran International, citing UKMTO, said shipping through the strait in the week ending November 18 was about 65 percent below pre-war levels. The Joint Maritime Information Center's latest update found, dated November 19, keeps the regional threat level at severe.",
-      "limits": "UKMTO did not attribute the attacks, and damage and environmental impact were unconfirmed. These are attacks on shipping abroad, not an attack on the United States.",
+      "summary": "UKMTO warnings 215-26 and 216-26 say that on November 21, 2026 an outbound tanker was hit on the stern by an unknown projectile 11 nautical miles north of Khasab, Oman, at 0500 UTC, and an outbound tanker was hit in the engine room 17 nautical miles east of Khasab at 0550 UTC, with no casualties reported in either. CNBC reported it was unclear whether both reports involved the same vessel and that a November 20 attack near Khasab caused a fire. Forwarder News, citing UKMTO's weekly overview reported by Marine Insight, said Hormuz transits fell to 263 in the week to November 18 from 308 the week before, with traffic still about 65 percent below pre-conflict levels.",
+      "limits": "UKMTO did not attribute the attacks, and damage and environmental impact were unconfirmed. The transit counts are estimates. These are attacks on shipping abroad, not an attack on the United States.",
       "source": {
-        "href": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf",
-        "label": "UKMTO Warning 215-26, Nov 21, 2026",
+        "href": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf",
+        "label": "UKMTO Warning 216-26, Nov 21, 2026",
         "asOf": "2026-11-21"
       }
     },
     {
-      "id": "hormuz-claims-2026-11-21",
+      "id": "bahrain-hormuz-claims-2026-11-22",
       "factor": "geopolitical",
-      "title": "Iran claims another tanker hit a mine; Revolutionary Guard claims U.S. drones downed",
+      "title": "Bahrain says Iran hit an industrial facility; Iran claims strikes on U.S. positions and another mine hit",
       "status": "developing",
-      "summary": "Iran International reported on November 21, 2026 that Iran's navy said an oil tanker caught fire after striking a naval mine in a restricted area east of the Strait of Hormuz, saying the vessel had switched off its identification systems. Al Jazeera reported that the Revolutionary Guard claimed it shot down a U.S. MQ-9 drone over the strait and an MQ-1 drone over Qeshm Island, with no immediate comment from the U.S. military. A day earlier Iran's army had claimed two more tankers hit mines.",
-      "limits": "The vessel was not named, and the Joint Maritime Information Center says no Iranian mine-strike claim has been confirmed by an official source. The drone claims had no U.S. confirmation. These are claims, not verified events.",
+      "summary": "RTE, citing AFP, reported on November 22, 2026 that Bahrain's interior ministry said an Iranian attack hit a civilian industrial facility, causing a fire and damage but no casualties, and that Iran's Revolutionary Guard claimed missile and drone strikes on U.S. military positions at two bases in Bahrain, including two Patriot radars. Iran's army said a tanker caught fire after hitting a mine in a restricted zone of the strait. Reuters reported on November 21 that U.S. Central Command denied an Iranian account that a missile damaged a U.S. F-16 over the Gulf.",
+      "limits": "The Revolutionary Guard's claims about U.S. positions and the mine claim were not confirmed by the U.S. military or another official source at the time of this review; the U.S. military has said it cleared mines from the main routes. These are events abroad, not an attack on the U.S. homeland.",
       "source": {
-        "href": "https://www.iranintl.com/en/liveblog/202611214578",
-        "label": "Iran International live blog, Nov 21, 2026",
-        "asOf": "2026-11-21"
+        "href": "https://www.rte.ie/news/middle-east/2026/1122/1600172-middle-east-iran/",
+        "label": "RTE and AFP, Nov 22, 2026",
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -407,12 +420,12 @@
     {
       "id": "iran-talks-2026-11-21",
       "factor": "geopolitical",
-      "title": "U.S.-Iran talks stalled; new Treasury sanctions",
+      "title": "U.S.-Iran talks stalled; Qatari mediators in Tehran",
       "status": "confirmed",
-      "summary": "Al Jazeera reported on November 21, 2026 that the President said on Friday Tehran wants a deal but not one acceptable to him, while Iran's foreign minister said Iran's conditions, including an end to the war and lifting of sanctions and the naval blockade, must be met for the Strait of Hormuz to reopen, and ruled out sending its enriched uranium abroad. The Treasury sanctioned four Iranians it said collected oil revenue to evade sanctions and the blockade. Iran International cited a CBS News report that the U.S. and Israel are considering renewed strikes, with no indication the President will authorize one.",
-      "limits": "Reports that strikes are being considered are not an ordered attack. None of this is a U.S. supply disruption.",
+      "summary": "Al Jazeera reported on November 21, 2026 that Iran said Qatari mediators held two hours of talks in Tehran, which Iran's deputy foreign minister said were not yet formal negotiations, and that Iran's foreign minister said discussing a Strait of Hormuz reopening is pointless until Iran's conditions are met, including ending the war, unfreezing assets, lifting oil sanctions, and ending the U.S. counter-blockade of Iranian ports. The President told Fox News he wants a permanent deal that stops Iran from getting a nuclear weapon. Iran's deputy foreign minister called the U.S. economic blockade an act of war.",
+      "limits": "Stalled diplomacy and statements are not an ordered attack. None of this is a U.S. supply disruption.",
       "source": {
-        "href": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled",
+        "href": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
         "label": "Al Jazeera, Nov 21, 2026",
         "asOf": "2026-11-21"
       }
@@ -533,16 +546,16 @@
       }
     },
     {
-      "id": "taiwan-2026-11-21",
+      "id": "taiwan-2026-11-22",
       "factor": "geopolitical",
-      "title": "China holds a joint combat readiness patrol near Taiwan",
+      "title": "Chinese military activity near Taiwan stays elevated",
       "status": "confirmed",
-      "summary": "Taiwan's Ministry of National Defense reported 2 sorties of Chinese military aircraft, 6 navy ships, 1 official ship, and 4 balloons around Taiwan in the 24 hours ending 6 a.m. local time on November 21, 2026. In a separate statement at 12:10 p.m. local time the same day, the ministry said that from 8:46 a.m. it detected 21 sorties of Chinese fighters, bombers, early warning, tanker, and other aircraft, drones, and helicopters, 15 of which crossed the median line into central and southwestern airspace, operating with Chinese warships in what China called a joint combat readiness patrol. Taiwan said it monitored and responded with aircraft, ships, and coastal missile systems.",
-      "limits": "A patrol is not a blockade or an attack, and it does not by itself change U.S. household supply. It is a step up from recent days and is watched.",
+      "summary": "Taiwan's Ministry of National Defense reported 24 sorties of Chinese military aircraft, 11 navy ships, 1 official ship, and 2 balloons around Taiwan in the 24 hours ending 6 a.m. local time on November 22, 2026, with 17 of the sorties crossing the median line of the Taiwan Strait into central and southwestern airspace. On November 21 the ministry reported a separate Chinese joint combat readiness patrol with 21 aircraft sorties.",
+      "limits": "Patrols and aircraft sorties are not a blockade or an attack, and they do not by themselves change U.S. household supply.",
       "source": {
-        "href": "https://www.mnd.gov.tw/en/Publication/88314",
-        "label": "Taiwan Ministry of National Defense, Nov 21, 2026",
-        "asOf": "2026-11-21"
+        "href": "https://www.mnd.gov.tw/en/news/plaact/88317",
+        "label": "Taiwan Ministry of National Defense, Nov 22, 2026",
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -573,13 +586,13 @@
     {
       "id": "poland-missiles-2026-11-21",
       "factor": "geopolitical",
-      "title": "Russian missiles and a drone fall in NATO member Poland",
+      "title": "Russian missiles and a drone fall in NATO member Poland; NATO council to meet",
       "status": "confirmed",
-      "summary": "Al Jazeera reported on November 21, 2026 that Poland's defense minister said two missiles and a jet-powered drone fell in southeastern Poland during Russia's overnight attack on Ukraine on November 20, with no immediate injuries or damage reported. Poland's prime minister called it an apparent intentional provocation, NATO's Secretary General called it a grave violation of Polish airspace, and Poland is seeking more NATO support under the existing Eastern Sentry mission. The report said Poland had stopped short of invoking Article 4 consultations, and analysts expect a defensive response rather than a direct confrontation.",
-      "limits": "This is a Russian airspace violation of a NATO ally with no casualties, not an armed attack under Article 5 and not an attack on the United States. It raises background escalation risk but does not change U.S. household supply.",
+      "summary": "Al Jazeera reported on November 21, 2026 that Poland's defense minister said two missiles and a jet-powered drone fell in southeastern Poland during Russia's overnight attack on Ukraine on November 20, with no injuries. Reuters reported on November 21 that NATO's Secretary General said in Warsaw that NATO will defend every inch of Polish territory and that NATO's top commander in Europe would identify any gaps and make adjustments if needed. Polish Radio reported that the North Atlantic Council will discuss the airspace violation in Brussels on Monday, November 23.",
+      "limits": "This is a Russian airspace violation of a NATO ally with no casualties, not an armed attack under Article 5 and not an attack on the United States. No additional NATO forces had been announced when this review was done.",
       "source": {
-        "href": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
-        "label": "Al Jazeera, Nov 21, 2026",
+        "href": "https://www.reuters.com/3fec1b0a85a0/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/",
+        "label": "Reuters, Nov 21, 2026",
         "asOf": "2026-11-21"
       }
     },
@@ -1131,9 +1144,9 @@
       "usedFor": "DNI and Secretary of State statements that recent outages were not a cyberattack."
     },
     {
-      "href": "https://www.devdiscourse.com/article/international/4010320-southern-california-port-employers-watchmen-union-reach-tentative-deal",
-      "label": "Reuters via Devdiscourse, Nov 21, 2026",
-      "usedFor": "Tentative agreement between port employers and ILWU Local 26, pending ratification."
+      "href": "https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach-2/",
+      "label": "Pacific Maritime Association statement, Nov 21, 2026",
+      "usedFor": "Tentative agreement with ILWU Local 26 at Los Angeles and Long Beach, pending ratification."
     },
     {
       "href": "https://indepthnh.org/2026/11/20/striking-teamsters-rally-outside-grocery-warehouse-following-unsuccessful-negotiations/",
@@ -1241,14 +1254,59 @@
       "usedFor": "Stalled U.S.-Iran diplomacy, Treasury sanctions, and Revolutionary Guard drone claims."
     },
     {
-      "href": "https://www.mnd.gov.tw/en/Publication/88314",
-      "label": "Taiwan Ministry of National Defense statement, Nov 21, 2026",
-      "usedFor": "Chinese joint combat readiness patrol with 21 aircraft sorties."
+      "href": "https://www.mnd.gov.tw/en/news/plaact/88317",
+      "label": "Taiwan Ministry of National Defense, Nov 22, 2026",
+      "usedFor": "Chinese aircraft, ship, and balloon activity around Taiwan."
     },
     {
       "href": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
       "label": "Al Jazeera, Nov 21, 2026",
       "usedFor": "Russian missiles and drone in Poland and the NATO response."
+    },
+    {
+      "href": "https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf",
+      "label": "UKMTO Warning 216-26, Nov 21, 2026",
+      "usedFor": "Tanker struck east of Khasab in the Strait of Hormuz."
+    },
+    {
+      "href": "https://www.forwardernews.com/news/2026-11-21-two-more-tankers-hit-off-khasab",
+      "label": "Forwarder News, Nov 22, 2026",
+      "usedFor": "Weekly Hormuz transit counts from the UKMTO overview."
+    },
+    {
+      "href": "https://www.rte.ie/news/middle-east/2026/1122/1600172-middle-east-iran/",
+      "label": "RTE and AFP, Nov 22, 2026",
+      "usedFor": "Bahrain facility strike and Iranian claims."
+    },
+    {
+      "href": "https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/us-denies-iranian-account-that-missile-damaged-f-16-over-gulf-2026-11-21/",
+      "label": "Reuters, Nov 21, 2026",
+      "usedFor": "Central Command denial of the Iranian F-16 claim."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
+      "label": "Al Jazeera, Nov 21, 2026",
+      "usedFor": "Qatari mediation and Iran's conditions for reopening Hormuz."
+    },
+    {
+      "href": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+      "label": "The Guardian and AFP, Nov 21, 2026",
+      "usedFor": "Reported FBI NCIC and USDA payment-system intrusions."
+    },
+    {
+      "href": "https://apnews.com/article/fbi-database-ncic-hack-d066cff87a64a564db0a00172c124972",
+      "label": "Associated Press, Nov 21, 2026",
+      "usedFor": "FBI investigation of an apparent NCIC hack."
+    },
+    {
+      "href": "https://www.reuters.com/3fec1b0a85a0/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/",
+      "label": "Reuters, Nov 21, 2026",
+      "usedFor": "NATO pledge to defend Poland."
+    },
+    {
+      "href": "https://www.polskieradio.pl/395/7785/artykul/3755545,nato-to-discuss-russian-airspace-violations-over-poland",
+      "label": "Polish Radio, Nov 21, 2026",
+      "usedFor": "North Atlantic Council meeting on November 23."
     }
   ],
   "links": {
