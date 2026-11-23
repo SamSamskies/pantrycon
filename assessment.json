@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-22T11:48:00Z",
+  "reviewedAt": "2026-11-23T11:53:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 22 was $5.8445 a gallon, down from $6.02 a week earlier but still about 54 percent above $3.80 a year ago, and regular gasoline slipped to $3.64. EIA's latest weekly report, released November 18 for the week ending November 13, shows distillate stocks up 1.6 million barrels to 104.9 million, 5.6 percent below a year earlier, and the Strategic Petroleum Reserve down to 276.4 million barrels during a pledged release; the next report is due this week. Brent settled at $92.57 on November 20 after a third straight weekly decline. Fuel stays expensive rather than unavailable, with prices easing. At home, the Los Angeles and Long Beach port employers confirmed a tentative agreement with the watchmen's union, so no strike began, pending ratification. A New Hampshire grocery distributor strike continues to thin some independent New England shelves, a regional issue. No multi-region outage of power, fuel, food distribution, or payments was confirmed. The FBI is reportedly investigating an intrusion into its national criminal records database and the USDA reportedly saw a cyberattack on a farmer-payment system; neither is confirmed in detail and neither has disrupted household supply. Federal officials say the recent tech outages were not a cyberattack. Overseas risk stays high. UKMTO reported two more outbound tankers struck near Khasab in the Strait of Hormuz on November 21, and transits fell about 15 percent in a week. Bahrain says an Iranian strike set an industrial facility on fire, and Iran claims hits on U.S. positions there, claims not confirmed by the U.S. military, which denied a separate Iranian claim about an F-16. U.S.-Iran talks remain stalled despite Qatari mediation; that is not an ordered attack. NATO's council meets on Monday about the Russian missiles and drone that fell in Poland without casualties; it is not an Article 5 attack. Chinese air and naval activity near Taiwan stays elevated, with 24 aircraft sorties in a day. None of these is an attack on the United States. The Hurricane Center no longer expects the Southeast coastal low to become tropical, though coastal flooding, surf, and heavy rain continue along the Southeast and mid-Atlantic coasts into early next week; that and Florida and Arizona flooding are regional and are not averaged into the national number. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. AAA's national average diesel price on November 23 was $5.8182 a gallon, down from $6.00 a week earlier but still about 53 percent above $3.79 a year ago, and regular gasoline slipped to $3.64. EIA's latest weekly report, released November 18 for the week ending November 13, shows distillate stocks of 104.9 million barrels, 5.6 percent below a year earlier, and the Strategic Petroleum Reserve at 276.4 million barrels during a pledged release; the next report is due this week. Brent traded near $92 on Monday morning after falling about 4 percent last week. Fuel stays expensive rather than unavailable. At home, the Los Angeles and Long Beach watchmen's tentative contract still awaits ratification, with no strike. A New Hampshire grocery distributor strike continues after the union rejected the latest offer, with talks set for December 17; it thins some independent New England shelves and is regional. No multi-region outage of power, fuel, food distribution, or payments was confirmed. The FBI is investigating a reported intrusion into its national criminal records database; the President called it not good and a law enforcement source told ABC News it was hacked, but the FBI has not commented and no household supply effect is reported. The intelligence director said on November 22 that the recent tech outages had different causes and were not a coordinated cyberattack. Overseas risk stays high. UKMTO reported a tanker incident involving military forces in the Gulf of Oman on November 22 near the U.S. blockade line, without naming the forces; Iran said on November 23 it will use every means to counter the U.S. naval blockade after the President warned that Iranian ships trying to break it would be sunk. Rubio meets Qatar's prime minister on Monday as mediation continues. Threats and military readiness are not an ordered attack. The Houthis claim a strike on a Saudi Red Sea refinery, not confirmed by Saudi officials. NATO's council meets Monday about the Russian missiles and drone that fell in Poland; a Russian cargo ship was hit by drones off Finland, likely by Ukraine, Finland said. None is an Article 5 attack or an attack on the United States. Chinese activity near Taiwan eased to 6 aircraft sorties and 12 ships. The Hurricane Center expects no tropical formation in 7 days; Florida river flooding remains serious but regional, with FEMA reporting all Florida lifelines green. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-22",
+      "id": "aaa-diesel-2026-11-23",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 22, 2026 lists diesel at $5.8445 a gallon, compared with $5.8649 the day before, $6.0198 a week earlier, $6.3090 a month earlier, and $3.7957 a year earlier. Regular gasoline is listed at $3.6448, down from $3.6594 the day before, $3.8242 a week earlier, and $4.2701 a month earlier, against $3.0789 a year earlier.",
-      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 54 percent above its year-ago price and below its record of $6.5276 set on September 22, 2026.",
+      "summary": "AAA's national average table on November 23, 2026 lists diesel at $5.8182 a gallon, compared with $5.8445 the day before, $5.9989 a week earlier, $6.3172 a month earlier, and $3.7928 a year earlier. Regular gasoline is listed at $3.6366, down from $3.6448 the day before, $3.8118 a week earlier, and $4.2926 a month earlier, against $3.0717 a year earlier.",
+      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 53 percent above its year-ago price and below its record of $6.5276 set on September 22, 2026.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-22"
+        "asOf": "2026-11-23"
       }
     },
     {
@@ -73,7 +73,7 @@
       "factor": "supply-chain",
       "title": "Tentative deal averts a strike at Los Angeles and Long Beach port terminals",
       "status": "confirmed",
-      "summary": "The Pacific Maritime Association said on November 21, 2026 that it and ILWU Local 26 reached a tentative agreement on a new contract covering about 250 watchmen at the Ports of Los Angeles and Long Beach, that the agreement is subject to ratification by Local 26 members, and that the current contract will be extended pending ratification. No strike was reported at the ports when this review was done on November 22.",
+      "summary": "The Pacific Maritime Association said on November 21, 2026 that it and ILWU Local 26 reached a tentative agreement on a new contract covering about 250 watchmen at the Ports of Los Angeles and Long Beach, that the agreement is subject to ratification by Local 26 members, and that the current contract will be extended pending ratification. No strike was reported at the ports when this review was done on November 23.",
       "limits": "The deal is tentative until members ratify it, and no ratification date or result had been announced at the time of this review.",
       "source": {
         "href": "https://www.pmanet.org/press_releases/statement-from-the-pacific-maritime-association-on-contract-talks-with-ilwu-local-26-at-ports-of-la-and-long-beach-2/",
@@ -82,16 +82,16 @@
       }
     },
     {
-      "id": "agne-strike-2026-11-20",
+      "id": "agne-strike-2026-11-22",
       "factor": "supply-chain",
       "title": "Grocery distributor strike continues in New England",
       "status": "confirmed",
-      "summary": "InDepthNH reported on November 20, 2026 that the Teamsters strike at the Associated Grocers of New England warehouse in Pembroke, New Hampshire, which began November 2, was continuing after negotiations failed, with more than 250 workers on picket lines in a dispute over pension benefits. Earlier local reporting said the warehouse is operating with replacement staff and making some shipments, while some independent stores reported partial or missing orders. The cooperative supplies about 1,000 independent stores in New England and New York.",
+      "summary": "The New Hampshire Union Leader reported that Teamsters Local 633 rejected the latest proposal from Associated Grocers of New England, so the strike at the Pembroke, New Hampshire warehouse that began November 2 continues, with talks set to resume December 17. InDepthNH reported on November 20 that more than 250 workers were on picket lines in a dispute over pension benefits. Earlier local reporting said the warehouse is operating with replacement staff and making some shipments, while some independent stores reported partial or missing orders. The cooperative supplies about 1,000 independent stores in New England and New York.",
       "limits": "This is a regional labor dispute affecting some independent grocers, not a national food distribution failure. Chain supermarkets supplied by other distributors are not part of this report.",
       "source": {
-        "href": "https://indepthnh.org/2026/11/20/striking-teamsters-rally-outside-grocery-warehouse-following-unsuccessful-negotiations/",
-        "label": "InDepthNH, Nov 20, 2026",
-        "asOf": "2026-11-20"
+        "href": "https://www.unionleader.com/news/local-news/agne-strike-talks-resume-dec-17-after-latest-proposal-rejected-9e662d0e/",
+        "label": "New Hampshire Union Leader",
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -147,11 +147,24 @@
       }
     },
     {
+      "id": "oil-2026-11-23",
+      "factor": "energy",
+      "title": "Crude steady to lower on Monday after a 4 percent weekly drop",
+      "status": "confirmed",
+      "summary": "CNBC, citing Reuters, reported on November 23, 2026 that Brent crude futures fell 60 cents to $91.97 a barrel and West Texas Intermediate fell 49 cents to $82.92 by 0844 GMT, after Brent declined 4 percent and WTI 5 percent last week. Reuters said shipping and refinery attacks in the Middle East continued to support prices.",
+      "limits": "Intraday prices are a market signal of cost pressure, not a measure of U.S. fuel availability.",
+      "source": {
+        "href": "https://www.cnbc.com/2026/11/23/oil-prices-fall-amid-equity-sell-off-though-iran-war-attacks-limit-losses.html",
+        "label": "CNBC and Reuters, Nov 23, 2026",
+        "asOf": "2026-11-23"
+      }
+    },
+    {
       "id": "grid-not-in-review",
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 21 or 22, 2026. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 22 or 23, 2026. FEMA's November 22 daily briefing listed all Florida lifelines as green despite the flooding there. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
@@ -206,6 +219,19 @@
       }
     },
     {
+      "id": "dni-bumps-2026-11-22",
+      "factor": "cyber",
+      "title": "Intelligence director warns of more upgrade-related interruptions",
+      "status": "confirmed",
+      "summary": "CNBC reported on November 22, 2026 that Director of National Intelligence Jay Clayton said on CNN that Americans should be prepared for bumps in the road as systems are upgraded, and that they may be interrupted for a period of time. CNBC said officials say the recent FAA, Microsoft, and JPMorgan disruptions had different root causes and do not appear to be part of a coordinated cyberattack. The Treasury Secretary said Americans should not be concerned about the security of their financial institutions.",
+      "limits": "Officials' statements are not an incident report. A warning about possible future interruptions is not a confirmed outage.",
+      "source": {
+        "href": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+        "label": "CNBC, Nov 22, 2026",
+        "asOf": "2026-11-22"
+      }
+    },
+    {
       "id": "hrsd-ransomware-2026-11-17",
       "factor": "cyber",
       "title": "Ransomware attack on a Virginia sanitation district's business systems",
@@ -236,8 +262,8 @@
       "factor": "cyber",
       "title": "Reported intrusions at the FBI's criminal records database and a USDA payment system",
       "status": "developing",
-      "summary": "The Guardian, with AFP, reported on November 21, 2026 that CNN, citing two people briefed on the probe, said the FBI is investigating an apparent intrusion into the National Crime Information Center, the nationwide database law enforcement uses for warrants and background checks, and that NBC News, citing two former officials, said the USDA told employees a system used to facilitate payments to farmers was targeted in a cyberattack. It was unclear whether the incidents were related or who was responsible. The Associated Press also reported the FBI investigation, citing a person familiar with the matter.",
-      "limits": "Neither agency had publicly confirmed the details when this review was done. No report says records were stolen, that NCIC availability was affected, or that food, fuel, power, or payments to households were disrupted. These are government data intrusions, not a household supply disruption.",
+      "summary": "The Guardian, with AFP, reported on November 21, 2026 that CNN, citing two people briefed on the probe, said the FBI is investigating an apparent intrusion into the National Crime Information Center, the nationwide database law enforcement uses for warrants and background checks, and that NBC News, citing two former officials, said the USDA told employees a system used to facilitate payments to farmers was targeted in a cyberattack. The Associated Press also reported the FBI investigation, citing a person familiar with the matter. ABC News reported that the President said in a November 21 interview that the database was targeted in a hack and that it was not good, and that a law enforcement source confirmed the hack; the FBI declined to comment.",
+      "limits": "The FBI had not publicly confirmed the details when this review was done on November 23, and the attacker and scale were unclear. No report says records were stolen, that NCIC availability was affected, or that food, fuel, power, or payments to households were disrupted. These are government data intrusions, not a household supply disruption.",
       "source": {
         "href": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
         "label": "The Guardian and AFP, Nov 21, 2026",
@@ -249,7 +275,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 21 or 22, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. Reported intrusions at the FBI's criminal records database and a USDA farmer-payment system are listed separately, as are two single-site incidents: ransomware on a Virginia sanitation district's business systems and an apparent cyberattack on an Illinois dam that staff contained. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 22 or 23, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. Reported intrusions at the FBI's criminal records database and a USDA farmer-payment system are listed separately, as are two single-site incidents: ransomware on a Virginia sanitation district's business systems and an apparent cyberattack on an Illinois dam that staff contained. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -291,27 +317,40 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Coastal flooding, Florida and Arizona flooding, freeze warnings",
+      "title": "Florida river flooding, West Coast coastal flooding, freeze warnings",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 22, 2026 found 29, many of them marine: flood warnings in Brevard, Seminole, Lake, and Volusia counties in Florida and in Maricopa and Yuma counties, Arizona; coastal flood warnings in Flagler, Clay, Putnam, Duval, and St. Johns counties in Florida and along the San Francisco Bay shoreline; freeze warnings in southern Arizona, southern New Mexico, and far west Texas; storm watches off the Oregon and northern California coast; and high wind warnings in western Alaska. A USGS feed check found no magnitude 4.5 or larger U.S. earthquake in the past day. These are regional and are not averaged into the national number.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 23, 2026 found 38, many of them marine: flood warnings in Brevard, Seminole, Lake, and Volusia counties in Florida and in Maricopa and Yuma counties, Arizona; coastal flood warnings in Flagler and Putnam counties in Florida and along the California, Oregon, and Washington coasts, including the San Francisco Bay shoreline and coastal San Diego and Orange counties; freeze warnings in central and southwestern Oklahoma, southeastern New Mexico, and the west Texas plains; and high wind warnings in southern Oregon, northern California, and western Alaska. FEMA's daily operations briefing for November 22 said the St. Johns River in Florida is forecast to crest above record flood stage and that some gauges may stay flooded for weeks or months, with 447 water rescues, rising boil-water advisories, and road closures, while listing all Florida lifelines as green. A USGS feed check found no magnitude 4.5 or larger U.S. earthquake in the past day. These are regional and are not averaged into the national number.",
       "limits": "Weather can change quickly. Local NWS alerts and emergency instructions always take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-22"
+        "asOf": "2026-11-23"
       }
     },
     {
-      "id": "nhc-outlook-2026-11-22",
+      "id": "st-johns-flood-2026-11-20",
       "factor": "weather",
-      "title": "Southeast coastal low no longer expected to become tropical; coastal and rain effects continue",
+      "title": "Record river flooding in central Florida",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 1:00 AM EST on November 22, 2026 says a non-tropical gale-force low a few hundred miles southeast of the North Carolina coast is forecast to move north into unfavorable conditions and that development into a tropical or subtropical system is no longer expected, with formation chances near 0 percent in both 48 hours and 7 days. It still expects heavy rain, gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the Southeast and mid-Atlantic coasts into early next week. The Hurricane Center's site listed no tropical cyclones in the Atlantic.",
-      "limits": "An outlook is not a forecast track. Coastal and rain effects are regional, and local NWS alerts take priority. It does not cover winter storms, inland flooding, or wildfire.",
+      "summary": "AccuWeather reported, in an article updated November 20, 2026, that the St. Johns River near Cocoa, Florida broke its 1953 record of 17.55 feet and stood at 18.68 feet on the morning of November 20, that it was likely to keep rising into Thanksgiving week, and that at least minor flooding will probably continue at Cocoa into January 2027. It said homes, roads, and businesses were inundated in parts of South and Central Florida after 8 to 18 inches of rain in three days.",
+      "limits": "This is a regional disaster, not a national distribution failure. FEMA's November 22 daily briefing listed all Florida state lifelines as green. Local instructions in Florida take priority over this page.",
+      "source": {
+        "href": "https://www.accuweather.com/en/severe-weather/st-johns-river-smashes-73-year-record-in-florida-with-flooding-that-could-last-into-2027/1961124",
+        "label": "AccuWeather, updated Nov 20, 2026",
+        "asOf": "2026-11-20"
+      }
+    },
+    {
+      "id": "nhc-outlook-2026-11-23",
+      "factor": "weather",
+      "title": "No Atlantic tropical formation expected in the next 7 days",
+      "status": "confirmed",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 23, 2026 says tropical cyclone formation is not expected during the next 7 days in the North Atlantic, the Caribbean Sea, and the Gulf. The earlier Southeast coastal low is no longer in the outlook.",
+      "limits": "An outlook is not a forecast track. It does not cover winter storms, coastal flooding, inland flooding, or wildfire, and local NWS alerts take priority.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-22"
+        "asOf": "2026-11-23"
       }
     },
     {
@@ -319,12 +358,12 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 22, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 5 percent yes on November 22, compared with about 4.5 percent the day before. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 23, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 4.5 to 5 percent yes on November 23, about the same as the day before. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
       "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
         "href": "https://polymarket.com/event/insurrection-act-invoked-by",
         "label": "Polymarket, Insurrection Act invoked by December 31",
-        "asOf": "2026-11-22"
+        "asOf": "2026-11-23"
       }
     },
     {
@@ -405,6 +444,19 @@
       }
     },
     {
+      "id": "ukmto-217-2026-11-22",
+      "factor": "geopolitical",
+      "title": "Tanker incident involving military forces in the Gulf of Oman",
+      "status": "developing",
+      "summary": "UKMTO advisory 217-26 says that on November 22, 2026 at 1425 UTC a company security officer reported an incident involving a tanker and military forces in the Gulf of Oman near Chabahar, Iran, and that authorities are aware and investigations are ongoing. Euronews reported that the location is near the U.S. naval blockade line amid conflicting reports that an Iranian tanker had left Kharg Island to test the blockade, and that Iran's navy separately claimed two supertankers caught fire after hitting mines east of the strait.",
+      "limits": "UKMTO did not name the vessel or the forces involved, and U.S. Central Command had not commented by the morning of November 23. Euronews's reading of a possible U.S. action is its own and is not confirmed. The Iranian mine claim is not confirmed.",
+      "source": {
+        "href": "https://www.ukmto.org/-/media/ukmto/products/20261122_ukmto_-advisory_217-26.pdf",
+        "label": "UKMTO Advisory 217-26, Nov 22, 2026",
+        "asOf": "2026-11-22"
+      }
+    },
+    {
       "id": "iran-timing-2026-11-20",
       "factor": "geopolitical",
       "title": "President says a decision on new Iran strikes can wait until after January 1",
@@ -428,6 +480,19 @@
         "href": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
         "label": "Al Jazeera, Nov 21, 2026",
         "asOf": "2026-11-21"
+      }
+    },
+    {
+      "id": "iran-blockade-2026-11-23",
+      "factor": "geopolitical",
+      "title": "Iran vows every means against the U.S. blockade; Rubio to meet Qatar's prime minister",
+      "status": "confirmed",
+      "summary": "Euronews reported on November 23, 2026 that Iran's foreign ministry spokesman called the U.S. naval blockade military aggression and said Tehran would use every means to counter it, a day after the President told Fox News that Iranian ships trying to break it would go to the bottom of the sea. The IRGC-affiliated Tasnim agency said no official authority had announced a plan for a tanker convoy to break the blockade. Qatar's prime minister was expected to meet Secretary of State Marco Rubio on Monday. CBS News reported the President said Iran launched more drones and missiles in the last week than at any time in the war but that they did no damage.",
+      "limits": "Threats, rhetoric, and military readiness are not an ordered attack, and none of this is a U.S. supply disruption. Israeli media reports about U.S. strike timing were not confirmed by U.S. officials.",
+      "source": {
+        "href": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+        "label": "Euronews, Nov 23, 2026",
+        "asOf": "2026-11-23"
       }
     },
     {
@@ -533,6 +598,19 @@
       }
     },
     {
+      "id": "houthi-rabigh-2026-11-22",
+      "factor": "geopolitical",
+      "title": "Houthis claim a strike on Saudi Arabia's Rabigh refinery",
+      "status": "developing",
+      "summary": "Xinhua reported on November 23, 2026 that Yemen's Houthis claimed strikes on Saudi Arabia's Rabigh oil refinery on the Red Sea coast and on a radar facility. Reuters, as carried by CNBC, reported the Houthi claim as one reason Middle East attacks continued to support oil prices.",
+      "limits": "Saudi authorities had not confirmed damage to the refinery in the sources reviewed. This is a claim about an attack abroad, not a U.S. supply disruption.",
+      "source": {
+        "href": "https://english.news.cn/20261123/8f7502634dbd497d88e97ebeddd6000f/c.html",
+        "label": "Xinhua, Nov 23, 2026",
+        "asOf": "2026-11-22"
+      }
+    },
+    {
       "id": "bab-al-mandab-2026-11-15",
       "factor": "geopolitical",
       "title": "Yemeni government forces withdraw from the Bab al-Mandab coast",
@@ -546,16 +624,16 @@
       }
     },
     {
-      "id": "taiwan-2026-11-22",
+      "id": "taiwan-2026-11-23",
       "factor": "geopolitical",
-      "title": "Chinese military activity near Taiwan stays elevated",
+      "title": "Chinese military activity near Taiwan continues at a lower level",
       "status": "confirmed",
-      "summary": "Taiwan's Ministry of National Defense reported 24 sorties of Chinese military aircraft, 11 navy ships, 1 official ship, and 2 balloons around Taiwan in the 24 hours ending 6 a.m. local time on November 22, 2026, with 17 of the sorties crossing the median line of the Taiwan Strait into central and southwestern airspace. On November 21 the ministry reported a separate Chinese joint combat readiness patrol with 21 aircraft sorties.",
+      "summary": "Taiwan's Ministry of National Defense reported 6 sorties of Chinese military aircraft and 12 navy ships around Taiwan in the 24 hours ending 6 a.m. local time on November 23, 2026, with 5 of the sorties crossing the median line of the Taiwan Strait into southwestern and eastern airspace. The day before, it reported 24 sorties and 11 navy ships.",
       "limits": "Patrols and aircraft sorties are not a blockade or an attack, and they do not by themselves change U.S. household supply.",
       "source": {
-        "href": "https://www.mnd.gov.tw/en/news/plaact/88317",
-        "label": "Taiwan Ministry of National Defense, Nov 22, 2026",
-        "asOf": "2026-11-22"
+        "href": "https://www.mnd.gov.tw/en/news/plaact/88319",
+        "label": "Taiwan Ministry of National Defense, Nov 23, 2026",
+        "asOf": "2026-11-23"
       }
     },
     {
@@ -588,12 +666,25 @@
       "factor": "geopolitical",
       "title": "Russian missiles and a drone fall in NATO member Poland; NATO council to meet",
       "status": "confirmed",
-      "summary": "Al Jazeera reported on November 21, 2026 that Poland's defense minister said two missiles and a jet-powered drone fell in southeastern Poland during Russia's overnight attack on Ukraine on November 20, with no injuries. Reuters reported on November 21 that NATO's Secretary General said in Warsaw that NATO will defend every inch of Polish territory and that NATO's top commander in Europe would identify any gaps and make adjustments if needed. Polish Radio reported that the North Atlantic Council will discuss the airspace violation in Brussels on Monday, November 23.",
-      "limits": "This is a Russian airspace violation of a NATO ally with no casualties, not an armed attack under Article 5 and not an attack on the United States. No additional NATO forces had been announced when this review was done.",
+      "summary": "Al Jazeera reported on November 21, 2026 that Poland's defense minister said two missiles and a jet-powered drone fell in southeastern Poland during Russia's overnight attack on Ukraine on November 20, with no injuries. Reuters reported on November 21 that NATO's Secretary General said in Warsaw that NATO will defend every inch of Polish territory. NPR reported on November 23 that NATO was set to meet that day after the war again inched onto European territory, and Polish Radio reported the North Atlantic Council would discuss the airspace violation in Brussels on Monday, November 23.",
+      "limits": "This is a Russian airspace violation of a NATO ally with no casualties, not an armed attack under Article 5 and not an attack on the United States. No additional NATO forces or meeting outcome had been announced when this review was done.",
       "source": {
         "href": "https://www.reuters.com/3fec1b0a85a0/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/",
         "label": "Reuters, Nov 21, 2026",
         "asOf": "2026-11-21"
+      }
+    },
+    {
+      "id": "sparta-ii-2026-11-21",
+      "factor": "geopolitical",
+      "title": "Russian cargo ship hit by drones in the Gulf of Finland",
+      "status": "confirmed",
+      "summary": "The BBC reported that the Russian-flagged cargo ship Sparta II, bound for Kaliningrad, was hit in a drone attack in the eastern Gulf of Finland on the morning of November 21, 2026, caught fire, and drifted into Finnish waters. Its crew was evacuated to Russia, with one minor injury. Finland's defense forces said Ukraine was likely behind the attack; Kyiv had not commented. Finland also suspected a Russian helicopter violated its airspace and informed NATO. On November 22 a Russian vessel began towing the ship, and Finland's Border Guard reported no fuel or hazardous leaks.",
+      "limits": "The attacker has not been officially established. This is a strike on a Russian vessel near NATO waters, not an attack by or on a NATO member and not an attack on the United States.",
+      "source": {
+        "href": "https://www.bbc.com/news/articles/cj752ddve27ko",
+        "label": "BBC News, Nov 22, 2026",
+        "asOf": "2026-11-22"
       }
     },
     {
@@ -796,7 +887,7 @@
   "methodology": "A person reviews this snapshot on a 5-to-1 household scale. Five is the calm end and one is the critical end. The bands match the durations used by the companion household board: several days, about two weeks, about 30 days, about 60 days, and 90 days or more. Those durations are this project's planning labels. They are not agency thresholds. Categories reviewed each time are national energy and grid conditions, supply chains, cyber disruption, weather and disasters, civil disruption, and geopolitical risks that would change U.S. household supplies. Confirmed means the cited page states the fact. Developing means the picture is incomplete, such as a scheduled data gap. Unverified means this review did not confirm it, which is not proof that it is false. Prediction markets and social-media posts are not evidence. The page is a saved assessment with a review time. It is not a live feed, and it does not show a live indicator.",
   "limitations": [
     "There is no live feed behind this page. The review time is the time a person last checked the sources.",
-    "The official petroleum figures are for the week ending November 13, 2026, from EIA's Weekly Petroleum Status Report released November 18, 2026. The next EIA report is expected the following week.",
+    "The official petroleum figures are for the week ending November 13, 2026, from EIA's Weekly Petroleum Status Report released November 18, 2026. The next EIA report is expected this week.",
     "This review did not ingest a live weather, outage, or emergency-declaration map. Local alerts are outside the national number on purpose.",
     "Unverified rows are gaps in the review. They are not findings that a category is calm.",
     "No likelihood percentages, incident timelines, or official trigger values were added where a source did not state them.",
@@ -1307,6 +1398,61 @@
       "href": "https://www.polskieradio.pl/395/7785/artykul/3755545,nato-to-discuss-russian-airspace-violations-over-poland",
       "label": "Polish Radio, Nov 21, 2026",
       "usedFor": "North Atlantic Council meeting on November 23."
+    },
+    {
+      "href": "https://www.unionleader.com/news/local-news/agne-strike-talks-resume-dec-17-after-latest-proposal-rejected-9e662d0e/",
+      "label": "New Hampshire Union Leader",
+      "usedFor": "Grocery distributor strike continues in New England."
+    },
+    {
+      "href": "https://www.cnbc.com/2026/11/23/oil-prices-fall-amid-equity-sell-off-though-iran-war-attacks-limit-losses.html",
+      "label": "CNBC and Reuters, Nov 23, 2026",
+      "usedFor": "Crude steady to lower on Monday after a 4 percent weekly drop."
+    },
+    {
+      "href": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+      "label": "CNBC, Nov 22, 2026",
+      "usedFor": "Intelligence director warns of more upgrade-related interruptions."
+    },
+    {
+      "href": "https://www.accuweather.com/en/severe-weather/st-johns-river-smashes-73-year-record-in-florida-with-flooding-that-could-last-into-2027/1961124",
+      "label": "AccuWeather, updated Nov 20, 2026",
+      "usedFor": "Record river flooding in central Florida."
+    },
+    {
+      "href": "https://www.ukmto.org/-/media/ukmto/products/20261122_ukmto_-advisory_217-26.pdf",
+      "label": "UKMTO Advisory 217-26, Nov 22, 2026",
+      "usedFor": "Tanker incident involving military forces in the Gulf of Oman."
+    },
+    {
+      "href": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+      "label": "Euronews, Nov 23, 2026",
+      "usedFor": "Iran vows every means against the U.S. blockade; Rubio to meet Qatar's prime minister."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz",
+      "label": "Al Jazeera, Nov 19, 2026",
+      "usedFor": "Iran claims five more tankers ablaze after mine strikes."
+    },
+    {
+      "href": "https://english.news.cn/20261123/8f7502634dbd497d88e97ebeddd6000f/c.html",
+      "label": "Xinhua, Nov 23, 2026",
+      "usedFor": "Houthis claim a strike on Saudi Arabia's Rabigh refinery."
+    },
+    {
+      "href": "https://www.mnd.gov.tw/en/news/plaact/88319",
+      "label": "Taiwan Ministry of National Defense, Nov 23, 2026",
+      "usedFor": "Chinese military activity near Taiwan continues at a lower level."
+    },
+    {
+      "href": "https://www.bbc.com/news/articles/cj752ddve27ko",
+      "label": "BBC News, Nov 22, 2026",
+      "usedFor": "Russian cargo ship hit by drones in the Gulf of Finland."
+    },
+    {
+      "href": "https://www.ukrinform.net/rubric-economy/4186303-russian-strikes-on-energy-infrastructure-cause-power-outages-in-five-regions.html",
+      "label": "Ukrinform, Nov 19, 2026",
+      "usedFor": "Russian strikes leave five Ukrainian regions with outages."
     }
   ],
   "links": {
