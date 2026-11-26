@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-25T11:55:00Z",
+  "reviewedAt": "2026-11-26T11:58:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,47 +12,47 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 25 was $5.7645 a gallon, down from $5.96 a week earlier and $6.35 a month earlier but still about 52 percent above $3.79 a year ago; regular gasoline fell to $3.59. Brent crude traded near $91 on Wednesday, giving back part of Tuesday's gain as surplus expectations offset new Hormuz and Houthi attacks. EIA's next weekly report is scheduled for 10:30 a.m. Eastern on November 25 and was not yet out at this review; the latest, for the week ending November 13, shows distillate stocks 5.6 percent below a year earlier. Fuel stays expensive rather than unavailable. At home, Los Angeles and Long Beach port watchmen will vote December 10 on their tentative contract, which stays extended until then, with no strike. The New Hampshire grocery distributor strike continues, with talks now reported for December 8; it is regional. A major coastal storm is forecast to bring heavy rain, high winds, and coastal flooding from the Carolinas to southern New England on Thanksgiving Day, with possible power outages and travel delays; it is serious but regional and short-lived. No multi-region outage of power, fuel, food distribution, or payments was confirmed. U.S. officials are investigating Iranian ties to as many as 50 hacked commercial vessels; the FBI and Coast Guard report no operational disruptions. The FBI's criminal records database investigation remains open with no details released. Overseas risk stays high. UKMTO confirmed three vessels were struck by unknown projectiles in the Strait of Hormuz on November 23, with all crew accounted for. The Houthis claimed an attack on Saudi Arabia's Ras Tanura refinery on November 25; Saudi Arabia said it intercepted four drones there with no casualties reported. Prediction markets put a U.S.-Iran ceasefire by December 31 at about 88 percent, but Iran still says no talks until its conditions are met. Threats and military readiness are not an ordered attack. A Russian drone briefly entered Polish airspace after last week's missile incursions; Poland has not invoked Article 4. The U.S. is preparing to announce new Section 301 tariffs on at least 14 trading partners, which could raise some import prices but is not a supply cut. Chinese activity near Taiwan eased to 1 aircraft sortie and 9 ships. The Hurricane Center expects no tropical formation in 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. AAA's national average diesel price on November 26 was $5.7246 a gallon, down from $5.93 a week earlier and $6.35 a month earlier but still about 52 percent above $3.78 a year ago; regular gasoline fell to $3.56. EIA's weekly report for the week ending November 20 shows distillate stocks up 0.7 million barrels to 105.6 million, 5.9 percent below a year earlier, and the Strategic Petroleum Reserve down another 2.9 million barrels to 273.5 million. Brent rose 3.5 percent on Wednesday to near $95 after the Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery and Iran claimed more tankers hit mines in the Strait of Hormuz, then eased toward $90 in European trading on Thursday. Fuel stays expensive rather than unavailable. At home, storms on both coasts are disrupting Thanksgiving travel. A nor'easter is bringing high winds, heavy rain, and coastal flooding up the East Coast; New York's Macy's parade was postponed to Saturday for the first time, and the storm is expected to clear by Saturday. Record king tides flooded parts of the California coast. An outage tracker showed about 345,000 customers without power nationally early Thursday, about 0.2 percent of those tracked, mostly in Missouri from snow and in Virginia and North Carolina from the nor'easter. These are serious but regional and short-lived. No multi-region outage of power, fuel, food distribution, or payments was confirmed. FinCEN, the Treasury's financial crimes unit, took some systems offline after unauthorized access; its filing site stays up and no payment disruption was reported. Puerto Rico's Supreme Court voided the grid operator's contract extension and ordered a one-year supervised transition; it is not an outage. Overseas risk stays high. UKMTO reported an explosion near a tanker 50 nautical miles west of Dubai on November 25, with no damage, and confirmed three vessels struck in the Strait of Hormuz earlier this week. Iran's claims of new mine strikes are not independently confirmed. Prediction markets put a U.S.-Iran ceasefire by December 31 at about 86 percent, but Iran still says no talks until its conditions are met. Threats and military readiness are not an ordered attack. The U.S. announced proposed Section 301 tariffs on 14 trading partners, up to 40 percent on China; they are not expected to take effect until next year and are not a supply cut. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
     {
-      "id": "eia-distillate-2026-11-13",
+      "id": "eia-distillate-2026-11-20",
       "factor": "energy",
       "title": "U.S. distillate fuel oil stocks",
       "status": "confirmed",
-      "summary": "EIA Weekly Petroleum Status Report Table 6 lists distillate fuel oil stocks at 104.9 million barrels for the week ending November 13, 2026, up 1.6 million from 103.3 million the prior week. The year-earlier figure is 111.1 million, so stocks are 5.6 percent below a year ago, compared with 6.8 percent below in the previous report.",
-      "limits": "This is a national stock figure for diesel and heating oil at refineries, in pipelines, and at bulk terminals. It is not a count of fuel at neighborhood stations, and it is not an outage report. East Coast (PADD 1) distillate stocks were 24.4 million barrels, up from 23.8, but still 7.8 percent below a year earlier. Gulf Coast (PADD 3) stocks were 42.8 million, down from 43.2.",
+      "summary": "EIA Weekly Petroleum Status Report Table 6 lists distillate fuel oil stocks at 105.6 million barrels for the week ending November 20, 2026, up 0.7 million from 104.9 million the prior week. The year-earlier figure is 112.2 million, so stocks are 5.9 percent below a year ago.",
+      "limits": "This is a national stock figure for diesel and heating oil at refineries, in pipelines, and at bulk terminals. It is not a count of fuel at neighborhood stations, and it is not an outage report. East Coast (PADD 1) distillate stocks were 24.2 million barrels, down from 24.4 and 13.2 percent below a year earlier; Lower Atlantic (PADD 1C) stocks were 25.5 percent below a year earlier. Gulf Coast (PADD 3) stocks rose to 43.9 million from 42.8.",
       "source": {
         "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf",
         "label": "EIA Weekly Petroleum Status Report, Table 6",
-        "asOf": "2026-11-13"
+        "asOf": "2026-11-20"
       }
     },
     {
-      "id": "eia-spr-2026-11-13",
+      "id": "eia-spr-2026-11-20",
       "factor": "energy",
       "title": "Strategic Petroleum Reserve crude",
       "status": "confirmed",
-      "summary": "EIA Weekly Petroleum Status Report Table 1 lists Strategic Petroleum Reserve crude at 276.4 million barrels for the week ending November 13, 2026, down 3.2 million from 279.5 million the prior week. The year-earlier figure on that table is 410.9 million barrels, 32.7 percent higher.",
+      "summary": "EIA Weekly Petroleum Status Report Table 1 lists Strategic Petroleum Reserve crude at 273.5 million barrels for the week ending November 20, 2026, down 2.9 million from 276.4 million the prior week. The year-earlier figure on that table is 411.4 million barrels.",
       "limits": "A smaller strategic crude stock is context for the national fuel buffer. It is not, by itself, a household supply emergency, and this page does not turn it into a price forecast.",
       "source": {
         "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
         "label": "EIA Weekly Petroleum Status Report, Table 1",
-        "asOf": "2026-11-13"
+        "asOf": "2026-11-20"
       }
     },
     {
-      "id": "aaa-diesel-2026-11-25",
+      "id": "aaa-diesel-2026-11-26",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 25, 2026 lists diesel at $5.7645 a gallon, compared with $5.7982 the day before, $5.9594 a week earlier, $6.3474 a month earlier, and $3.7854 a year earlier. Regular gasoline is listed at $3.5866, down from $3.6149 the day before, $3.7502 a week earlier, and $4.2892 a month earlier, against $3.0549 a year earlier.",
-      "limits": "A retail price average shows cost pressure, not whether fuel is physically available at stations. Diesel is still about 52 percent above its year-ago price and below its record of $6.5276 set on September 22, 2026.",
+      "summary": "AAA's national average table on November 26, 2026 lists diesel at $5.7246 a gallon, compared with $5.7645 the day before, $5.9298 a week earlier, $6.3492 a month earlier, and $3.7778 a year earlier. Regular gasoline is listed at $3.5554, down from $3.5866 the day before, $3.7212 a week earlier, and $4.2858 a month earlier, compared with $3.0416 a year earlier.",
+      "limits": "These are national averages of retail prices. They show cost pressure, not station outages, and local prices vary.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-25"
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -160,12 +160,51 @@
       }
     },
     {
+      "id": "oil-2026-11-26",
+      "factor": "energy",
+      "title": "Crude rises after Houthi refinery claim and Iranian mine claims",
+      "status": "confirmed",
+      "summary": "CNBC, citing Reuters, reported early on November 26, 2026 that Brent crude was at $94.71 a barrel and WTI at $84.03 after Brent settled 3.5 percent higher on Wednesday, when Yemen's Houthis said they hit Saudi Arabia's Ras Tanura refinery and Iranian state media said at least two ships hit mines in the Strait of Hormuz. It also reported that U.S. crude stocks rose 1.1 million barrels to 418.9 million in the week ending November 20, and that OPEC+ ministers meet on November 29.",
+      "limits": "Investing.com reported Brent back near $90 by 5:00 a.m. Eastern on Thursday. Price moves show risk, not a U.S. supply cut. Iran's mine claims are not independently confirmed.",
+      "source": {
+        "href": "https://www.cnbc.com/2026/11/26/oil-wti-brent-hormuz-iran-saudi-arabia.html",
+        "label": "CNBC, Nov 26, 2026",
+        "asOf": "2026-11-26"
+      }
+    },
+    {
       "id": "grid-not-in-review",
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office, and did not find a new multi-region U.S. power outage reported on November 24 or 25, 2026. NOAA warns that a Thanksgiving Day coastal storm with high winds could affect the East Coast, and local outages are possible there; that is a regional weather risk, not a grid emergency. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. Storm outages early on November 26, 2026 are listed separately; they are regional. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
+    },
+    {
+      "id": "storm-outages-2026-11-26",
+      "factor": "grid",
+      "title": "Storm-related power outages in Missouri, Virginia, and North Carolina",
+      "status": "confirmed",
+      "summary": "The Outage Pro tracker showed 344,506 of about 158 million tracked U.S. electric customers, 0.22 percent, without power at 6:44 a.m. Eastern on November 26, 2026. Missouri had 125,214 out, mostly Ameren customers after snow; Virginia had 120,569 and North Carolina 44,163 as the nor'easter moved through.",
+      "limits": "Outage counts are snapshots that change through the day, and trackers differ. This is a regional storm impact, not a grid emergency.",
+      "source": {
+        "href": "https://outage-pro.com/",
+        "label": "Outage Pro, U.S. power outage summary",
+        "asOf": "2026-11-26"
+      }
+    },
+    {
+      "id": "puerto-rico-luma-2026-11-25",
+      "factor": "grid",
+      "title": "Puerto Rico court lets the governor end the grid operator's contract",
+      "status": "confirmed",
+      "summary": "NPR reported on November 26, 2026 that Puerto Rico's Supreme Court nullified LUMA Energy's contract to run the island's electric grid, giving the government a year to find a new operator. The 5-4 ruling was made public on November 25.",
+      "limits": "This is a contract and governance change with a supervised one-year transition, not an outage. Puerto Rico's grid already has frequent outages.",
+      "source": {
+        "href": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+        "label": "NPR, Nov 26, 2026",
+        "asOf": "2026-11-26"
+      }
     },
     {
       "id": "blackout-rumor-2026-11-17",
@@ -271,6 +310,19 @@
       }
     },
     {
+      "id": "fincen-intrusion-2026-11-25",
+      "factor": "cyber",
+      "title": "Treasury's FinCEN takes some systems offline after unauthorized access",
+      "status": "developing",
+      "summary": "CyberScoop reported on November 25, 2026 that the Treasury's Financial Crimes Enforcement Network is investigating a cybersecurity incident in which an unauthorized party accessed a limited subset of its systems, and took some systems offline as a precaution. Its Bank Secrecy Act e-filing site remains operational, deadlines are being extended, and the FBI and CISA are working to determine scope.",
+      "limits": "This affects financial-crime reporting, not consumer payments or bank access. Who was behind it and what was taken are not public.",
+      "source": {
+        "href": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/",
+        "label": "CyberScoop, Nov 25, 2026",
+        "asOf": "2026-11-25"
+      }
+    },
+    {
       "id": "vessel-hacks-2026-11-24",
       "factor": "cyber",
       "title": "U.S. investigates Iranian ties to as many as 50 hacked commercial vessels",
@@ -288,7 +340,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 24 or 25, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. Reported intrusions at the FBI's criminal records database and a USDA farmer-payment system and a reported compromise of as many as 50 commercial vessels are listed separately, as are two single-site incidents: ransomware on a Virginia sanitation district's business systems and an apparent cyberattack on an Illinois dam that staff contained. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 25 or 26, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. A FinCEN intrusion, reported intrusions at the FBI's criminal records database and a USDA farmer-payment system, and a reported compromise of as many as 50 commercial vessels are listed separately, as are two single-site incidents. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -330,14 +382,14 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Thanksgiving coastal storm in the East, West Coast coastal flooding, freeze and winter storm warnings",
+      "title": "Thanksgiving storms on both coasts and Midwest snow",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts with severe or extreme severity early on November 25, 2026 found 164: 47 coastal flood warnings from the North Carolina Outer Banks through Virginia, Maryland, Delaware, New Jersey, New York City, Long Island, and Connecticut, and on the Washington and Southern California coasts; 36 storm warnings over coastal waters; 22 high wind warnings, including New York City; 9 flood warnings and 8 flood watches, including South Florida; and freeze, winter storm, and special marine warnings. NOAA's Weather Prediction Center said on November 24 that a potent Thanksgiving Day storm will bring heavy rain, high winds, and flooding from the Ohio Valley to the Eastern Seaboard, with coastal flooding from the Carolinas to southern New England, and that a Pacific system brings rain, mountain snow, and coastal flooding in the West.",
-      "limits": "These are regional hazards. The storm can cause local power outages and travel delays over the holiday, but this review found no confirmed multi-region supply disruption. Local NWS alerts take priority over this page.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. NPR reported on November 26, 2026 that a multi-hazard nor'easter is spreading wind, heavy rain, and coastal flooding up the East Coast, that snow was forecast in parts of the Midwest, and that hundreds of flights had been cancelled or delayed by early Thursday. Local reports describe a National Weather Service high wind warning for New York City and northeast New Jersey from 10 a.m. Thursday to 1 a.m. Friday with gusts up to 65 mph, and a winter storm warning around St. Louis.",
+      "limits": "These are regional hazards. Local NWS alerts take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-25"
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -351,6 +403,32 @@
         "href": "https://www.noaa.gov/news/thanksgiving-week-weather-potent-coastal-storms-rain-and-snow-to-impact-travel",
         "label": "NOAA, Nov 24, 2026",
         "asOf": "2026-11-24"
+      }
+    },
+    {
+      "id": "storms-both-coasts-2026-11-26",
+      "factor": "weather",
+      "title": "Storms on both coasts disrupt Thanksgiving travel; Macy's parade postponed",
+      "status": "confirmed",
+      "summary": "NPR reported on November 26, 2026 that powerful storms are disrupting travel for an estimated 81.5 million Thanksgiving travelers. On the East Coast a storm moving from the Southeast into New England brings strong winds, heavy rain, and coastal flooding, and is expected to mostly clear by Saturday. New York's mayor postponed the Macy's Thanksgiving Day Parade to Saturday, November 28, citing sustained winds of 30 to 40 mph and gusts up to 65 mph; Philadelphia grounded its parade balloons. On the West Coast, high tides flooded streets and damaged Pacifica Pier, prompting evacuation warnings.",
+      "limits": "Travel disruption and local flooding are serious where they happen, but they are regional and expected to be short-lived. They are not a national supply disruption.",
+      "source": {
+        "href": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+        "label": "NPR, Nov 26, 2026",
+        "asOf": "2026-11-26"
+      }
+    },
+    {
+      "id": "california-king-tides-2026-11-26",
+      "factor": "weather",
+      "title": "Record king tides flood parts of the California coast",
+      "status": "confirmed",
+      "summary": "BBC News reported on November 26, 2026 that the National Weather Service warned of major coastal flooding in parts of California as king tides peak over Thanksgiving, with flooding already reported in the San Francisco Bay Area, a preliminary record tide in San Diego, and recent records also broken in Santa Barbara and La Jolla. Part of a northern California pier collapsed.",
+      "limits": "Coastal flooding is local to low-lying shoreline areas. It is not a statewide or national supply disruption.",
+      "source": {
+        "href": "https://www.bbc.co.uk/news/articles/ckn806qq760po",
+        "label": "BBC News, Nov 26, 2026",
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -384,12 +462,12 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 25, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 4.5 percent yes on November 25, down from about 5.5 percent the day before. Public worry and conspiracy theories about the recent tech outages are not, by themselves, civil unrest.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 26, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 3.25 percent yes on November 26, down from about 4.5 percent the day before.",
       "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
         "href": "https://polymarket.com/event/insurrection-act-invoked-by",
         "label": "Polymarket, Insurrection Act invoked by December 31",
-        "asOf": "2026-11-25"
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -509,6 +587,32 @@
       }
     },
     {
+      "id": "ukmto-222-2026-11-25",
+      "factor": "geopolitical",
+      "title": "Explosion near a tanker west of Dubai",
+      "status": "confirmed",
+      "summary": "UKMTO warning 222-26 says the master of a tanker reported an explosion caused by an unknown projectile in close proximity to the tanker 50 nautical miles west of Dubai at 2130 UTC on November 25, 2026. The crew are safe, with no damage or environmental impact reported.",
+      "limits": "UKMTO classifies this as suspicious activity. It is not a U.S. supply disruption.",
+      "source": {
+        "href": "https://www.ukmto.org/-/media/ukmto/products/20261125-ukmto_warning-222-26.pdf",
+        "label": "UKMTO Warning 222-26",
+        "asOf": "2026-11-25"
+      }
+    },
+    {
+      "id": "iran-mine-claims-2026-11-25",
+      "factor": "geopolitical",
+      "title": "Iran claims more tankers and an LNG carrier hit mines in the Strait of Hormuz",
+      "status": "unverified",
+      "summary": "International Business Times reported on November 26, 2026 that Iran's Revolutionary Guards navy said two oil tankers struck mines and caught fire in the strait on November 25 after using routes it called unauthorized, and later claimed an LNG carrier was hit. Iran also claimed it shot down two U.S. drones. The President wrote that the U.S. Navy had removed or detonated all mines in the strait's international waters.",
+      "limits": "These claims have not been independently confirmed, and Iranian accounts conflict. Claims and rhetoric are not an ordered attack.",
+      "source": {
+        "href": "https://www.ibtimes.com.au/iran-reports-tankers-hit-mines-strait-hormuz-1879433",
+        "label": "International Business Times, Nov 26, 2026",
+        "asOf": "2026-11-26"
+      }
+    },
+    {
       "id": "hormuz-closure-order-2026-11-23",
       "factor": "geopolitical",
       "title": "Iran orders Hormuz closed further; IRGC claims three tankers hit mines",
@@ -552,7 +656,7 @@
       "factor": "geopolitical",
       "title": "Qatar presses to revive U.S.-Iran talks; Iran says no talks until its conditions are met",
       "status": "confirmed",
-      "summary": "The State Department said Secretary Rubio met Qatar's prime minister in Washington on November 23, 2026 to launch the eighth U.S.-Qatar Strategic Dialogue and thanked Qatar for its mediation. Euronews reported the prime minister also met the Vice President and said the region cannot bear renewed escalation. The Associated Press reported on November 24 that Iran's parliament speaker and chief negotiator said Tehran would not negotiate until Iran's seven conditions are met, which Iranian state media say include lifting sanctions and ending the U.S. naval blockade. On November 23 Iran's foreign ministry said it would use all available means to counter the blockade. On November 25, Polymarket markets on an effective U.S.-Iran ceasefire were trading at about 88.5 percent yes by December 31 and about 74.5 percent by November 30. Al Jazeera reported on November 25 that Iran has begun rationing electricity as winter demand rises and natural gas runs short under U.S. sanctions and a blockade.",
+      "summary": "The State Department said Secretary Rubio met Qatar's prime minister in Washington on November 23, 2026 to launch the eighth U.S.-Qatar Strategic Dialogue and thanked Qatar for its mediation. Euronews reported the prime minister also met the Vice President and said the region cannot bear renewed escalation. The Associated Press reported on November 24 that Iran's parliament speaker and chief negotiator said Tehran would not negotiate until Iran's seven conditions are met, which Iranian state media say include lifting sanctions and ending the U.S. naval blockade. On November 23 Iran's foreign ministry said it would use all available means to counter the blockade. On November 26, Polymarket markets on an effective U.S.-Iran ceasefire were trading at about 86 percent yes by December 31 and about 74.5 percent by November 30, and a final U.S.-Iran nuclear deal by December 31 at about 3 percent. Al Jazeera reported on November 25 that Iran has begun rationing electricity as winter demand rises and natural gas runs short under U.S. sanctions and a blockade.",
       "limits": "Threats, rhetoric, and military readiness are not an ordered attack, and none of this is a U.S. supply disruption. A betting market price is not a forecast by this project.",
       "source": {
         "href": "https://apnews.com/article/mideast-iran-gaza-israel-houthis-libya-november-24-2026-ba01cb036a849ba69873da5000ee08d5",
@@ -856,16 +960,16 @@
       }
     },
     {
-      "id": "tariffs-2026-11-25",
+      "id": "tariffs-2026-11-26",
       "factor": "supply-chain",
-      "title": "U.S. prepares new Section 301 tariffs on at least 14 trading partners",
-      "status": "developing",
-      "summary": "BBC News reported on November 25, 2026 that the U.S. is preparing to announce plans for new tariffs on several countries as early as that day, hitting at least 14 jurisdictions including China, the European Union, and Japan, following a Section 301 investigation launched after the Supreme Court struck down the earlier tariffs. Rates would vary depending on previous deals. The BBC also reported that China extended its suspension of a ban on exports of gallium, germanium, and antimony until January 27.",
-      "limits": "The plan had not been formally announced when this review was done, and rates, products, and start dates were not public. Tariffs can raise some import prices; they are not a supply cut.",
+      "title": "U.S. announces proposed Section 301 tariffs on 14 trading partners",
+      "status": "confirmed",
+      "summary": "BBC News reported that the U.S. Trade Representative announced proposed new tariffs on China, the European Union, and 12 other jurisdictions including Japan, South Korea, Taiwan, Vietnam, and India, with China facing up to 40 percent and Vietnam up to 35 percent. The duties are not expected to take effect until next year and must go through public consultation. A Capital Economics economist said they largely replace earlier tariffs and add only a marginal boost to prices.",
+      "limits": "Proposed tariffs can raise some import prices later; they are not a supply cut. Rates may be capped by earlier deals.",
       "source": {
         "href": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
-        "label": "BBC News, Nov 25, 2026",
-        "asOf": "2026-11-25"
+        "label": "BBC News, Nov 25, 2026 (updated Nov 26)",
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -1040,7 +1144,7 @@
     {
       "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table6.pdf",
       "label": "EIA WPSR Table 6, distillate stocks",
-      "usedFor": "Confirmed distillate inventory figures for the week ending November 13, 2026."
+      "usedFor": "Confirmed distillate inventory figures for the week ending November 20, 2026."
     },
     {
       "href": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
