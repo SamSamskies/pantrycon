@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-26T11:58:00Z",
+  "reviewedAt": "2026-11-27T11:50:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. AAA's national average diesel price on November 26 was $5.7246 a gallon, down from $5.93 a week earlier and $6.35 a month earlier but still about 52 percent above $3.78 a year ago; regular gasoline fell to $3.56. EIA's weekly report for the week ending November 20 shows distillate stocks up 0.7 million barrels to 105.6 million, 5.9 percent below a year earlier, and the Strategic Petroleum Reserve down another 2.9 million barrels to 273.5 million. Brent rose 3.5 percent on Wednesday to near $95 after the Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery and Iran claimed more tankers hit mines in the Strait of Hormuz, then eased toward $90 in European trading on Thursday. Fuel stays expensive rather than unavailable. At home, storms on both coasts are disrupting Thanksgiving travel. A nor'easter is bringing high winds, heavy rain, and coastal flooding up the East Coast; New York's Macy's parade was postponed to Saturday for the first time, and the storm is expected to clear by Saturday. Record king tides flooded parts of the California coast. An outage tracker showed about 345,000 customers without power nationally early Thursday, about 0.2 percent of those tracked, mostly in Missouri from snow and in Virginia and North Carolina from the nor'easter. These are serious but regional and short-lived. No multi-region outage of power, fuel, food distribution, or payments was confirmed. FinCEN, the Treasury's financial crimes unit, took some systems offline after unauthorized access; its filing site stays up and no payment disruption was reported. Puerto Rico's Supreme Court voided the grid operator's contract extension and ordered a one-year supervised transition; it is not an outage. Overseas risk stays high. UKMTO reported an explosion near a tanker 50 nautical miles west of Dubai on November 25, with no damage, and confirmed three vessels struck in the Strait of Hormuz earlier this week. Iran's claims of new mine strikes are not independently confirmed. Prediction markets put a U.S.-Iran ceasefire by December 31 at about 86 percent, but Iran still says no talks until its conditions are met. Threats and military readiness are not an ordered attack. The U.S. announced proposed Section 301 tariffs on 14 trading partners, up to 40 percent on China; they are not expected to take effect until next year and are not a supply cut. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds. The Thanksgiving storm was the biggest domestic disruption of the week. Outages peaked near 1 million homes on Thursday evening across Pennsylvania, Virginia, Maryland, and New Jersey, and more than 700,000 customers were still without power early Friday. WSSC Water asked its 1.9 million customers in two Maryland counties to use water for essential needs only because storm-related power interruptions were affecting its filtration plants; the water stayed safe to drink. More than 2,500 U.S. flights were delayed and more than 450 cancelled on Thursday. Parts of the East, including New York, are under states of emergency, and the President said he would consider releasing emergency funds. Conditions are expected to improve. This is serious and regional, but it is not a multi-region breakdown of power, fuel, food distribution, or payments. Fuel stays expensive rather than unavailable. AAA's national average diesel price on November 27 was $5.7048 a gallon, down from $5.90 a week earlier and $6.35 a month earlier but still about 51 percent above a year ago. Brent rose nearly $2 on Thursday to its highest settle since November 6 and traded near $96 early Friday. A projectile hit Saudi Aramco's Jazan refinery, killing a worker and halting some operations; the Houthis had claimed attacks on Ras Tanura the day before. UKMTO confirmed another tanker struck in the Strait of Hormuz on November 25. Two Italian technicians were killed in a strike on a facility in Kuwait that Kuwait and Italy blame on Iran; Iran denies it. The President said the U.S. sent an extra aircraft carrier and named a target if strikes resume, while Qatar and Pakistan keep relaying proposals. Threats and military buildup are not an ordered attack. Prediction markets still put a U.S.-Iran ceasefire by December 31 at about 85.5 percent. On cyber, Reuters reported a breach of the Air Force's Cloud One platform, adding to recent federal intrusions; none has disrupted household utilities or payments. The news agency AFP took a content platform offline after a cyberattack in France. The National Hurricane Center expects no tropical formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-26",
+      "id": "aaa-diesel-2026-11-27",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table on November 26, 2026 lists diesel at $5.7246 a gallon, compared with $5.7645 the day before, $5.9298 a week earlier, $6.3492 a month earlier, and $3.7778 a year earlier. Regular gasoline is listed at $3.5554, down from $3.5866 the day before, $3.7212 a week earlier, and $4.2858 a month earlier, compared with $3.0416 a year earlier.",
+      "summary": "AAA's national average table, marked price as of November 27, 2026, lists diesel at $5.7048 a gallon, compared with $5.7246 the day before, $5.8982 a week earlier, $6.3521 a month earlier, and $3.7690 a year earlier. Regular gasoline is listed at $3.5476, down from $3.5554 the day before, $3.6898 a week earlier, and $4.2661 a month earlier, compared with $3.0255 a year earlier.",
       "limits": "These are national averages of retail prices. They show cost pressure, not station outages, and local prices vary.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-26"
+        "asOf": "2026-11-27"
       }
     },
     {
@@ -173,23 +173,49 @@
       }
     },
     {
+      "id": "oil-2026-11-27",
+      "factor": "energy",
+      "title": "Brent near its November high after attacks on Gulf tankers and a Saudi refinery",
+      "status": "confirmed",
+      "summary": "CNBC, citing Reuters, reported early on November 27, 2026 that Brent crude futures were at $96.19 a barrel at 0140 GMT, after gaining nearly $2 on Thursday to settle at their highest since November 6, and WTI was at $85.41 with no Thursday settlement because of the holiday. It reported that OPEC+ is likely to keep its output targets for at least the first quarter of 2027 at a meeting on Sunday, that Ukrainian drone attacks on Russian refineries are tightening global diesel supply, and that an incident halted production at Brazil's Bacalhau oilfield for an estimated five to eight weeks.",
+      "limits": "Quoted prices vary by contract and time of day; some price aggregators showed Brent near $92 later on Friday. Price moves show risk, not a U.S. supply cut.",
+      "source": {
+        "href": "https://www.cnbc.com/2026/11/27/brent-oil-wti-hormuz-middle-east.html",
+        "label": "CNBC, Nov 27, 2026",
+        "asOf": "2026-11-27"
+      }
+    },
+    {
       "id": "grid-not-in-review",
       "factor": "grid",
       "title": "Nationwide grid emergency",
       "status": "unverified",
-      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. Storm outages early on November 26, 2026 are listed separately; they are regional. The level is not based on a live outage map.",
+      "summary": "This review did not confirm an active nationwide electricity emergency from a grid operator or a federal energy office. Thanksgiving storm outages in the East, listed separately, are large but regional. The level is not based on a live outage map.",
       "limits": "A gap in this snapshot is not an all-clear. Local outages can be serious while the national planning level stays at 4."
     },
     {
-      "id": "storm-outages-2026-11-26",
+      "id": "storm-outages-2026-11-27",
       "factor": "grid",
-      "title": "Storm-related power outages in Missouri, Virginia, and North Carolina",
+      "title": "Hundreds of thousands still without power after the Thanksgiving storm",
       "status": "confirmed",
-      "summary": "The Outage Pro tracker showed 344,506 of about 158 million tracked U.S. electric customers, 0.22 percent, without power at 6:44 a.m. Eastern on November 26, 2026. Missouri had 125,214 out, mostly Ameren customers after snow; Virginia had 120,569 and North Carolina 44,163 as the nor'easter moved through.",
-      "limits": "Outage counts are snapshots that change through the day, and trackers differ. This is a regional storm impact, not a grid emergency.",
+      "summary": "BBC News reported on November 27, 2026 that outages peaked at close to 1 million homes on Thursday evening, with Pennsylvania, Virginia, Maryland, and New Jersey badly affected, and that Pennsylvania remained the worst-hit state early Friday according to PowerOutage.us. The Washington Post reported that more than 700,000 customers remained without power, mainly across the East Coast, early Friday as the storm brought wet snow and freezing rain to parts of the region. FlightAware counted more than 2,500 U.S. flights delayed and more than 450 cancelled on Thursday. Parts of the East, including New York, are under states of emergency, and the President said he would consider releasing emergency funds.",
+      "limits": "Outage counts are snapshots that change through the day, and trackers differ. This is a regional storm impact being restored by utilities, not a grid emergency.",
       "source": {
-        "href": "https://outage-pro.com/",
-        "label": "Outage Pro, U.S. power outage summary",
+        "href": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo",
+        "label": "BBC News, Nov 27, 2026",
+        "asOf": "2026-11-27"
+      }
+    },
+    {
+      "id": "wssc-water-2026-11-26",
+      "factor": "grid",
+      "title": "Maryland water utility asks 1.9 million customers to use water for essentials only",
+      "status": "confirmed",
+      "summary": "WSSC Water said at 6 p.m. on November 26, 2026 that its Essential Water Use Only request remained in effect for all 1.9 million customers in Montgomery and Prince George's counties because of storm-related intermittent power disruptions at its Potomac and Patuxent water filtration plants. Both plants had power and were producing drinking water, the water was safe, and no boil notice was needed; the request was to preserve storage and fire protection.",
+      "limits": "This is one regional utility acting out of caution. It shows how power cuts can reach water service, but it is not a national water disruption.",
+      "source": {
+        "href": "https://www.wsscwater.com/news/2026/november/update-600-pm-thursday-november-26-2026-out-abundance-caution-essential-water",
+        "label": "WSSC Water, Nov 26, 2026",
         "asOf": "2026-11-26"
       }
     },
@@ -323,6 +349,32 @@
       }
     },
     {
+      "id": "air-force-cloud-one-2026-11-27",
+      "factor": "cyber",
+      "title": "Reuters reports hackers breached the Air Force's Cloud One platform",
+      "status": "developing",
+      "summary": "Reuters reported on November 27, 2026, citing three people familiar with the matter, that hackers breached the U.S. Air Force's Cloud One computing platform, discovered within roughly the past month during upgrade work. Sources said migrations to the platform were paused, application updates were blocked, and Cyber Command was called in. The Air Force said it does not comment on the status of specific networks. Reuters said the government is dealing with at least six other recently disclosed cyber incidents.",
+      "limits": "The intruders, scope, and any data theft were not established. This is a military IT incident, not a disruption of household utilities, fuel, food, or payments.",
+      "source": {
+        "href": "https://www.investing.com/news/stock-market-news/exclusivehackers-breach-us-air-force-flagship-cloud-one-computing-platform-5053314",
+        "label": "Reuters via Investing.com, Nov 27, 2026",
+        "asOf": "2026-11-27"
+      }
+    },
+    {
+      "id": "afp-cyber-2026-11-27",
+      "factor": "cyber",
+      "title": "News agency AFP takes a content platform offline after a cyberattack",
+      "status": "confirmed",
+      "summary": "Al Jazeera, with AFP, reported on November 27, 2026 that AFP management said the agency was hit by a cyberattack starting at 1:30 a.m. Paris time on its AFP Forum client platform, which was taken offline until further notice. France's cybersecurity chief said the country faces an unprecedented level of threat, and FIFA confirmed a separate cyberattack.",
+      "limits": "This is a foreign media and business incident. It does not affect U.S. household supply.",
+      "source": {
+        "href": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+        "label": "Al Jazeera and AFP, Nov 27, 2026",
+        "asOf": "2026-11-27"
+      }
+    },
+    {
       "id": "vessel-hacks-2026-11-24",
       "factor": "cyber",
       "title": "U.S. investigates Iranian ties to as many as 50 hacked commercial vessels",
@@ -340,7 +392,7 @@
       "factor": "cyber",
       "title": "Nationwide cyber disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 25 or 26, 2026. Federal intelligence officials say the recent Microsoft, FAA, bank, and NSA outages were not cyberattacks. A FinCEN intrusion, reported intrusions at the FBI's criminal records database and a USDA farmer-payment system, and a reported compromise of as many as 50 commercial vessels are listed separately, as are two single-site incidents. Social-media claims were not used.",
+      "summary": "This review did not confirm a nationwide cyber disruption of U.S. utilities, pipelines, grocery cold chains, or payment systems on November 26 or 27, 2026. Federal intelligence officials say the earlier Microsoft, FAA, bank, and NSA outages were not cyberattacks. A reported breach of the Air Force's Cloud One platform, a FinCEN intrusion, reported intrusions at the FBI's criminal records database and a USDA farmer-payment system, and a reported compromise of as many as 50 commercial vessels are listed separately, as are single-site incidents. Social-media claims were not used.",
       "limits": "A later confirmation from an operator or from CISA could raise the level. Absence from this page is not a finding that nothing happened."
     },
     {
@@ -382,14 +434,14 @@
     {
       "id": "weather-not-a-feed",
       "factor": "weather",
-      "title": "Thanksgiving storms on both coasts and Midwest snow",
+      "title": "Thanksgiving storm aftermath and regional alerts",
       "status": "unverified",
-      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. NPR reported on November 26, 2026 that a multi-hazard nor'easter is spreading wind, heavy rain, and coastal flooding up the East Coast, that snow was forecast in parts of the Midwest, and that hundreds of flights had been cancelled or delayed by early Thursday. Local reports describe a National Weather Service high wind warning for New York City and northeast New Jersey from 10 a.m. Thursday to 1 a.m. Friday with gusts up to 65 mph, and a winter storm warning around St. Louis.",
+      "summary": "This snapshot is not connected to a live National Weather Service or FEMA feed. A check of active NWS alerts at about 6:50 a.m. Eastern on November 27, 2026 found 88 severe or extreme alerts, mostly coastal flood, flood, high wind, winter storm, and Alaska freezing spray warnings, spread across several regions including Maryland, Virginia, North Carolina, Florida, and the Rockies. The BBC reported that conditions in the East are forecast to improve, though recovery will take time.",
       "limits": "These are regional hazards. Local NWS alerts take priority over this page.",
       "source": {
         "href": "https://api.weather.gov/alerts/active",
         "label": "National Weather Service active alerts",
-        "asOf": "2026-11-26"
+        "asOf": "2026-11-27"
       }
     },
     {
@@ -445,16 +497,16 @@
       }
     },
     {
-      "id": "nhc-outlook-2026-11-25",
+      "id": "nhc-outlook-2026-11-27",
       "factor": "weather",
       "title": "No Atlantic tropical formation expected in the next 7 days",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 25, 2026 says tropical cyclone formation is not expected during the next 7 days in the North Atlantic, the Caribbean Sea, and the Gulf.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 27, 2026 says tropical cyclone formation is not expected during the next 7 days in the North Atlantic, the Caribbean Sea, and the Gulf.",
       "limits": "An outlook is not a forecast track. It does not cover winter storms, coastal flooding, inland flooding, or wildfire, and local NWS alerts take priority.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-25"
+        "asOf": "2026-11-27"
       }
     },
     {
@@ -462,12 +514,12 @@
       "factor": "civil",
       "title": "Nationwide civil disruption",
       "status": "unverified",
-      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 26, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 3.25 percent yes on November 26, down from about 4.5 percent the day before.",
+      "summary": "This review did not confirm a nationwide civil disruption that is stopping household resupply, and found no report that the Insurrection Act had been invoked as of November 27, 2026. A Polymarket prediction market on whether the act is invoked by December 31, 2026 was trading at about 3.4 percent yes on November 27, little changed from about 3.25 percent the day before.",
       "limits": "A betting market price is not a forecast by this project or an official assessment. Civil conditions can change quickly in one place. Local official instructions come first.",
       "source": {
         "href": "https://polymarket.com/event/insurrection-act-invoked-by",
         "label": "Polymarket, Insurrection Act invoked by December 31",
-        "asOf": "2026-11-26"
+        "asOf": "2026-11-27"
       }
     },
     {
@@ -600,6 +652,19 @@
       }
     },
     {
+      "id": "ukmto-223-2026-11-25",
+      "factor": "geopolitical",
+      "title": "Outbound tanker struck by a projectile in the Strait of Hormuz",
+      "status": "confirmed",
+      "summary": "The Peninsula reported on November 26, 2026 that UKMTO said an outbound tanker was struck by an unidentified projectile while transiting the Strait of Hormuz on November 25, about 18 nautical miles east of Khasab, Oman. The crew were safe and accounted for, with no environmental impact reported, and UKMTO advised vessels to transit with caution.",
+      "limits": "This is a shipping attack abroad that adds oil price risk. It is not a U.S. supply disruption.",
+      "source": {
+        "href": "https://thepeninsulaqatar.com/article/26/11/2026/ukmto-reports-tanker-struck-by-unknown-projectile-near-oman",
+        "label": "The Peninsula, Nov 26, 2026",
+        "asOf": "2026-11-26"
+      }
+    },
+    {
       "id": "iran-mine-claims-2026-11-25",
       "factor": "geopolitical",
       "title": "Iran claims more tankers and an LNG carrier hit mines in the Strait of Hormuz",
@@ -665,6 +730,19 @@
       }
     },
     {
+      "id": "us-carrier-iran-2026-11-26",
+      "factor": "geopolitical",
+      "title": "President says an extra aircraft carrier was sent; mediators still relaying proposals",
+      "status": "confirmed",
+      "summary": "Iran International reported on November 27, 2026 that the President said on Thursday the U.S. had sent an additional aircraft carrier to the Middle East and that an underground site near Natanz would be targeted if military action resumed, while doubting Iran would agree to a deal. Iran's foreign minister said Qatari and Pakistani mediators continue to exchange proposals but Iran's conditions for reopening the strait have not changed. On November 27, a Polymarket market on an effective U.S.-Iran ceasefire by December 31 was trading at about 85.5 percent yes.",
+      "limits": "Statements and military buildup are not an ordered attack. A betting market price is not a forecast by this project.",
+      "source": {
+        "href": "https://www.iranintl.com/en/202611270476",
+        "label": "Iran International, Nov 27, 2026",
+        "asOf": "2026-11-27"
+      }
+    },
+    {
       "id": "hormuz-claims-2026-11-19",
       "factor": "geopolitical",
       "title": "Iran claims five more tankers ablaze after mine strikes",
@@ -714,6 +792,19 @@
         "href": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
         "label": "AP News, Nov 18, 2026",
         "asOf": "2026-11-18"
+      }
+    },
+    {
+      "id": "kuwait-italians-2026-11-26",
+      "factor": "geopolitical",
+      "title": "Two Italian technicians killed in a strike on a facility in Kuwait; Iran denies responsibility",
+      "status": "confirmed",
+      "summary": "BBC News reported on November 26, 2026 that two Italian technicians working for Rheinmetall on air defense systems died after a strike on a facility in Kuwait that Kuwait and Italy blamed on Iran. Kuwait's defense ministry said drones from Iran were detected and intercepted and shrapnel injured four people. Iran's foreign minister denied responsibility and called the incident suspicious.",
+      "limits": "The deaths are confirmed; who launched the drones is disputed. This is a war abroad, not a U.S. supply disruption.",
+      "source": {
+        "href": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+        "label": "BBC News, Nov 26, 2026",
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -777,6 +868,19 @@
         "href": "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike",
         "label": "Al Jazeera, AFP, and Reuters, Nov 25, 2026",
         "asOf": "2026-11-25"
+      }
+    },
+    {
+      "id": "jazan-refinery-2026-11-26",
+      "factor": "geopolitical",
+      "title": "Projectile hits Saudi Aramco's Jazan refinery, killing a worker",
+      "status": "confirmed",
+      "summary": "Al Jazeera, with Reuters, reported on November 26, 2026 that Saudi Arabia's Energy Ministry said an aerial projectile hit the Jazan refinery on the Red Sea coast, killing a Nepali worker, injuring several people, causing a fire, and temporarily halting some operations. The Saudi-led coalition said the Houthis carried out the attack and later said it destroyed the launch platform in Yemen. The refinery can process up to 400,000 barrels of crude a day.",
+      "limits": "The ministry did not name the attacker, and the length of the partial halt was not stated. This is an attack abroad that adds oil price risk, not a U.S. supply outage.",
+      "source": {
+        "href": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+        "label": "Al Jazeera and Reuters, Nov 26, 2026",
+        "asOf": "2026-11-26"
       }
     },
     {
@@ -1134,7 +1238,7 @@
   "methodology": "A person reviews this snapshot on a 5-to-1 household scale. Five is the calm end and one is the critical end. The bands match the durations used by the companion household board: several days, about two weeks, about 30 days, about 60 days, and 90 days or more. Those durations are this project's planning labels. They are not agency thresholds. Categories reviewed each time are national energy and grid conditions, supply chains, cyber disruption, weather and disasters, civil disruption, and geopolitical risks that would change U.S. household supplies. Confirmed means the cited page states the fact. Developing means the picture is incomplete, such as a scheduled data gap. Unverified means this review did not confirm it, which is not proof that it is false. Prediction markets and social-media posts are not evidence. The page is a saved assessment with a review time. It is not a live feed, and it does not show a live indicator.",
   "limitations": [
     "There is no live feed behind this page. The review time is the time a person last checked the sources.",
-    "The official petroleum figures are for the week ending November 13, 2026, from EIA's Weekly Petroleum Status Report released November 18, 2026. The next EIA report is scheduled for Wednesday, November 25, 2026.",
+    "The official petroleum figures are for the week ending November 20, 2026, from EIA's Weekly Petroleum Status Report released November 25, 2026. The next weekly report was not yet out when this review was done.",
     "This review did not ingest a live weather, outage, or emergency-declaration map. Local alerts are outside the national number on purpose.",
     "Unverified rows are gaps in the review. They are not findings that a category is calm.",
     "No likelihood percentages, incident timelines, or official trigger values were added where a source did not state them.",
@@ -1214,17 +1318,17 @@
     {
       "href": "https://gasprices.aaa.com/",
       "label": "AAA Fuel Prices, national averages",
-      "usedFor": "National average diesel and gasoline prices on November 25, 2026."
+      "usedFor": "National average diesel and gasoline prices on November 27, 2026."
     },
     {
       "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
       "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-      "usedFor": "Outlook issued 7:00 AM EST November 25, 2026: no tropical formation expected in 7 days."
+      "usedFor": "Outlook issued 7:00 AM EST November 27, 2026: no tropical formation expected in 7 days."
     },
     {
       "href": "https://api.weather.gov/alerts/active",
       "label": "National Weather Service active alerts",
-      "usedFor": "Severe and extreme alerts checked early on November 25, 2026."
+      "usedFor": "Severe and extreme alerts checked early on November 27, 2026."
     },
     {
       "href": "https://earthquake.usgs.gov/earthquakes/map/",
@@ -1303,8 +1407,8 @@
     },
     {
       "href": "https://polymarket.com/event/insurrection-act-invoked-by",
-      "label": "Polymarket, Nov 25, 2026",
-      "usedFor": "Market price on Insurrection Act invocation by December 31, 2026, checked November 25, as context only."
+      "label": "Polymarket, Nov 27, 2026",
+      "usedFor": "Market price on Insurrection Act invocation by December 31, 2026, checked November 27, as context only."
     },
     {
       "href": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
@@ -1803,8 +1907,78 @@
     },
     {
       "href": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
-      "label": "Polymarket, Nov 25, 2026",
-      "usedFor": "Market prices on a U.S.-Iran ceasefire, as context only."
+      "label": "Polymarket, Nov 27, 2026",
+      "usedFor": "Market price on an effective U.S.-Iran ceasefire by December 31, checked November 27, as context only."
+    },
+    {
+      "href": "https://www.cnbc.com/2026/11/26/oil-wti-brent-hormuz-iran-saudi-arabia.html",
+      "label": "CNBC, Nov 26, 2026",
+      "usedFor": "Crude rises after Houthi refinery claim and Iranian mine claims."
+    },
+    {
+      "href": "https://www.cnbc.com/2026/11/27/brent-oil-wti-hormuz-middle-east.html",
+      "label": "CNBC, Nov 27, 2026",
+      "usedFor": "Brent near its November high after attacks on Gulf tankers and a Saudi refinery."
+    },
+    {
+      "href": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo",
+      "label": "BBC News, Nov 27, 2026",
+      "usedFor": "Hundreds of thousands still without power after the Thanksgiving storm."
+    },
+    {
+      "href": "https://www.wsscwater.com/news/2026/november/update-600-pm-thursday-november-26-2026-out-abundance-caution-essential-water",
+      "label": "WSSC Water, Nov 26, 2026",
+      "usedFor": "Maryland water utility asks 1.9 million customers to use water for essentials only."
+    },
+    {
+      "href": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+      "label": "NPR, Nov 26, 2026",
+      "usedFor": "Puerto Rico court lets the governor end the grid operator's contract."
+    },
+    {
+      "href": "https://www.investing.com/news/stock-market-news/exclusivehackers-breach-us-air-force-flagship-cloud-one-computing-platform-5053314",
+      "label": "Reuters via Investing.com, Nov 27, 2026",
+      "usedFor": "Reuters reports hackers breached the Air Force's Cloud One platform."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform",
+      "label": "Al Jazeera and AFP, Nov 27, 2026",
+      "usedFor": "News agency AFP takes a content platform offline after a cyberattack."
+    },
+    {
+      "href": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+      "label": "NPR, Nov 26, 2026",
+      "usedFor": "Storms on both coasts disrupt Thanksgiving travel; Macy's parade postponed."
+    },
+    {
+      "href": "https://www.bbc.co.uk/news/articles/ckn806qq760po",
+      "label": "BBC News, Nov 26, 2026",
+      "usedFor": "Record king tides flood parts of the California coast."
+    },
+    {
+      "href": "https://thepeninsulaqatar.com/article/26/11/2026/ukmto-reports-tanker-struck-by-unknown-projectile-near-oman",
+      "label": "The Peninsula, Nov 26, 2026",
+      "usedFor": "Outbound tanker struck by a projectile in the Strait of Hormuz."
+    },
+    {
+      "href": "https://www.ibtimes.com.au/iran-reports-tankers-hit-mines-strait-hormuz-1879433",
+      "label": "International Business Times, Nov 26, 2026",
+      "usedFor": "Iran claims more tankers and an LNG carrier hit mines in the Strait of Hormuz."
+    },
+    {
+      "href": "https://www.iranintl.com/en/202611270476",
+      "label": "Iran International, Nov 27, 2026",
+      "usedFor": "President says an extra aircraft carrier was sent; mediators still relaying proposals."
+    },
+    {
+      "href": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+      "label": "BBC News, Nov 26, 2026",
+      "usedFor": "Two Italian technicians killed in a strike on a facility in Kuwait; Iran denies responsibility."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+      "label": "Al Jazeera and Reuters, Nov 26, 2026",
+      "usedFor": "Projectile hits Saudi Aramco's Jazan refinery, killing a worker."
     }
   ],
   "links": {
