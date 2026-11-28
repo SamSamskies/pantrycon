@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "instrument": "PANTRYCON",
   "level": 4,
-  "reviewedAt": "2026-11-27T11:50:00Z",
+  "reviewedAt": "2026-11-28T11:55:00Z",
   "staleAfterHours": 36,
   "scope": {
     "geography": "United States households",
@@ -12,7 +12,7 @@
   "headline": "Top Off the Pantry",
   "summary": "Elevated background risk. Keep about two weeks of food and water. No panic buying.",
   "supplyWindow": "About 2 weeks of food and water",
-  "rationale": "Level 4 holds. The Thanksgiving storm was the biggest domestic disruption of the week. Outages peaked near 1 million homes on Thursday evening across Pennsylvania, Virginia, Maryland, and New Jersey, and more than 700,000 customers were still without power early Friday. WSSC Water asked its 1.9 million customers in two Maryland counties to use water for essential needs only because storm-related power interruptions were affecting its filtration plants; the water stayed safe to drink. More than 2,500 U.S. flights were delayed and more than 450 cancelled on Thursday. Parts of the East, including New York, are under states of emergency, and the President said he would consider releasing emergency funds. Conditions are expected to improve. This is serious and regional, but it is not a multi-region breakdown of power, fuel, food distribution, or payments. Fuel stays expensive rather than unavailable. AAA's national average diesel price on November 27 was $5.7048 a gallon, down from $5.90 a week earlier and $6.35 a month earlier but still about 51 percent above a year ago. Brent rose nearly $2 on Thursday to its highest settle since November 6 and traded near $96 early Friday. A projectile hit Saudi Aramco's Jazan refinery, killing a worker and halting some operations; the Houthis had claimed attacks on Ras Tanura the day before. UKMTO confirmed another tanker struck in the Strait of Hormuz on November 25. Two Italian technicians were killed in a strike on a facility in Kuwait that Kuwait and Italy blame on Iran; Iran denies it. The President said the U.S. sent an extra aircraft carrier and named a target if strikes resume, while Qatar and Pakistan keep relaying proposals. Threats and military buildup are not an ordered attack. Prediction markets still put a U.S.-Iran ceasefire by December 31 at about 85.5 percent. On cyber, Reuters reported a breach of the Air Force's Cloud One platform, adding to recent federal intrusions; none has disrupted household utilities or payments. The news agency AFP took a content platform offline after a cyberattack in France. The National Hurricane Center expects no tropical formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
+  "rationale": "Level 4 holds after a fresh review on Saturday morning. The Thanksgiving storm has moved into cleanup: Al Jazeera reported on November 28 that power is slowly being restored to hundreds of thousands of customers after heavy wind, rain, and snow. That is a serious regional event being repaired by utilities, not a multi-region breakdown of power, fuel, food distribution, or payments. The National Weather Service's active severe and extreme alerts early Saturday were mostly high wind, freezing spray, flood, and winter storm warnings, with no sign of a national emergency. Fuel stays expensive rather than unavailable: AAA's national average diesel price on November 28 was $5.6664 a gallon, down from $5.7048 the day before and $6.3499 a month earlier, but still about 50 percent above a year ago. No new EIA weekly petroleum report was out. Abroad, the Iran war keeps pressure on energy markets. Citadel Wire, an aggregator citing Al Jazeera and DW, reported that Italy's foreign minister said the drone in the deadly Kuwait strike was Iranian-made; Iran has denied responsibility. Prediction markets put a U.S.-Iran ceasefire by December 31 at about 89.5 percent, up from 85.5 percent a day earlier. Thousands of protesters closed a main highway in San Juan, Puerto Rico over unreliable power and water and higher bills, per Citadel Wire citing Al Jazeera; it was a protest, not a breakdown of supply. Citadel Wire, citing CNA, also reported the U.S. barred bandwidth provider RETN from American networks, a security step rather than an outage. The National Hurricane Center expects no tropical formation in the next 7 days. Level 3 would need a confirmed multi-region disruption; none was confirmed today.",
   "disclaimer": "PANTRYCON is an independent, unofficial household preparedness assessment for the United States. It is not affiliated with the U.S. government or the armed forces. It is not DEFCON, and it is not a civil-defense or military alert. The number is a national planning snapshot. It does not mean every community faces the same immediate threat.",
   "overrides": "Follow local official instructions first. Evacuation orders, boil-water notices, shelter-in-place orders, and other location-specific emergency alerts always override this national level.",
   "evidence": [
@@ -43,16 +43,16 @@
       }
     },
     {
-      "id": "aaa-diesel-2026-11-27",
+      "id": "aaa-diesel-2026-11-28",
       "factor": "energy",
       "title": "National average retail diesel and gasoline prices",
       "status": "confirmed",
-      "summary": "AAA's national average table, marked price as of November 27, 2026, lists diesel at $5.7048 a gallon, compared with $5.7246 the day before, $5.8982 a week earlier, $6.3521 a month earlier, and $3.7690 a year earlier. Regular gasoline is listed at $3.5476, down from $3.5554 the day before, $3.6898 a week earlier, and $4.2661 a month earlier, compared with $3.0255 a year earlier.",
+      "summary": "AAA's national average table, checked early on November 28, 2026, lists diesel at $5.6664 a gallon, compared with $5.7048 the day before, $5.8649 a week earlier, $6.3499 a month earlier, and $3.7673 a year earlier. Regular gasoline is listed at $3.5305, down from $3.5476 the day before, $3.6594 a week earlier, and $4.2471 a month earlier, compared with $3.0222 a year earlier.",
       "limits": "These are national averages of retail prices. They show cost pressure, not station outages, and local prices vary.",
       "source": {
         "href": "https://gasprices.aaa.com/",
         "label": "AAA Fuel Prices, national averages",
-        "asOf": "2026-11-27"
+        "asOf": "2026-11-28"
       }
     },
     {
@@ -207,6 +207,32 @@
       }
     },
     {
+      "id": "storm-cleanup-2026-11-28",
+      "factor": "grid",
+      "title": "East Coast cleanup after the Thanksgiving storm",
+      "status": "confirmed",
+      "summary": "Al Jazeera reported on November 28, 2026 that parts of the U.S. are cleaning up after the Thanksgiving storm lashed the East Coast, and that power is being slowly restored to hundreds of thousands of customers following a round of heavy wind, rain, and snow.",
+      "limits": "The report gives no single national outage total. Counts change through the day; this is regional restoration, not a grid emergency.",
+      "source": {
+        "href": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast",
+        "label": "Al Jazeera, Nov 28, 2026",
+        "asOf": "2026-11-28"
+      }
+    },
+    {
+      "id": "nws-alerts-2026-11-28",
+      "factor": "weather",
+      "title": "National Weather Service severe and extreme alerts",
+      "status": "confirmed",
+      "summary": "The National Weather Service active-alerts feed, filtered to severe and extreme alerts early on November 28, 2026, listed 54 alerts. The most common were High Wind Warnings (16), Heavy Freezing Spray Warnings (12), Flood Warnings (10), and Winter Storm Warnings (8).",
+      "limits": "A count of alerts is a snapshot, not a measure of damage. Many alerts are marine or local. Local alerts always override this national level.",
+      "source": {
+        "href": "https://api.weather.gov/alerts/active",
+        "label": "National Weather Service active alerts",
+        "asOf": "2026-11-28"
+      }
+    },
+    {
       "id": "wssc-water-2026-11-26",
       "factor": "grid",
       "title": "Maryland water utility asks 1.9 million customers to use water for essentials only",
@@ -230,6 +256,19 @@
         "href": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
         "label": "NPR, Nov 26, 2026",
         "asOf": "2026-11-26"
+      }
+    },
+    {
+      "id": "puerto-rico-protest-2026-11-27",
+      "factor": "civil",
+      "title": "Protesters close a San Juan highway over power bills and reliability",
+      "status": "developing",
+      "summary": "Citadel Wire, an aggregator, reported on November 28, 2026, citing Al Jazeera, that thousands of demonstrators organized by roughly 30 unions, religious bodies, and civic groups closed a main highway in San Juan on Friday to protest unreliable power and water, higher living costs, and recent residential electricity bill increases of about 18 percent.",
+      "limits": "Aggregator summary of another outlet's report; the original article was not reviewed here. A protest is not a supply breakdown.",
+      "source": {
+        "href": "https://citadelwire.com/posts/2026-11-28-030006",
+        "label": "Citadel Wire (aggregator), Nov 28, 2026",
+        "asOf": "2026-11-28"
       }
     },
     {
@@ -375,6 +414,19 @@
       }
     },
     {
+      "id": "retn-barred-2026-11-27",
+      "factor": "cyber",
+      "title": "U.S. bars bandwidth provider RETN from American networks",
+      "status": "developing",
+      "summary": "Citadel Wire, an aggregator, reported on November 28, 2026, citing Channel NewsAsia, that the U.S. government barred bandwidth provider RETN from American networks.",
+      "limits": "Aggregator summary; the original article and any official order were not reviewed here. This is a security action, not a reported outage.",
+      "source": {
+        "href": "https://citadelwire.com/posts/2026-11-28-010005",
+        "label": "Citadel Wire (aggregator), Nov 28, 2026",
+        "asOf": "2026-11-28"
+      }
+    },
+    {
       "id": "vessel-hacks-2026-11-24",
       "factor": "cyber",
       "title": "U.S. investigates Iranian ties to as many as 50 hacked commercial vessels",
@@ -497,16 +549,16 @@
       }
     },
     {
-      "id": "nhc-outlook-2026-11-27",
+      "id": "nhc-outlook-2026-11-28",
       "factor": "weather",
       "title": "No Atlantic tropical formation expected in the next 7 days",
       "status": "confirmed",
-      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook issued at 7:00 AM EST on November 27, 2026 says tropical cyclone formation is not expected during the next 7 days in the North Atlantic, the Caribbean Sea, and the Gulf.",
+      "summary": "The National Hurricane Center's Atlantic Tropical Weather Outlook checked early on November 28, 2026 says tropical cyclone formation is not expected during the next 7 days.",
       "limits": "An outlook is not a forecast track. It does not cover winter storms, coastal flooding, inland flooding, or wildfire, and local NWS alerts take priority.",
       "source": {
         "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
         "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-        "asOf": "2026-11-27"
+        "asOf": "2026-11-28"
       }
     },
     {
@@ -805,6 +857,19 @@
         "href": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
         "label": "BBC News, Nov 26, 2026",
         "asOf": "2026-11-26"
+      }
+    },
+    {
+      "id": "italy-drone-iranian-2026-11-27",
+      "factor": "geopolitical",
+      "title": "Italy says the drone in the Kuwait strike was Iranian-made",
+      "status": "developing",
+      "summary": "Citadel Wire, an aggregator, reported on November 28, 2026, citing Al Jazeera and DW, that Italian Foreign Minister Antonio Tajani said the drone used in the Kuwait strike that killed two Italian technicians was manufactured in Iran.",
+      "limits": "Aggregator summary; the original reports were not reviewed here. Iran has denied responsibility. This is a war abroad, not a U.S. supply disruption.",
+      "source": {
+        "href": "https://citadelwire.com/posts/2026-11-28-020006",
+        "label": "Citadel Wire (aggregator), Nov 28, 2026",
+        "asOf": "2026-11-28"
       }
     },
     {
@@ -1318,17 +1383,17 @@
     {
       "href": "https://gasprices.aaa.com/",
       "label": "AAA Fuel Prices, national averages",
-      "usedFor": "National average diesel and gasoline prices on November 27, 2026."
+      "usedFor": "National average diesel and gasoline prices on November 28, 2026."
     },
     {
       "href": "https://www.nhc.noaa.gov/text/MIATWOAT.shtml",
       "label": "National Hurricane Center, Atlantic Tropical Weather Outlook",
-      "usedFor": "Outlook issued 7:00 AM EST November 27, 2026: no tropical formation expected in 7 days."
+      "usedFor": "Outlook checked early November 28, 2026: no tropical formation expected in 7 days."
     },
     {
       "href": "https://api.weather.gov/alerts/active",
       "label": "National Weather Service active alerts",
-      "usedFor": "Severe and extreme alerts checked early on November 27, 2026."
+      "usedFor": "Severe and extreme alerts checked early on November 28, 2026."
     },
     {
       "href": "https://earthquake.usgs.gov/earthquakes/map/",
@@ -1407,8 +1472,8 @@
     },
     {
       "href": "https://polymarket.com/event/insurrection-act-invoked-by",
-      "label": "Polymarket, Nov 27, 2026",
-      "usedFor": "Market price on Insurrection Act invocation by December 31, 2026, checked November 27, as context only."
+      "label": "Polymarket, Nov 28, 2026",
+      "usedFor": "Market price on Insurrection Act invocation by December 31, 2026 (about 3.7 percent), checked November 28, as context only."
     },
     {
       "href": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
@@ -1907,8 +1972,8 @@
     },
     {
       "href": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
-      "label": "Polymarket, Nov 27, 2026",
-      "usedFor": "Market price on an effective U.S.-Iran ceasefire by December 31, checked November 27, as context only."
+      "label": "Polymarket, Nov 28, 2026",
+      "usedFor": "Market price on an effective U.S.-Iran ceasefire by December 31 (about 89.5 percent), checked November 28, as context only."
     },
     {
       "href": "https://www.cnbc.com/2026/11/26/oil-wti-brent-hormuz-iran-saudi-arabia.html",
@@ -1979,6 +2044,26 @@
       "href": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
       "label": "Al Jazeera and Reuters, Nov 26, 2026",
       "usedFor": "Projectile hits Saudi Aramco's Jazan refinery, killing a worker."
+    },
+    {
+      "href": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast",
+      "label": "Al Jazeera, Nov 28, 2026",
+      "usedFor": "East Coast cleanup after the Thanksgiving storm."
+    },
+    {
+      "href": "https://citadelwire.com/posts/2026-11-28-030006",
+      "label": "Citadel Wire (aggregator), Nov 28, 2026",
+      "usedFor": "Protesters close a San Juan highway over power bills and reliability."
+    },
+    {
+      "href": "https://citadelwire.com/posts/2026-11-28-010005",
+      "label": "Citadel Wire (aggregator), Nov 28, 2026",
+      "usedFor": "U.S. bars bandwidth provider RETN from American networks."
+    },
+    {
+      "href": "https://citadelwire.com/posts/2026-11-28-020006",
+      "label": "Citadel Wire (aggregator), Nov 28, 2026",
+      "usedFor": "Italy says the drone in the Kuwait strike was Iranian-made."
     }
   ],
   "links": {
